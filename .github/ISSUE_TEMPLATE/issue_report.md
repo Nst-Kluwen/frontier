@@ -1,20 +1,17 @@
 ---
-name: Report an Issue
-about: "..."
+name: Сообщить об ошибке
+about: "Сообщить о найденной ошибке"
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
 
-## Description
-<!-- Explain your issue in detail. Issues without proper explanation are liable to be closed by maintainers. -->
+## Описание
+<!-- Опишите подробности вашей ошибки. Если описание отсутствует, ваш репорт могут закрыть. -->
 
-**Reproduction**
-<!-- Include the steps to reproduce if applicable. -->
+**Шаги воспроизведения**
+<!-- Как воспроизвести этот баг? -->
 
-**Screenshots**
-<!-- If applicable, add screenshots to help explain your problem. -->
-
-**Additional context**
-<!-- Add any other context about the problem here. Anything you think is related to the issue. -->
+**Медиа**
+<!-- Если необходимо, добавьте скриншоты и/или видео бага. -->
