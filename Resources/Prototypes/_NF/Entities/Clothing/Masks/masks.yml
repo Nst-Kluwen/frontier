@@ -1,7 +1,7 @@
 - type: entity
   id: ClothingMaskArcadia
   name: arcadia battle mask
-  parent: [ ClothingMaskGasExplorer, BaseC1Contraband ] #Corvax-Frontier КБ
+  parent: [ ClothingMaskGasExplorer, BaseC1Contraband ] #-Frontier КБ
   description: A close-fitting high tech mask designed by Arcadia Industries for spacefaring operators.
   components:
   - type: Sprite

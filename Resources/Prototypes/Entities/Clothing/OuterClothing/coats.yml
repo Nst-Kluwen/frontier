@@ -388,7 +388,7 @@
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
 
 - type: entity
-  parent: [BaseC1Contraband, ClothingOuterCoatHoSTrench, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, add ContrabandClothing as parent #Corvax-Frontier КБ
+  parent: [BaseC1Contraband, ClothingOuterCoatHoSTrench, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, add ContrabandClothing as parent #-Frontier КБ
   id: ClothingOuterCoatSyndieCapArmored
   name: syndicate's armored coat
   description: The syndicate's armored coat is made of durable fabric, with gilded patterns.
@@ -397,7 +397,7 @@
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: CoatSyndieArmored
 
 - type: entity

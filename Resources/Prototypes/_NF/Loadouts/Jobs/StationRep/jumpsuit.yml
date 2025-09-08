@@ -10,13 +10,13 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtSr
 
-- type: loadout #Corvax-Frontier
+- type: loadout #-Frontier
   id: StationRepClothingUniformJumpskitSrALT
   price: 0
   equipment:
     jumpsuit: ClothingUniformJumpsuitSrALT
 
-- type: loadout #Corvax-Frontier
+- type: loadout #-Frontier
   id: StationRepClothingUniformJumpsuitSrALT
   price: 0
   equipment:

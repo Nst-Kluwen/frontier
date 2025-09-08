@@ -376,7 +376,7 @@
 
 - type: loadout
   id: ContractorClothingShoesBootsPunkRandomized
-  name: панковские ботинки (случайно) #Corvax-Frontier
+  name: панковские ботинки (случайно) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1

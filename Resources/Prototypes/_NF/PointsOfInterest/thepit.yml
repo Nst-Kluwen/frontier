@@ -26,7 +26,7 @@
   - type: IFF
     color: "#ffa600"
   - type: ProtectedGrid
-    noGridCollision: true #CorvaxFrontier
+    noGridCollision: true #Frontier
 
 - type: gameMap
   id: ThePit

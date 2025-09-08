@@ -124,5 +124,5 @@
     proto: BulletBloodCultDarkBolt
     capacity: 10
     count: 10
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: StaffDarkBolt

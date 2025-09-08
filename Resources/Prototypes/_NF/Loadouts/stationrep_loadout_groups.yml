@@ -4,8 +4,8 @@
   loadouts:
   - StationRepClothingUniformJumpsuitSr
   - StationRepClothingUniformJumpskirtSr 
-  - StationRepClothingUniformJumpskitSrALT #Corvax-Frontier
-  - StationRepClothingUniformJumpsuitSrALT #Corvax-Frontier
+  - StationRepClothingUniformJumpskitSrALT #-Frontier
+  - StationRepClothingUniformJumpsuitSrALT #-Frontier
   - StationRepClothingUniformJumpsuitMilitarySr
   fallbacks:
   - StationRepClothingUniformJumpsuitSr

@@ -67,7 +67,7 @@
       ammo:
         maxVol: 3
         reagents:
-        - ReagentId: Phenol #CorvaxFrontier
+        - ReagentId: Phenol #Frontier
           Quantity: 3
 
 ## Aberrant flesh

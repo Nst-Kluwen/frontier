@@ -22,7 +22,7 @@
     steps: 4
     zeroVisible: false
   - type: Appearance
-  - type: StaticPrice #CorvaxFrontier
+  - type: StaticPrice #Frontier
     price: 125
 
 # Boxes
@@ -59,7 +59,7 @@
 
 - type: entity
   id: MagazineBoxMagnumIncendiary
-  parent: [BaseMagazineBoxMagnum, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [BaseMagazineBoxMagnum, BaseC2ContrabandUnredeemable] #-Frontier КБ
   name: ammunition box (.45 magnum incendiary)
   description: A cardboard box of .45 magnum rounds. Intended to hold self-igniting incendiary ammunition.
   components:
@@ -75,7 +75,7 @@
 
 - type: entity
   id: MagazineBoxMagnumUranium
-  parent: [BaseMagazineBoxMagnum, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [BaseMagazineBoxMagnum, BaseC2ContrabandUnredeemable] #-Frontier КБ
   name: ammunition box (.45 magnum uranium)
   description: A cardboard box of .45 magnum rounds. Intended to hold exotic uranium-core ammunition.
   components:

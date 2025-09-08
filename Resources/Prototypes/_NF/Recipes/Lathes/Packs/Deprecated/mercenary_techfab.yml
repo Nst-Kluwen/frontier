@@ -4,8 +4,8 @@
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecatedStatic
   recipes:
-# Shared lathe recipes #CorvaxFrontier
-## Basic tools #CorvaxFrontier
+# Shared lathe recipes #Frontier
+## Basic tools #Frontier
   - Wirecutter
   - Screwdriver
   - Welder
@@ -107,7 +107,7 @@
   - NFSpeedLoaderPistol45Empty
   - NFMagazineClipRifle20Empty
   - MagazineLightRifleLowCapacityEmpty
-  - NFAmmunitionBoxRifle20Rubber #CorvaxFrontier
-  - NFAmmunitionBoxRifle30 #CorvaxFrontier
+  - NFAmmunitionBoxRifle20Rubber #Frontier
+  - NFAmmunitionBoxRifle30 #Frontier
   - MagazineVector22
   - MagazineVector45

@@ -18,17 +18,17 @@
         - UniformSchoolgirlOrange
         - UniformSchoolgirlPink
         - UniformSchoolgirlPurple
-        - PlumberDarkCloakVOpen #Corvax-Frontier
-        - PlumberDarkCloakVClose #Corvax-Frontier
-        - ClothingUniformJumpskirtBlackElegantDress #Corvax-Frontier
-        - ClothingUniformJumpskirtPurpleElegantDress #Corvax-Frontier
-        - ClothingUniformJumpskirtBlueElegantDress #Corvax-Frontier
-        - ClothingUniformJumpskirtRedElegantDress #Corvax-Frontier
-        - ClothingUniformJumpskirtGreenElegantDress #Corvax-Frontier
+        - PlumberDarkCloakVOpen #-Frontier
+        - PlumberDarkCloakVClose #-Frontier
+        - ClothingUniformJumpskirtBlackElegantDress #-Frontier
+        - ClothingUniformJumpskirtPurpleElegantDress #-Frontier
+        - ClothingUniformJumpskirtBlueElegantDress #-Frontier
+        - ClothingUniformJumpskirtRedElegantDress #-Frontier
+        - ClothingUniformJumpskirtGreenElegantDress #-Frontier
       chance: 0.85
       rarePrototypes:
-        - ClothingUniformJumpskirtSchool #Corvax-Frontier
+        - ClothingUniformJumpskirtSchool #-Frontier
         - ClothingOuterSuitShrineMaiden
-        - ClothingUniformJumpskirtElegantMaid #Corvax-Frontier
-        - ClothingBackpackDuffelWitchBundle #Corvax-Frontier
+        - ClothingUniformJumpskirtElegantMaid #-Frontier
+        - ClothingBackpackDuffelWitchBundle #-Frontier
       rareChance: 0.05

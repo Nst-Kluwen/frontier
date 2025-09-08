@@ -9,8 +9,8 @@
   dollPrototype: MobGoblinDummy
   skinColoration: HumanToned #Possible values: TintedHues, Hues, HumanToned
   maleFirstNames: NamesGoblinFirstMale
-  femaleFirstNames: NamesGoblinFirstFemale # Corvax-Frontier
-  lastNames: NamesGoblinLast # Corvax-LastnameGender
+  femaleFirstNames: NamesGoblinFirstFemale # -Frontier
+  lastNames: NamesGoblinLast # -LastnameGender
 
 - type: speciesBaseSprites
   id: MobGoblinSprites

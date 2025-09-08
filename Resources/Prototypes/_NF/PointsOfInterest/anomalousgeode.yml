@@ -21,7 +21,7 @@
     readOnly: true
   - type: Shuttle
   - type: ProtectedGrid
-    noGridCollision: true #CorvaxFrontier
+    noGridCollision: true #Frontier
 
 - type: gameMap
   id: AnomalousGeode

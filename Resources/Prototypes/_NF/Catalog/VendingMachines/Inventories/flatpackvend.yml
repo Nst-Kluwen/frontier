@@ -40,7 +40,7 @@
     AirlockGlassFlatpack: 4294967295 # Infinite
     AirlockShuttleFlatpack: 4294967295 # Infinite
     AirlockGlassShuttleFlatpack: 4294967295 # Infinite
-    ChemistryHotplateFlatpack: 4294967295 # Infinite  #CorvaxFrontier
+    ChemistryHotplateFlatpack: 4294967295 # Infinite  #Frontier
     # Science
     MachineArtifactAnalyzerFlatpack: 4294967295 # Infinite
     ResearchAndDevelopmentServerFlatpack: 4294967295 # Infinite

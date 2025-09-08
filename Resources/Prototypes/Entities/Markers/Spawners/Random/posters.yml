@@ -116,7 +116,7 @@
       - NFPosterContrabandFsbNightlight
       - NFPosterContrabandFsbRetort
         # Frontier: Ending
-      - PosterContrabandTrueEnemy #CorvaxFrontier
+      - PosterContrabandTrueEnemy #Frontier
     chance: 1
 
 - type: entity

@@ -1,5 +1,5 @@
 
-#- type: pirateBounty #CorvaxFrontier
+#- type: pirateBounty #Frontier
 #  id: PirateBountyMail
 #  reward: 3
 #  description: pirate-bounty-description-generic
@@ -23,7 +23,7 @@
   description: pirate-bounty-description-generic
   entries:
   - name: pirate-bounty-item-extinguisher
-    amount: 3 #CorvaxFrontier
+    amount: 3 #Frontier
     id: FireExtinguisher
 
 - type: pirateBounty
@@ -33,9 +33,9 @@
   entries:
   - name: pirate-bounty-item-captainGloves
     amount: 2
-    id: ClothingHandsMercenaryGlovesCombat #CorvaxFrontier
+    id: ClothingHandsMercenaryGlovesCombat #Frontier
 
-#- type: pirateBounty #CorvaxFrontier
+#- type: pirateBounty #Frontier
 #  id: PirateBountyGyro
 #  reward: 4
 #  description: pirate-bounty-description-generic
@@ -74,7 +74,7 @@
     amount: 3
     id: Thruster
 
-#- type: pirateBounty #CorvaxFrontier
+#- type: pirateBounty #Frontier
 #  id: PirateBountyGravGen
 #  reward: 5
 #  description: pirate-bounty-description-generic
@@ -84,7 +84,7 @@
 #    amount: 2
 #    id: GravityGenerator
 
-#- type: pirateBounty #CorvaxFrontier
+#- type: pirateBounty #Frontier
 #  id: PirateBountyVendingMachine
 #  reward: 6
 #  description: pirate-bounty-description-generic
@@ -96,7 +96,7 @@
 
 - type: pirateBounty
   id: PirateBountyCappy
-  reward: 15 #CorvaxFrontier
+  reward: 15 #Frontier
   description: pirate-bounty-description-generic
   entries:
   - name: pirate-bounty-item-cappy
@@ -105,7 +105,7 @@
 
 - type: pirateBounty
   id: PirateBountyCultistNecklace
-  reward: 7 #CorvaxFrontier
+  reward: 7 #Frontier
   description: pirate-bounty-description-generic
   entries:
   - name: pirate-bounty-item-cultistNeck
@@ -114,7 +114,7 @@
 
 - type: pirateBounty
   id: PirateBountyNfsdCampaign
-  reward: 6 #CorvaxFrontier
+  reward: 6 #Frontier
   description: pirate-bounty-description-generic
   entries:
   - name: pirate-bounty-item-nfsdCampaign
@@ -123,7 +123,7 @@
 
 - type: pirateBounty
   id: PirateBountyScafSuit
-  reward: 6 #CorvaxFrontier
+  reward: 6 #Frontier
   description: pirate-bounty-description-generic
   entries:
   - name: pirate-bounty-item-scafsuit
@@ -132,7 +132,7 @@
 
 - type: pirateBounty
   id: PirateBountyRTG
-  reward: 6 #CorvaxFrontier
+  reward: 6 #Frontier
   description: pirate-bounty-description-generic
   spawnChest: false
   entries:
@@ -158,7 +158,7 @@
     amount: 1
     id: ClothingOuterHardsuitRd
 
-#- type: pirateBounty #CorvaxFrontier
+#- type: pirateBounty #Frontier
 #  id: PirateBountyMK58
 #  reward: 5
 #  description: pirate-bounty-description-generic
@@ -176,7 +176,7 @@
     amount: 2
     id: ArtifactAnalyzerMachineCircuitboard
 
-#- type: pirateBounty #CorvaxFrontier
+#- type: pirateBounty #Frontier
 #  id: PirateBountyHotplate
 #  reward: 3
 #  description: pirate-bounty-description-generic
@@ -206,7 +206,7 @@
 #     amount: 3
 #     id: EncryptionKeyCommon
 
-#- type: pirateBounty #CorvaxFrontier
+#- type: pirateBounty #Frontier
 #  id: PirateBountyMedicalFabBoard
 #  reward: 3
 #  description: pirate-bounty-description-generic
@@ -217,7 +217,7 @@
 
 - type: pirateBounty
   id: PirateBountyHypo
-  reward: 3 #CorvaxFrontier
+  reward: 3 #Frontier
   description: pirate-bounty-description-generic
   entries:
   - name: pirate-bounty-item-hypo
@@ -236,7 +236,7 @@
 
 - type: pirateBounty
   id: PirateBountyAutolathe
-  reward: 5 #CorvaxFrontier
+  reward: 5 #Frontier
   description: pirate-bounty-description-generic
   spawnChest: false
   entries:
@@ -264,12 +264,12 @@
 
 - type: pirateBounty
   id: PirateBountyPlasmaCanister
-  reward: 3 #CorvaxFrontier
+  reward: 3 #Frontier
   description: pirate-bounty-description-generic
   spawnChest: false
   entries:
   - name: pirate-bounty-item-plasmacanister
-    amount: 1 #CorvaxFrontier
+    amount: 1 #Frontier
     id: PlasmaCanister
 
 - type: pirateBounty
@@ -302,7 +302,7 @@
     amount: 1
     id: Enforcer
 
-- type: pirateBounty #CorvaxFrontier
+- type: pirateBounty #Frontier
   id: PirateBountyKitchenMicrowave
   reward: 5
   description: pirate-bounty-description-generic
@@ -312,7 +312,7 @@
     amount: 2
     id: KitchenMicrowave
 
-- type: pirateBounty #CorvaxFrontier
+- type: pirateBounty #Frontier
   id: PirateBountyDrinkSodaWaterCan
   reward: 3
   description: pirate-bounty-description-generic
@@ -321,7 +321,7 @@
     amount: 2
     id: DrinkSodaWaterCan
 
-- type: pirateBounty #CorvaxFrontier
+- type: pirateBounty #Frontier
   id: PirateBountySuitStorageBase
   reward: 5
   description: pirate-bounty-description-generic
@@ -331,7 +331,7 @@
     amount: 3
     id: SuitStorageBase
 
-- type: pirateBounty #CorvaxFrontier
+- type: pirateBounty #Frontier
   id: PirateBountyPlushieMoffRandom
   reward: 4
   description: pirate-bounty-description-generic
@@ -340,7 +340,7 @@
     amount: 4
     id: PlushieMoffRandom
 
-- type: pirateBounty #CorvaxFrontier
+- type: pirateBounty #Frontier
   id: PirateBountyBedsheetSyndie
   reward: 3
   description: pirate-bounty-description-generic
@@ -349,7 +349,7 @@
     amount: 1
     id: BedsheetSyndie
 
-- type: pirateBounty #CorvaxFrontier
+- type: pirateBounty #Frontier
   id: PirateBountyGunSafe
   reward: 4
   description: pirate-bounty-description-generic

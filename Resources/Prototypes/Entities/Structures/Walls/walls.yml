@@ -485,7 +485,7 @@
         - Wall
     - type: Sprite
       sprite: Structures/Walls/plastitanium.rsi
-#      color: "#cdf3cd" # Frontier #CorvaxFrontier
+#      color: "#cdf3cd" # Frontier #Frontier
     - type: Icon
       sprite: Structures/Walls/plastitanium.rsi
     - type: IconSmooth
@@ -516,7 +516,7 @@
   suffix: ""
   components:
     - type: Sprite # Frontier
-#      color: "#ffffff" #CorvaxFrontier
+#      color: "#ffffff" #Frontier
     - type: Tag
       tags:
         - Wall
@@ -598,7 +598,7 @@
     - Wall
     - Diagonal
   - type: Sprite
-#    color: "#cdf3cd" #CorvaxFrontier
+#    color: "#cdf3cd" #Frontier
     drawdepth: Walls
     sprite: Structures/Walls/plastitanium_diagonal.rsi
     state: state0

@@ -65,7 +65,7 @@
     - ObjectOfSpiritualSignificance
   - type: PirateBountyItem
     id: ClothingNeckAmuletBloodCult
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: СultistNeck
 
 - type: entity

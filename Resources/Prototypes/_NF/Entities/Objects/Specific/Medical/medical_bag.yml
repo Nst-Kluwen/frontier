@@ -32,7 +32,7 @@
         - Bloodpack
         - Gauze
         - Bottle
-        - ChemDispensable #Corvax-Frontier
+        - ChemDispensable #-Frontier
   - type: Dumpable
   - type: MagnetPickup
     magnetEnabled: false

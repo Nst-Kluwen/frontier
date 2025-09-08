@@ -2,7 +2,7 @@
 # GitHub: -
 # Discord: autsaider_m
 # License: CC-BY-NC-ND-3.0
-# Corvax_frontier
+# frontier
 
 # Maintainer Info
 # GitHub: https://github.com/mersen-tyn
@@ -17,7 +17,7 @@
   # minimumDistance: 750
   # maximumDistance: 1000
   # spawnGroup: NewMapsgGrid
-  # gridPath: /Maps/Forge/POI/coliseum.yml #CorvaxFrontier
+  # gridPath: /Maps/Forge/POI/coliseum.yml #Frontier
   # addComponents:
   # - type: IFF
     # color: "#8e6444"

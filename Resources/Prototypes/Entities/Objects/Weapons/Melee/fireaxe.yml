@@ -51,7 +51,7 @@
     stealGroup: FireAxe
   - type: IgniteOnMeleeHit
     fireStacks: -4
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: FireAxe
 
 - type: entity

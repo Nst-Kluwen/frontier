@@ -306,7 +306,7 @@
       weight: 0.002
     - id: NFAndesiteElementalSpawner
       weight: 0.08
-    - id: WallRockAndesiteMagmite #Corvax-Frontier
+    - id: WallRockAndesiteMagmite #-Frontier
       weight: 0.001
 
 - type: entity
@@ -724,7 +724,7 @@
       weight: 0.0025
     - id: NFChromiteElementalSpawner
       weight: 0.05
-    - id: WallRockChromiteMagmite #Corvax-Frontier
+    - id: WallRockChromiteMagmite #-Frontier
       weight: 0.001
 
 - type: entity

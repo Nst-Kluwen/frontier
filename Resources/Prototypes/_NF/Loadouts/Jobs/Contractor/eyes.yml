@@ -71,7 +71,7 @@
 
 - type: loadout
   id: ContractorClothingEyesPunkGoggles
-  name: очки панка (случайно) #Corvax-Frontier
+  name: очки панка (случайно) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -81,7 +81,7 @@
 
 - type: loadout
   id: ContractorClothingEyesPunkInfoShades
-  name: инфовизор панка (случайно) #Corvax-Frontier
+  name: инфовизор панка (случайно) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1

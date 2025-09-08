@@ -2,7 +2,7 @@
   <ColorBox Color="#3a3a3a" OutlineColor="#5a5a5a" OutlineThickness="2" Margin="5">
     <Box Orientation="Vertical">
       <Box Orientation="Horizontal" HorizontalAlignment="Center">
-        # Правила сервера Corvax Frontier
+        # Правила сервера Bluespace Station
       </Box>
       <Box Orientation="Vertical" Margin="10">
         Эти правила применяются в любое время, включая периоды между раундами.

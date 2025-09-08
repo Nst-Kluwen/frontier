@@ -1,14 +1,14 @@
 - type: radioChannel
   id: Traffic
   name: chat-radio-traffic
-  keycode: 'д' # Corvax-Localization
+  keycode: 'д'
   frequency: 1022
   color: "#CC6633"
 
 - type: radioChannel
   id: Nfsd
   name: chat-radio-nfsd
-  keycode: 'ф' # Corvax-Localization
+  keycode: 'ф'
   frequency: 1023
   color: "#7eac69" 
 

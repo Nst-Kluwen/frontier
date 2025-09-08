@@ -20,5 +20,5 @@
   components:
   - type: LimitedCharges
   - type: AutoRecharge
-  - type: StaticPrice #CorvaxFrontier
+  - type: StaticPrice #Frontier
     price: 2000

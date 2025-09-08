@@ -16,4 +16,4 @@
     proto: Flare
     capacity: 12
   - type: StaticPrice
-    price: 5 #CorvaxFrontier
+    price: 5 #Frontier

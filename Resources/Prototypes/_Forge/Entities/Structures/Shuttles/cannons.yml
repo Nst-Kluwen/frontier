@@ -1,4 +1,4 @@
-#Corvax-Frontier by Mersen
+#Frontier by Mersen
 - type: entity
   id: ShuttleGunKineticNoUse
   parent: [ShuttleGunKinetic, BaseStructureDisableToolUse]

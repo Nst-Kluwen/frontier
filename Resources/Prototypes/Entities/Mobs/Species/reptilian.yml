@@ -12,7 +12,7 @@
     - HeadTop
     - HeadSide
     undergarmentBottom: UndergarmentBottomBoxersReptilian
-  - type: Hunger # Corvax-Frontier
+  - type: Hunger # -Frontier
     starvationDamage:
       types:
         Cold: 0.15
@@ -87,9 +87,9 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Forge/Mobs/Species/displacement.rsi # Corvax-Digitigrade
+            sprite: Forge/Mobs/Species/displacement.rsi # -Digitigrade
             state: jumpsuit-female
-      # Corvax-Digitigrade-Start
+      # -Digitigrade-Start
       shoes:
         sizeMaps:
           32:
@@ -106,7 +106,7 @@
           32:
             sprite: Forge/Mobs/Species/displacement.rsi
             state: shoes
-      # Corvax-Digitigrade-End
+      # -Digitigrade-End
 
 
 - type: entity

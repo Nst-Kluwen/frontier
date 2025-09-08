@@ -86,7 +86,7 @@
         # Room
         - id: NFWreckRoomMarker
           prob: 0.01
-        # Corvax-Frontier Clothing
+        # -Frontier Clothing
         - id: SchoolgirlUniformSpawner
           prob: 0.06
       Plating: *floor

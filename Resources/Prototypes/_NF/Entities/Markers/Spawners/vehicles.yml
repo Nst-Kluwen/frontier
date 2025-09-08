@@ -54,7 +54,7 @@
     prototypes:
       - NFVehicleSkeletonMotorcycle # Frontier: add NF suffix
 
-# Corvax Frontier
+#  Frontier
 #- type: entity 
 #  name: hoverbike spawner
 #  id: NFSpawnVehicleHoverbike

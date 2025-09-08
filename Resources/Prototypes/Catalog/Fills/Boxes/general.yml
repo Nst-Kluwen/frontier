@@ -384,7 +384,7 @@
       - id: EncryptionKeySyndie
         amount: 2
   - type: Storage
-  - type: StaticPrice #CorvaxFrontier
+  - type: StaticPrice #Frontier
     price: 250
 - type: entity
   name: lead-lined box

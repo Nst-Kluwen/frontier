@@ -443,7 +443,7 @@
   - type: Flatpack
     entity: MedicalTechFab
   - type: StaticPrice
-    price: 600  #CorvaxFrontier
+    price: 600  #Frontier
   - type: Sprite
     layers:
     - state: medical_lathe
@@ -510,8 +510,8 @@
   components:
   - type: Flatpack
     entity: ChemistryHotplate
-  - type: StaticPrice #CorvaxFrontier
-    price: 250 #CorvaxFrontier
+  - type: StaticPrice #Frontier
+    price: 250 #Frontier
 
 - type: entity
   parent: MedicalTechFabFlatpack
@@ -865,7 +865,7 @@
     price: 2000
 
 - type: entity
-  parent: [UniformPrinterFlatpack, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [UniformPrinterFlatpack, BaseC2ContrabandUnredeemable] #-Frontier КБ
   id: NfsdTechFabFlatpack
   name: NFSD techfab flatpack
   description: A flatpack used for constructing an NFSD techfab.
@@ -890,7 +890,7 @@
     price: 250
 
 #region Hoverbikes
-# Corvax Frontier
+#  Frontier
 #- type: entity
 #  parent: BaseNFFlatpack
 #  id: HoverbikeFlatpack
@@ -917,7 +917,7 @@
 #    price: 75
 
 #- type: entity
-#  parent: [HoverbikeFlatpack, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+#  parent: [HoverbikeFlatpack, BaseC2ContrabandUnredeemable] #-Frontier КБ
 #  id: HoverbikeNfsdFlatpack
 #  name: NFSD hoverbike flatpack
 #  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
@@ -928,7 +928,7 @@
 #    price: 750
 
 #- type: entity
-#  parent: [HoverbikeFlatpack, BaseC3Contraband] #Corvax-Frontier КБ
+#  parent: [HoverbikeFlatpack, BaseC3Contraband] #-Frontier КБ
 #  id: HoverbikeSyndicateFlatpack
 #  name: syndicate hoverbike flatpack
 #  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.

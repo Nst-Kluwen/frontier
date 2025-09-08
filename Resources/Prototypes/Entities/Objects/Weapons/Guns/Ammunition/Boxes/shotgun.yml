@@ -30,7 +30,7 @@
       zeroVisible: false
     - type: Appearance
     - type: StaticPrice
-      price: 125 #CorvaxFrontier
+      price: 125 #Frontier
 # Shotgun Shells
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -111,7 +111,7 @@
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
   name: ammunition box (.50 incendiary)
-  parent: [AmmoProviderShotgunShell, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [AmmoProviderShotgunShell, BaseC2ContrabandUnredeemable] #-Frontier КБ
   id: BoxShotgunIncendiary
   components:
     - type: BallisticAmmoProvider
@@ -131,7 +131,7 @@
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
   name: ammunition box (.50 uranium)
-  parent: [AmmoProviderShotgunShell, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [AmmoProviderShotgunShell, BaseC2ContrabandUnredeemable] #-Frontier КБ
   id: BoxShotgunUranium
   components:
     - type: BallisticAmmoProvider

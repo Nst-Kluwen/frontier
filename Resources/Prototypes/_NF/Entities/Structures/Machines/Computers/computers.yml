@@ -1,6 +1,6 @@
 
 - type: entity
-  parent: [ComputerRadar, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [ComputerRadar, BaseC2ContrabandUnredeemable] #-Frontier КБ
   id: ComputerAdvancedRadar # Frontier
   name: radar computer
   description: This advanced radar lets you detect far away objects for an increased tactical advantage.
@@ -312,7 +312,7 @@
 
 - type: entity
   name: plunder exchange computer
-  parent: [ComputerContrabandPalletConsole, BaseC3Contraband] #Corvax-Frontier КБ
+  parent: [ComputerContrabandPalletConsole, BaseC3Contraband] #-Frontier КБ
   id: ComputerContrabandPalletConsolePirate
   description: Fence yer ill-gotten goods here! And keep yer pile orderly.
   components:
@@ -364,7 +364,7 @@
 
 - type: entity
   name: pirate bounty redemption computer
-  parent: [ComputerPirateBounty, BaseC3Contraband] #Corvax-Frontier КБ
+  parent: [ComputerPirateBounty, BaseC3Contraband] #-Frontier КБ
   id: ComputerPirateBountyRedemption
   description: Back from a voyage? Redeem yer bounties here, matey.
   components:

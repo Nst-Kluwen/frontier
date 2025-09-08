@@ -2,25 +2,25 @@
   id: MercenaryClothingBackpackMercenary
   price: 0
   equipment:
-    back: ClothingMilitaryBackpack # Corvax-Frontier
+    back: ClothingMilitaryBackpack # -Frontier
 
 - type: loadout
   id: MercenaryClothingBackpackDuffelMercenary
   price: 0
   equipment:
-    back: ClothingBackpackDuffelMilitary # Corvax-Frontier
+    back: ClothingBackpackDuffelMilitary # -Frontier
 
 - type: loadout
   id: MercenaryClothingBackpackSatchelMercenary
   price: 0
   equipment:
-    back: ClothingBackpackMilitarySatchel # Corvax-Frontier
+    back: ClothingBackpackMilitarySatchel # -Frontier
 
 - type: loadout
   id: MercenaryClothingBackpackMessengerMercenary
   price: 0
   equipment:
-    back: ClothingMilitaryMessenger # Corvax-Frontier
+    back: ClothingMilitaryMessenger # -Frontier
 
 - type: loadout
   id: MercenaryClothingBackpackDuffelPrivateSecurity

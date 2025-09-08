@@ -634,6 +634,6 @@ binds:
   mod1: Shift
 # endregion Frontier
 
-- function: OfferItem # Corvax-Frontier
+- function: OfferItem
   type: State
   key: F

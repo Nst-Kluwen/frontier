@@ -389,15 +389,15 @@
   components:
   - type: Pda
     id: NFPirateIDCard
-    bookSlot: #corvax frontier
-      startingItem: HyperlinkBookPirateCode #corvax frontier
+    bookSlot: # frontier
+      startingItem: HyperlinkBookPirateCode # frontier
       whitelist:
         tags:
         - BookSpaceLaw
         - BookNfsdSop
         - BookPirateCode
-    penSlot: #corvax frontier
-      startingItem: LuxuryPen #corvax frontier
+    penSlot: # frontier
+      startingItem: LuxuryPen # frontier
       whitelist:
         tags:
         - LuxuryPen
@@ -415,15 +415,15 @@
   components:
   - type: Pda
     id: NFPirateCaptainIDCard
-    bookSlot: #corvax frontier
-      startingItem: HyperlinkBookPirateCode #corvax frontier
+    bookSlot: # frontier
+      startingItem: HyperlinkBookPirateCode # frontier
       whitelist:
         tags:
         - BookSpaceLaw
         - BookNfsdSop
         - BookPirateCode
-    penSlot: #corvax frontier
-      startingItem: LuxuryPen #corvax frontier
+    penSlot: # frontier
+      startingItem: LuxuryPen # frontier
       whitelist:
         tags:
         - LuxuryPen
@@ -441,15 +441,15 @@
   components:
   - type: Pda
     id: NFPirateFirstMateIDCard
-    bookSlot: #corvax frontier
-      startingItem: HyperlinkBookPirateCode #corvax frontier
+    bookSlot: # frontier
+      startingItem: HyperlinkBookPirateCode # frontier
       whitelist:
         tags:
         - BookSpaceLaw
         - BookNfsdSop
         - BookPirateCode
-    penSlot: #corvax frontier
-      startingItem: LuxuryPen #corvax frontier
+    penSlot: # frontier
+      startingItem: LuxuryPen # frontier
       whitelist:
         tags:
         - LuxuryPen

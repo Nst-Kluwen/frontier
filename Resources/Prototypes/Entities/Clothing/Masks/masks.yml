@@ -41,7 +41,7 @@
         Heat: 0.95
 
 - type: entity
-  parent: [ClothingMaskGas, BaseC1Contraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent #Corvax-Frontier КБ
+  parent: [ClothingMaskGas, BaseC1Contraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent #-Frontier КБ
   id: ClothingMaskGasSyndicate
   name: syndicate gas mask
   description: A close-fitting tactical mask that can be connected to an air supply.

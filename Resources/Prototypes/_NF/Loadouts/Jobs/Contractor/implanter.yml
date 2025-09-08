@@ -1,7 +1,7 @@
 #T0
 - type: loadout
   id: ContractorMedicalTrackingImplanter
-  name: медицинский трекер #Corvax-Frontier
+  name: медицинский трекер #-Frontier
   storage:
     back:
     - MedicalTrackingImplanter
@@ -9,7 +9,7 @@
 #T1
 - type: loadout
   id: ContractorLightImplanter
-  name: имплантер фонарика #Corvax-Frontier
+  name: имплантер фонарика #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -19,7 +19,7 @@
 
 - type: loadout
   id: ContractorBikeHornImplanter
-  name: имплантер хонк-гудка #Corvax-Frontier
+  name: имплантер хонк-гудка #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -29,7 +29,7 @@
 
 - type: loadout
   id: ContractorSadTromboneImplanter
-  name: имплант "Грустный тромбон" #Corvax-Frontier
+  name: имплант "Грустный тромбон" #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1

@@ -20,7 +20,7 @@
   - type: StaticPrice
     price: 20
 
-# CorvaxFrontier
+
 - type: entity
   id: BaseMagazineAntiMateriel
   name: "magazine (.60 AntiMateriel)"

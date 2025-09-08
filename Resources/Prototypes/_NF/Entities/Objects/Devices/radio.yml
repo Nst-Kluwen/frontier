@@ -44,5 +44,5 @@
         enum.RadioDeviceVisualLayers.Speaker:
           True: { visible: true }
           False: { visible: false }
-  - type: StaticPrice #CorvaxFrontier
-    price: 5 #CorvaxFrontier
+  - type: StaticPrice #Frontier
+    price: 5 #Frontier

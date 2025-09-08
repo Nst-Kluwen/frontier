@@ -4,7 +4,7 @@
 
 #Basic armor vest for inheritance
 - type: entity
-  parent: [RecyclableItemClothArmor, ClothingOuterBaseMedium, AllowSuitStorageClothing] #Corvax-Frontier удалена строка КБ
+  parent: [RecyclableItemClothArmor, ClothingOuterBaseMedium, AllowSuitStorageClothing] #-Frontier удалена строка КБ
   id: ClothingOuterArmorBase
   name: armor vest
   abstract: true
@@ -335,7 +335,7 @@
   - type: GroupExamine
 
 - type: entity
-  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseC1Contraband] #Corvax-Frontier КБ
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseC1Contraband] #-Frontier КБ
   id: ClothingOuterArmorHeavy
   name: heavy armor suit
   description: A heavily armored suit that protects against excessive damage.
@@ -357,7 +357,7 @@
     slots: WITHOUT_POCKET
   - type: ExplosionResistance
     damageCoefficient: 0.7
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: ArmorHeavy
 
 - type: entity
@@ -433,7 +433,7 @@
     slots: WITHOUT_POCKET
 
 - type: entity
-  parent: [ ClothingOuterBaseLarge, AllowSuitStorageClothing ] # Frontier: BaseMajorContraband<BaseC1Contraband #Corvax-Frontier удалена строка КБ
+  parent: [ ClothingOuterBaseLarge, AllowSuitStorageClothing ] # Frontier: BaseMajorContraband<BaseC1Contraband #-Frontier удалена строка КБ
   id: ClothingOuterArmorBone
   name: bone armor
   description: Sits on you like a second skin.
@@ -461,7 +461,7 @@
     slots: WITHOUT_POCKET
 
 - type: entity
-  parent: [ ClothingOuterBaseLarge, AllowSuitStorageClothing ] # Frontier: BaseMajorContraband<BaseC1Contraband #Corvax-Frontier удалена строка КБ
+  parent: [ ClothingOuterBaseLarge, AllowSuitStorageClothing ] # Frontier: BaseMajorContraband<BaseC1Contraband #-Frontier удалена строка КБ
   id: ClothingOuterArmorPodWars
   name: ironclad II armor
   description: A repurposed suit of ironclad II armor, a relic of the pod wars.

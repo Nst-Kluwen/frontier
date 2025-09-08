@@ -182,11 +182,11 @@
     - NfsdPracticeStatic
     - NfsdAmmoStatic
     - ReportingStatic # DeltaV
-    - CorvaxAmmoStatic #Corvax-Frontier
+    - CorvaxAmmoStatic #-Frontier
     dynamicPacks:
-    - CorvaxMechsWeaponsNFSDDynamic #Corvax-Frontier
-    - CorvaxShuttleGunsDynamic #Corvax-Frontier
-    - CorvaxAmmoDynamic #Corvax-Frontier
+    - CorvaxMechsWeaponsNFSDDynamic #-Frontier
+    - CorvaxShuttleGunsDynamic #-Frontier
+    - CorvaxAmmoDynamic #-Frontier
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -222,7 +222,7 @@
     - NFMercenaryTechfabDeprecatedStatic
     - NfsdPracticeStatic
     dynamicPacks:
-    - CorvaxMechsWeaponsDynamic #Corvax-Frontier
+    - CorvaxMechsWeaponsDynamic #-Frontier
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -270,7 +270,7 @@
     runningState: mercenary-hacked
     staticPacks:
     - NFHackedMercenaryTechfabDeprecatedStatic
-    - CorvaxAmmoStatic #Corvax-Frontier
+    - CorvaxAmmoStatic #-Frontier
   - type: BlueprintReceiver
     whitelist:
       tags:

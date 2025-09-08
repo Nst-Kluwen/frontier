@@ -1,7 +1,7 @@
 - type: entity
   id: ClothingEyesArcadiaVisor
   name: arcadia visor
-  parent: [ ClothingEyesBase, BaseC1Contraband ] #Corvax-Frontier КБ
+  parent: [ ClothingEyesBase, BaseC1Contraband ] #-Frontier КБ
   description: A visor produced by Arcadia Industries, with some high tech optics systems built in.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
   - type: EyeProtection
   - type: VisionCorrection
   - type: IdentityBlocker
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: ArcadiaVisor
 
 - type: entity

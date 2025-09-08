@@ -448,7 +448,7 @@
     prototype: ComputerWallmountRadar # Frontier
 
 - type: entity
-  parent: [BaseComputerCircuitboard, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [BaseComputerCircuitboard, BaseC2ContrabandUnredeemable] #-Frontier КБ
   id: AdvancedRadarConsoleCircuitboard # Frontier
   name: advanced radar console computer board
   components:
@@ -559,7 +559,7 @@
       prototype: ComputerIFF
     - type: ComputerTabletopBoard # Frontier
       prototype: ComputerTabletopIFF # Frontier
-    - type: MercenaryBountyItem # Corvax-Frontier
+    - type: MercenaryBountyItem # -Frontier
       id: IFFCircuitboard
 
 - type: entity

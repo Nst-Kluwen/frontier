@@ -1,4 +1,4 @@
-- type: guideEntry                      #CorvaxFrontier Весь yml переделан под правила Corvax
+- type: guideEntry
   id: FrontierRuleset
   name: guide-entry-frontier-rules
   text: "/ServerInfo/_Forge/Rules/CorvaxFrontierRuleset.xml"

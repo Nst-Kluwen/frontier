@@ -25,7 +25,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "АФ - Диспетчерская" #Corvax-Frontier
+    name: "АФ - Диспетчерская" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -34,7 +34,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "АФ - Офис представителя" #Corvax-Frontier
+    name: "АФ - Офис представителя" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -43,7 +43,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "АФ - Охрана" #Corvax-Frontier
+    name: "АФ - Охрана" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -52,7 +52,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "АФ - Приёмная" #Corvax-Frontier
+    name: "АФ - Приёмная" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineCaptain]
@@ -61,7 +61,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "АФ - Административная" #Corvax-Frontier
+    name: "АФ - Административная" #-Frontier
 
 # POI
 - type: entity
@@ -71,7 +71,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Маяк ВсеЦеркви" #Corvax-Frontier
+    name: "Маяк ВсеЦеркви" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -90,7 +90,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Прослушивающий Пункт: Браво" #Corvax-Frontier
+    name: "Прослушивающий Пункт: Браво" #-Frontier
   - type: ApcPowerReceiver
     powerDisabled: true #starts off
 
@@ -101,7 +101,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Экспедиционная База" #Corvax-Frontier
+    name: "Экспедиционная База" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -110,7 +110,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Полярная Звезда" #Corvax-Frontier
+    name: "Полярная Звезда" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -119,7 +119,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Ресторан Тринньки" #Corvax-Frontier
+    name: "Ресторан Тринньки" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -128,7 +128,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Торговая Станция" #Corvax-Frontier
+    name: "Торговая Станция" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -137,7 +137,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Trade Outpost STC" #Corvax-Frontier
+    name: "Trade Outpost STC" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -146,7 +146,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "ТС - Диспетчерская" #Corvax-Frontier
+    name: "ТС - Диспетчерская" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -155,7 +155,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "ТС - Пост ДСБФ" #Corvax-Frontier
+    name: "ТС - Пост ДСБФ" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -164,7 +164,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Аномальная Лаборатория" #Corvax-Frontier
+    name: "Аномальная Лаборатория" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -173,7 +173,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Бойцовская Яма" #Corvax-Frontier
+    name: "Бойцовская Яма" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -182,7 +182,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Казино" #Corvax-Frontier
+    name: "Казино" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -191,7 +191,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Суд" #Corvax-Frontier
+    name: "Суд" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineShipAntag]
@@ -200,7 +200,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Пиратская Бухта" #Corvax-Frontier
+    name: "Пиратская Бухта" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -209,7 +209,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "ДСБФ - Офис Шерифа" #Corvax-Frontier
+    name: "ДСБФ - Офис Шерифа" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -218,7 +218,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "ДСБФ - ПЮД" #Corvax-Frontier
+    name: "ДСБФ - ПЮД" #-Frontier
 
 - type: entity
   parent: FaxMachineBase
@@ -227,7 +227,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Багамская Мама" #Corvax-Frontier
+    name: "Багамская Мама" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -236,7 +236,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Электростанция Эдисона" #Corvax-Frontier
+    name: "Электростанция Эдисона" #-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -245,7 +245,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Госпиталь" #Corvax-Frontier
+    name: "Госпиталь" #-Frontier
 
 # Events
 - type: entity
@@ -255,6 +255,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Неизвестно" #Corvax-Frontier
+    name: "Неизвестно" #-Frontier
   - type: ApcPowerReceiver
     powerDisabled: false #starts off

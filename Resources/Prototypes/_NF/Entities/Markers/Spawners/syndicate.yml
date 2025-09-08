@@ -76,10 +76,10 @@
         - PlushieNuke
         - Telecrystal5
         - Telecrystal5
-        - SyndicateJawsOfLife #CorvaxFrontier
-        - Stimpack #CorvaxFrontier
-        - ToolboxElectricalTurretFilled #CorvaxFrontier
-        - BorgModuleMartyr #CorvaxFrontier
+        - SyndicateJawsOfLife #Frontier
+        - Stimpack #Frontier
+        - ToolboxElectricalTurretFilled #Frontier
+        - BorgModuleMartyr #Frontier
       rarePrototypes:
         - PinpointerSyndicatePOI
       rareChance: 0.1

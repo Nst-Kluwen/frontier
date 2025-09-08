@@ -44,7 +44,7 @@
       - id: CommsComputerCircuitboard # Frontier
       - id: MedalCase # Frontier
       - id: Demag # Frontier
-      - id: GarmentBagFilledSR # Corvax-Frontier
+      - id: GarmentBagFilledSR # -Frontier
 
 - type: entity
   id: LockerNfsdSheriffFilled
@@ -88,7 +88,7 @@
     - id: NFWeaponParticleDecelerator
       amount: 2
 
-# Corvax-Frontier addition
+# -Frontier addition
 - type: entity
   id: CFLockerNfsdSheriffFilled
   suffix: Filled

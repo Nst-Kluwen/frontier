@@ -85,7 +85,7 @@
   - type: Appearance
   - type: DeepFried
     crispinessLevelSet: Crispy
-    originalName: Хрустик #CorvaxFrontier
+    originalName: Хрустик #Frontier
   - type: FriedTrait
     crispinessLevelSet: Crispy
 
@@ -101,7 +101,7 @@
       - spooky
   - type: DeepFried
     crispinessLevelSet: Spectral
-    originalName: СпукиКот #CorvaxFrontier
+    originalName: СпукиКот #Frontier
   - type: FriedTrait
     crispinessLevelSet: Spectral
   - type: Spectral

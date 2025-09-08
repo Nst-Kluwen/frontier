@@ -454,7 +454,7 @@
       whitelist:
         - Sheriff
 
-- type: listing # Corvax-Frontier
+- type: listing # -Frontier
   id: UplinkSecurityKS23
   name:  uplink-security-ks23-name
   description: uplink-security-ks23-desc
@@ -588,7 +588,7 @@
   productEntity: BoxT3SuperCapacitor
   icon: { sprite: Objects/Storage/boxes.rsi, state: box}
   cost:
-    FrontierUplinkCoin: 5 # CorvaxFrontier
+    FrontierUplinkCoin: 5 # Frontier
   categories:
     - UplinkSecurityBundles
   conditions:
@@ -619,7 +619,7 @@
         tags:
           - SecurityUplink
 
-- type: listing # Corvax-Frontier
+- type: listing # -Frontier
   id: UplinkSecurityKS23Flashbang
   name: uplink-security-magazineks23flashbang-name
   description: uplink-security-magazineks23flashbang-desc
@@ -635,7 +635,7 @@
         tags:
           - SecurityUplink
 
-- type: listing # Corvax-Frontier
+- type: listing # -Frontier
   id: UplinkSecurityKS23Smoke
   name: uplink-security-magazineks23smoke-name
   description: uplink-security-magazineks23smoke-desc
@@ -1165,7 +1165,7 @@
         - SeniorOfficer
         - Sheriff
 
-#- type: listing #CorvaxFrontier
+#- type: listing #Frontier
 #  id: UplinkSecurityHoverbikeNfsdFlatpack
 #  name:  uplink-security-hoverbike-name
 #  description: uplink-security-hoverbike-desc
@@ -1214,7 +1214,7 @@
   productEntity: ClothingBackpackDuffelNfsdTrackingBundle
   icon: { sprite: _NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 8 #CorvaxFrontier
+    FrontierUplinkCoin: 8 #Frontier
   categories:
     - UplinkSecurityBundles
   conditions:
@@ -1230,7 +1230,7 @@
   productEntity: ClothingBackpackDuffelNfsdEmpBundle
   icon: { sprite: _NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 8 #CorvaxFrontier
+    FrontierUplinkCoin: 8 #Frontier
   categories:
     - UplinkSecurityBundles
   conditions:
@@ -1267,7 +1267,7 @@
   productEntity: BoxEmpGrenadesAmmo
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
-    FrontierUplinkCoin: 2 #CorvaxFrontier
+    FrontierUplinkCoin: 2 #Frontier
   categories:
     - UplinkSecurityAmmo
   conditions:
@@ -1326,7 +1326,7 @@
     - !type:BuyerJobCondition
       whitelist:
         - Sheriff
-# Corvax-Frontier
+# -Frontier
 - type: listing
   id: UplinkSecurityResearchDisk10000
   name:  uplink-security-research-disk-10000-name

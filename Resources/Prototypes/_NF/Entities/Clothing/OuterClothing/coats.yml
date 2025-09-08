@@ -13,11 +13,11 @@
       coefficients:
         Blunt: 0.85
         Slash: 0.85
-        Piercing: 0.55 #CorvaxFrontier
+        Piercing: 0.55 #Frontier
         Heat: 0.85
   - type: ExplosionResistance
     damageCoefficient: 0.80
-  - type: StaticPrice #CorvaxFrontier
+  - type: StaticPrice #Frontier
     price: 485
     
 - type: entity

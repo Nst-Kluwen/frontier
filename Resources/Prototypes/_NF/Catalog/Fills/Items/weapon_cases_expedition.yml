@@ -223,7 +223,7 @@
     - id: NFMagazineShotgunDrum
       amount: 2
 
-- type: entity #CorvaxFrontier
+- type: entity #Frontier
   parent: WeaponCaseLong
   id: WeaponCaseLongKD12
   suffix: Dungeon, KD12
@@ -234,7 +234,7 @@
     - id: WeaponShotgunKD12Expedition
       amount: 1
     - id: BoxLethalshotKS23
-      amount: 4 #CorvaxFrontier
+      amount: 4 #Frontier
 
 #region SMGs
 - type: entity
@@ -302,7 +302,7 @@
     - id: NFMagazineSubMachineGun35
       amount: 3
 
-- type: entity #CorvaxFrontier
+- type: entity #Frontier
   parent: WeaponCaseLong
   id: WeaponCaseSubMachineGunVector22
   suffix: Dungeon, SubMachineGunVector22
@@ -315,9 +315,9 @@
     - id: MagazineVector22
       amount: 2
     - id: NFAmmunitionBoxPistol35
-      amount: 2 #CorvaxFrontier
+      amount: 2 #Frontier
 
-- type: entity #CorvaxFrontier
+- type: entity #Frontier
   parent: WeaponCaseLong
   id: WeaponCaseWeaponSubMachineP90LRK
   suffix: Dungeon, SubMachineGunVector22
@@ -330,7 +330,7 @@
     - id: MagazineP90LRK
       amount: 2
     - id: NFAmmunitionBoxPistol35
-      amount: 2 #CorvaxFrontier
+      amount: 2 #Frontier
 
 #region Rifles
 - type: entity

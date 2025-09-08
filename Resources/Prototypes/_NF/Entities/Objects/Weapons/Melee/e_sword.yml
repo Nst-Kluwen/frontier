@@ -4,9 +4,9 @@
   id: EnergySwordNfsd
   description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   components:
-  - type: Sprite #Corvax-Frontier
+  - type: Sprite #-Frontier
     sprite: Forge/Objects/Weapons/Melee/nfsd_e_sword.rsi
-  - type: Item #Corvax-Frontier
+  - type: Item #-Frontier
     sprite: Forge/Objects/Weapons/Melee/nfsd_e_sword-inhands.rsi
   - type: EnergySword
     colorOptions:
@@ -68,5 +68,5 @@
     price: 200
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: NFEnergyPickaxe

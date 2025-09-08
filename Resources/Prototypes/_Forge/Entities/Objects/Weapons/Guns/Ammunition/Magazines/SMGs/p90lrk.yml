@@ -1,4 +1,4 @@
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   id: MagazineP90LRK
   name: P90 Magazine .35 auto
   parent: BaseItem
@@ -33,7 +33,7 @@
     zeroVisible: false
   - type: Appearance
 
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   id: MagazineP90LRKEmpty
   parent: MagazineP90LRK
   suffix: Empty

@@ -1,4 +1,4 @@
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   name: Vector (.22 LR)
   parent: [ NFBaseWeaponSubMachineGunChamber35, BaseC1Contraband, NFBaseWeaponFrameSubMachineGunGorlex ]
   id: WeaponSubMachineGunVector22
@@ -58,7 +58,7 @@
   - type: StaticPrice
     price: 800
 
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   name: Vector (.45 ACP)
   parent: [ NFBaseWeaponPistolChamber45, BaseC1Contraband, NFBaseWeaponFrameSubMachineGunNanotrasen ]
   id: WeaponSubMachineGunVector45

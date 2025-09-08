@@ -359,7 +359,7 @@
 
 - type: entity
   name: dragon flesh
-  parent: [FoodMeatBase, BaseC1Contraband] #Corvax-Frontier КБ
+  parent: [FoodMeatBase, BaseC1Contraband] #-Frontier КБ
   id: FoodMeatDragon
   description: The dense meat of the space-era apex predator is oozing with its mythical ichor. Ironically, best eaten raw.
   components:
@@ -383,7 +383,7 @@
       reagents:
       - ReagentId: Ichor
         Quantity: 10
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: MeatDragon
   - type: SliceableFood
     count: 3

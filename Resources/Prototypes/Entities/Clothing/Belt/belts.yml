@@ -462,7 +462,7 @@
   - type: Appearance
 
 - type: entity
-  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase] #Corvax-Frontier удалена строка КБ
+  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase] #-Frontier удалена строка КБ
   id: ClothingBeltSecurity
   name: security belt
   description: Can hold security gear like handcuffs and flashes.
@@ -517,7 +517,7 @@
   - type: Appearance
 
 - type: entity
-  parent: [ClothingBeltBase, ClothingSlotBase] #Corvax-Frontier удалена строка КБ
+  parent: [ClothingBeltBase, ClothingSlotBase] #-Frontier удалена строка КБ
   id: ClothingBeltSheath
   name: sabre sheath
   description: An ornate sheath designed to hold an officer's blade.
@@ -551,7 +551,7 @@
 # Belts without visualizers
 
 - type: entity
-  parent: ClothingBeltBase #Corvax-Frontier удалена строка КБ и заменено ClothingBeltAmmoProviderBase на ClothingBeltBase
+  parent: ClothingBeltBase #-Frontier удалена строка КБ и заменено ClothingBeltAmmoProviderBase на ClothingBeltBase
   id: ClothingBeltBandolier
   name: bandolier
   description: A bandolier for holding shotgun ammunition.
@@ -615,7 +615,7 @@
     # - 0,0,3,1 # Frontier: commented out
 
 - type: entity
-  parent: [NFClothingBeltStorageBase, BaseC1Contraband, ContrabandClothing] # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent #Corvax-Frontier КБ
+  parent: [NFClothingBeltStorageBase, BaseC1Contraband, ContrabandClothing] # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent #-Frontier КБ
   id: ClothingBeltSyndieHolster
   name: syndicate shoulder holster
   description: A deep shoulder holster capable of holding many types of ballistics.
@@ -670,7 +670,7 @@
     sprite: Clothing/Belt/salvagewebbing.rsi
 
 - type: entity
-  parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase] #Corvax-Frontier удалена строка КБ
+  parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase] #-Frontier удалена строка КБ
   id: ClothingBeltMilitaryWebbing
   name: chest rig
   description: A set of tactical webbing worn by boarding parties. # Frontier

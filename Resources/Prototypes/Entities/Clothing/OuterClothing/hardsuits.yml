@@ -324,7 +324,7 @@
 
 #Captain's Hardsuit
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC1Contraband] # Removed BaseCommandContraband #Corvax-Frontier КБ
+  parent: [ClothingOuterHardsuitBase, BaseC1Contraband] # Removed BaseCommandContraband #-Frontier КБ
   id: ClothingOuterHardsuitCap
   name: captain's armored spacesuit
   description: A formal armored spacesuit, made for the station's captain.
@@ -786,8 +786,8 @@
         Heat: 0.4
         Caustic: 0.75
   - type: ClothingSpeedModifier
-    walkModifier: 0.93 #Corvax-Frontier
-    sprintModifier: 0.93 #Corvax-Frontier
+    walkModifier: 0.93 #-Frontier
+    sprintModifier: 0.93 #-Frontier
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitPirateEVA

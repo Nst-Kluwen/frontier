@@ -14,7 +14,7 @@
     - type: GoblinAccent # Frontier
     - type: ScandinavianAccent # Frontier
     - type: LizardAccent
-    - type: OwOAccent # Corvax-Frontier
+    - type: OwOAccent # -Frontier
     - type: MothAccent
     - type: ReplacementAccent
       accent: dwarf

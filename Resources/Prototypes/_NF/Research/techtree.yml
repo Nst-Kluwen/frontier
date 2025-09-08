@@ -481,7 +481,7 @@
   cost: 20000
   recipeUnlocks:
   - ClothingOuterHardsuitScaf
-  - ClothingOuterHardsuitMercenaryElite #CorvaxFrontier
+  - ClothingOuterHardsuitMercenaryElite #Frontier
   technologyPrerequisites:
   - NFHardsuitsArmored
   position: 5, 9

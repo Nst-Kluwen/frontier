@@ -12,7 +12,7 @@
       # - Pill # Frontier
       # - Crayon # Frontier
       # - Paper # Frontier
-    specialDigestible: # Corvax-MRP
+    specialDigestible: 
       tags:
       - Fruit
       - ReptilianFood

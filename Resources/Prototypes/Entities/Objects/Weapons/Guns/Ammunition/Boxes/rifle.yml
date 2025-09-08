@@ -22,7 +22,7 @@
     steps: 4
     zeroVisible: false
   - type: Appearance
-  - type: StaticPrice #CorvaxFrontier
+  - type: StaticPrice #Frontier
     price: 125
 
 # Boxes
@@ -98,7 +98,7 @@
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
   id: MagazineBoxRifleUranium
-  parent: [BaseMagazineBoxRifle, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [BaseMagazineBoxRifle, BaseC2ContrabandUnredeemable] #-Frontier КБ
   name: ammunition box (.20 rifle uranium)
   components:
   - type: BallisticAmmoProvider

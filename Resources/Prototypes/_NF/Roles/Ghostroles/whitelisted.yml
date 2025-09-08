@@ -88,7 +88,7 @@
   entityPrototype: NFMobHumanBuddy
   whitelisted: true
 
-- type: ghostRole #CorvaxFrontier
+- type: ghostRole #Frontier
   id: CatSigmis
   name: ghost-role-information-sigmis-name
   description: ghost-role-information-sigmis-description

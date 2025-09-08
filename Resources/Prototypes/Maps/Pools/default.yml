@@ -2,7 +2,7 @@
   id: DefaultMapPool
   maps:
 #  - Frontier
-  - corvaxFrontier #Corvax-Frontier
+  - corvaxFrontier #-Frontier
 
 # Frontier: below are the upstream map pools.
   # - Amber

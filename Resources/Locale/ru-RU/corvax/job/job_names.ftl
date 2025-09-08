@@ -1,2 +1,1 @@
-# Frontier-Corvax
 Captain = Капитан

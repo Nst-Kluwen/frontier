@@ -52,7 +52,7 @@
       whitelist:
         - NFPirateCaptain
 
-#- type: listing #CorvaxFrontier
+#- type: listing 
 #  id: UplinkPirateCaptainCrateFilled
 #  name:  uplink-pirate-crate-captain-name
 #  description: uplink-pirate-crate-captain-desc
@@ -78,7 +78,7 @@
   productEntity: CratePirateChest
   icon: { sprite: _NF/Structures/Storage/Crates/piratechestgrey.rsi, state: crate_icon }
   cost:
-    Doubloon: 13 #CorvaxFrontier
+    Doubloon: 13
   categories:
     - UplinkPirateUtility
   conditions:
@@ -94,7 +94,7 @@
 #  productEntity: ClothingBackpackPirateBundle
 #  icon: { sprite: Clothing/Back/Satchels/leather.rsi, state: icon }
 #  cost:
-#    Doubloon: 3 #CorvaxFrontier
+#    Doubloon: 3
 #  categories:
 #    - UplinkPirateUtility
 #  conditions:
@@ -103,7 +103,7 @@
 #        tags:
 #          - PirateUplink
 
-# - type: listing #CorvaxFrontier
+# - type: listing
 #  id: UplinkPirateMagboots
 #  name:  uplink-pirate-magboots-name
 #  description: uplink-pirate-magboots-desc
@@ -193,7 +193,7 @@
   productEntity: EnergyCutlass
   icon: { sprite: Objects/Weapons/Melee/e_cutlass.rsi, state: e_cutlass }
   cost:
-    Doubloon: 4 #CorvaxFrontier
+    Doubloon: 4
   categories:
     - UplinkPirateWeapons
   conditions:
@@ -212,7 +212,7 @@
   productEntity: PirateBreachingAnchor
   icon: { sprite: _NF/Objects/Weapons/Melee/pirate_anchor.rsi, state: icon }
   cost:
-    Doubloon: 3 #CorvaxFrontier
+    Doubloon: 3
   categories:
     - UplinkPirateWeapons
   conditions:
@@ -228,7 +228,7 @@
   productEntity: BoxPirateGrenadeFire
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_fire.rsi, state: icon }
   cost:
-    Doubloon: 1 #CorvaxFrontier
+    Doubloon: 1
   categories:
     - UplinkPirateExplosives
   conditions:
@@ -244,7 +244,7 @@
   productEntity: BoxPirateGrenadeRadiation
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_caustic.rsi, state: icon }
   cost:
-    Doubloon: 1 #CorvaxFrontier
+    Doubloon: 1
   categories:
     - UplinkPirateExplosives
   conditions:
@@ -260,7 +260,7 @@
   productEntity: BoxPiratePirateGrenadeConcussion
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_explosive.rsi, state: icon }
   cost:
-    Doubloon: 1 #CorvaxFrontier
+    Doubloon: 1
   categories:
     - UplinkPirateExplosives
   conditions:
@@ -381,7 +381,7 @@
         tags:
           - PirateUplink
 
-- type: listing #CorvaxFrontier
+- type: listing
   id: UplinkPirateLaserGun
   name:  Старомодный лазерный бластер
   description: старый пистолет стреляющий концентрированным светом, что может быть круче?
@@ -397,7 +397,7 @@
         tags:
           - PirateUplink
 
-- type: listing #CorvaxFrontier
+- type: listing
   id: UplinkPiratBreachingCharge
   name:  Пробивающий заряд
   description: Заряд способный пробить любую стену шаттлов корпоративных крыс!
@@ -413,7 +413,7 @@
         tags:
           - PirateUplink
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratBoxMRE
   name:  Сухой паёк
   description: Коробка старых военных ИРП, они на удивление не испортились.
@@ -428,7 +428,7 @@
         tags:
           - PirateUplink
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratBoxLightRifle
   name:  Коробка винтовочных патрон
   description: Коробка винтовочных патрон используемых некоторым пиратским оружием, пускай и не такие мощные, зато какие дешёвые!
@@ -443,7 +443,7 @@
         tags:
           - PirateUplink
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratSpeedLoaderMagnumAP
   name:  Спидлоадер Бронебойных Патрон
   description: Спидлоадер с шестью бронебойными патронами 45 калибра если необходимо пробить что по крепче шкур корпоративных крыс.
@@ -460,7 +460,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratBoxT2SuperCapacitor
   name:  Набор Модификации Двигателей
   description: Набор старых конденсаторов для модификации вашей посудины!
@@ -476,7 +476,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratBoxZiptiePirat
   name:  Набор стяжек
   description: Набор самодельных стяжек для успокоения самых буйных пиратов во время пьянки.
@@ -522,7 +522,7 @@
   categories:
   - UplinkPirateUtility
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratBoxDeathRattleImplantsPirat
   name:  Набор растворения
   description: Нажми на место укола рукой с случае захвата корпоративными крысами и мы отправим тебе помощь!
@@ -539,7 +539,7 @@
     - !type:BuyerJobCondition
 
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratWeaponSubMachineGunTypewriter
   name:  Пишущая машинка
   description: Старый пистолет-пулемет используемый самыми опасными членами братства. Ярррр!
@@ -556,7 +556,7 @@
     - !type:BuyerJobCondition
 
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratMagazinePistolSubMachineGunEmpty
   name:  Пишущая лента
   description: Лента используемая пиратами для "печатных машинок". Ярррр!
@@ -573,7 +573,7 @@
     - !type:BuyerJobCondition
 
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratNFAmmunitionBoxPistol35
   name:  Коробка чернил
   description: Коробка с чернилами для дозаправки "Пишущей машинки". Ярррр!
@@ -589,7 +589,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
 
-- type: listing #CorvaxFrontier
+- type: listing #Frontier
   id: UplinkPiratBoxPirateAssault
   name:  Набор для абордажа
   description: набор из крюка, сканера и батарейки для начинающих абордажных групп.
@@ -605,7 +605,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
 
-- type: listing # Corvax-Frontier
+- type: listing # -Frontier
   id: UplinkPiratShuttleGunPirateCannonFlatpack
   name:  Пушка пиратского корабля
   description: упакованная стационарная пушка пиратского корабля на случай поломки основных орудий.
@@ -620,7 +620,7 @@
         tags:
           - PirateUplink
 
-- type: listing # Corvax-Frontier
+- type: listing # -Frontier
   id: UplinkPiratCrateFunParty
   name:  Набор для вечеринки
   description: Отпразнуйте славную победу над корпоративными крысами! Ярррр!

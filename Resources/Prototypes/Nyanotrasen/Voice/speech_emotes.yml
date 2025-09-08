@@ -2,7 +2,7 @@
 - type: emote
   id: Hiss
   category: Vocal
-  name: chat-emote-name-hiss # Corvax-Localization
+  name: chat-emote-name-hiss # -Localization
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -11,7 +11,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-msg-felinid-hiss"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-felinid-hiss"] # -Localization
   chatTriggers:
     - hiss
     - hisses
@@ -22,16 +22,16 @@
     - hissed
     - hissing.
     - hissed.
-    # Corvax-Localization-Start
+    # -Localization-Start
     - шипит
     - шипит.
     - шипит!
-    # Corvax-Localization-End
+    # -Localization-End
 
 - type: emote
   id: Meow
   category: Vocal
-  name: chat-emote-name-meow # Corvax-Localization
+  name: chat-emote-name-meow # -Localization
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -40,7 +40,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-msg-felinid-meow"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-felinid-meow"] # -Localization
   chatTriggers:
     - meow
     - meows
@@ -69,7 +69,7 @@
     - mraows.
     - mraows!
     - mraows~
-    # Corvax-Localization-Start
+    # -Localization-Start
     - мяу
     - мяу~
     - мяу.
@@ -93,12 +93,12 @@
     - ня
     - ня.
     - ня~
-    # Corvax-Localization-End
+    # -Localization-End
 
 - type: emote
   id: Mew
   category: Vocal
-  name: chat-emote-name-mew # Corvax-Localization
+  name: chat-emote-name-mew # -Localization
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -107,7 +107,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-msg-felinid-mew"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-felinid-mew"] # -Localization
   chatTriggers:
     - mew
     - mews
@@ -116,7 +116,7 @@
     - mews~
     - mewing.
     - mewed.
-    # Corvax-Localization-Start
+    # -Localization-Start
     - миу
     - миу~
     - миу.
@@ -128,12 +128,12 @@
     - мяф.
     - мяф!
     - мяф~
-    # Corvax-Localization-End
+    # -Localization-End
 
 - type: emote
   id: Growl
   category: Vocal
-  name: chat-emote-name-growl # Corvax-Localization
+  name: chat-emote-name-growl # -Localization
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -142,7 +142,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-msg-felinid-growl"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-felinid-growl"] # -Localization
   chatTriggers:
     - growl
     - growls
@@ -150,7 +150,7 @@
     - growled
     - growling.
     - growled.
-    # Corvax-Localization-Start
+    # -Localization-Start
     - ррр
     - ррр.
     - ррр!
@@ -160,12 +160,12 @@
     - рыкает
     - рыкает.
     - рыкает!
-    # Corvax-Localization-End
+    # -Localization-End
 
 - type: emote
   id: Purr
   category: Vocal
-  name: chat-emote-name-purr # Corvax-Localization
+  name: chat-emote-name-purr # -Localization
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -174,7 +174,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-msg-felinid-purr"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-felinid-purr"] # -Localization
   chatTriggers:
     - purr
     - purrs
@@ -182,7 +182,7 @@
     - purred
     - purring.
     - purred.
-    # Corvax-Localization-Start
+    # -Localization-Start
     - мурчит
     - мурчит.
     - мурчит!
@@ -195,4 +195,4 @@
     - мурлыкает.
     - мурлыкает!
     - мурлыкает~
-    # Corvax-Localization-End
+    # -Localization-End

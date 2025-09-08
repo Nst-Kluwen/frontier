@@ -1044,7 +1044,7 @@
     - SpawnDungeonLootFlatpacksSuppl
     - SpawnDungeonLootFlatpacksScience
     - SpawnDungeonLootFlatpacksService
-#    - HoverbikeFlatpack # Corvax-Frontier
+#    - HoverbikeFlatpack # -Frontier
     - DawInstrumentFlatpack
     - MinimoogInstrumentFlatpack
     - ComputerIFFFlatpack

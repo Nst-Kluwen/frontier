@@ -165,7 +165,7 @@
   - type: SleepEmitSound
   - type: SSDIndicator
   - type: StandingState
-  - type: SpeechSynthesis # Corvax-Frontier-Barks
+  - type: SpeechSynthesis # -Frontier-Barks
   - type: Dna
   - type: MindContainer
     showExamineInfo: true
@@ -224,7 +224,7 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
-  - type: OfferItem # Corvax-Frontier
+  - type: OfferItem # -Frontier
   - type: Barotrauma
     damage:
       types:

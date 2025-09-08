@@ -1,4 +1,4 @@
-#Corvax-frontier
+#-frontier
 - type: entity
   id: SpawnMobWeaponTurretSyndicateAntiMateriel
   parent: MarkerBase

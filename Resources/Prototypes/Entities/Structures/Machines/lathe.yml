@@ -85,7 +85,7 @@
   components:
   - type: Lathe
     materialUseMultiplier: 0.5
-    timeMultiplier: 1.5 # Frontier: 1.5<3 (we double dip on time with lube and machine parts) # FrontierCorvax 1.5
+    timeMultiplier: 1.5 # Frontier: 1.5<3 (we double dip on time with lube and machine parts) # Frontier 1.5
   - type: LatheHeatProducing
   - type: ReagentSpeed
     modifiers:
@@ -229,7 +229,7 @@
     - NFService # Frontier
     - NFScience # Frontier
     - NFPouches # Frontier
-    - CorvaxEquipment #Corvax-Frontier
+    - CorvaxEquipment #-Frontier
   - type: EmagLatheRecipes
     emagDynamicPacks:
     - NfsdAmmoStatic # Frontier: SecurityAmmo<NfsdAmmoStatic
@@ -701,7 +701,7 @@
       staticPacks:
       - OreSmelting
       # - RGlassSmelting # Frontier: raw mats only
-      - CorvaxMaterialsStatic #Corvax-Frontier
+      - CorvaxMaterialsStatic #-Frontier
     - type: PlaceableSurface # DeltaV: Allow ore bags to dump into it directly
       isPlaceable: false # but not place on it if you just click it with a random item
     - type: OreSiloClient # Frontier
@@ -723,7 +723,7 @@
     - OreSmelting
     - RGlassSmelting
     - AdvancedSmelting
-    - CorvaxMaterialsStatic #Corvax-Frontier
+    - CorvaxMaterialsStatic #-Frontier
 
 - type: entity
   parent: BaseLathe

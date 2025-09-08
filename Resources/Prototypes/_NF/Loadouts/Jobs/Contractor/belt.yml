@@ -6,7 +6,7 @@
 
 - type: loadout
   id: ContractorClothingBeltPlantFilled
-  name: пояс ботаника (заполненный) #Corvax-Frontier
+  name: пояс ботаника (заполненный) #-Frontier
   price: 1500
   equipment:
     belt: ClothingBeltPlantFilled
@@ -19,7 +19,7 @@
 
 - type: loadout
   id: ContractorClothingBeltChefFilled
-  name: пояс повара (заполненный) #Corvax-Frontier
+  name: пояс повара (заполненный) #-Frontier
   price: 1500
   equipment:
     belt: ClothingBeltChefFilled
@@ -38,7 +38,7 @@
 
 - type: loadout
   id: ContractorClothingBeltMedicalFilled
-  name: пояс медика (заполненный) #Corvax-Frontier
+  name: пояс медика (заполненный) #-Frontier
   price: 2000
   equipment:
     belt: ClothingBeltMedicalFilled
@@ -51,7 +51,7 @@
 
 - type: loadout
   id: ContractorClothingBeltMedicalEMTFilled
-  name: пояс парамедика (заполненный) #Corvax-Frontier
+  name: пояс парамедика (заполненный) #-Frontier
   price: 2000
   equipment:
     belt: ClothingBeltMedicalEMTFilled
@@ -64,7 +64,7 @@
 
 - type: loadout
   id: ContractorClothingBeltUtilityFilled
-  name: пояс для инструментов (заполненный) #Corvax-Frontier
+  name: пояс для инструментов (заполненный) #-Frontier
   price: 1500
   equipment:
     belt: ClothingBeltUtilityEngineering
@@ -77,7 +77,7 @@
 
 - type: loadout
   id: ContractorClothingBeltSalvageWebbingFilledNF
-  name: РПС утилизатора (заполненный) #Corvax-Frontier
+  name: РПС утилизатора (заполненный) #-Frontier
   price: 1500
   equipment:
     belt: ClothingBeltSalvageWebbingFilledNF
@@ -103,7 +103,7 @@
 
 - type: loadout
   id: ContractorClothingBeltPilotFilled
-  name: РПС пилота (заполненный) #Corvax-Frontier
+  name: РПС пилота (заполненный) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -140,7 +140,7 @@
 
 - type: loadout
   id: ContractorClothingBeltChaplainSashFilled
-  name: пояс священника (заполненный) #Corvax-Frontier
+  name: пояс священника (заполненный) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -205,7 +205,7 @@
 
 - type: loadout
   id: ContractorClothingBeltPunkRandomized
-  name: РПС панка (случайно) #Corvax-Frontier
+  name: РПС панка (случайно) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
@@ -215,7 +215,7 @@
 
 - type: loadout
   id: ContractorClothingBeltPunkRandomizedFilled
-  name: РПС панка (случайно, заполненный) #Corvax-Frontier
+  name: РПС панка (случайно, заполненный) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
@@ -235,7 +235,7 @@
 
 - type: loadout
   id: ContractorClothingBeltSheathFilledHilt
-  name: ножны для сабли (с рукоятью вместо меча) #Corvax-Frontier
+  name: ножны для сабли (с рукоятью вместо меча) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3

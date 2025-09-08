@@ -622,7 +622,7 @@
         type: ChameleonBoundUserInterface
   - type: Contraband # Frontier
     hideValues: true # Frontier
-  - type: StaticPrice #CorvaxFrontier
+  - type: StaticPrice #Frontier
     price: 100
 - type: entity
   name: contractor ID card # Frontier: passenger<contractor

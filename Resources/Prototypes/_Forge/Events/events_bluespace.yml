@@ -1,4 +1,4 @@
-#Corvax-Frontier (by. Mersen and autsaider_m)
+#Frontier (by. Mersen and autsaider_m)
 - type: entity
   id: BluespaceCargoniaShip
   parent: BaseStationEventShortDelay
@@ -90,7 +90,7 @@
     warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
     endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
     earliestStart: 20
-    maximumPlayers: 15 #Corvax-Frontier
+    maximumPlayers: 15 #Frontier
     weight: 5
     duration: 900
     maxDuration: 1800

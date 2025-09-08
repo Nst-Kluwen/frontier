@@ -43,7 +43,7 @@
 - type: entity
   name: explosive grenade
   description: Grenade that creates a small but devastating explosion.
-  parent: [GrenadeBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSyndicateContraband<BaseC2Contraband #Corvax-Frontier КБ
+  parent: [GrenadeBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSyndicateContraband<BaseC2Contraband #-Frontier КБ
   id: ExGrenade
   components:
   - type: ExplodeOnTrigger

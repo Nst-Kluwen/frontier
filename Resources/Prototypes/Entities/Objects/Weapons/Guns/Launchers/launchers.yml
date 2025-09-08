@@ -53,8 +53,8 @@
     # proto: GrenadeFrag # Frontier
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
-  - type: GunRequiresWield # Corvax-Frontier
-  - type: Wieldable # Corvax-Frontier
+  - type: GunRequiresWield # -Frontier
+  - type: Wieldable # -Frontier
 
 - type: entity
   abstract: true # Frontier: create NF variant if we want this
@@ -100,7 +100,7 @@
 - type: entity
   abstract: true # Frontier: use NF variant
   name: RPG-7
-  parent: [ BaseWeaponLauncher, BaseC2ContrabandUnredeemable ] # Frontier: BaseMajorContraband<BaseC3Contraband #Corvax-Frontier КБ
+  parent: [ BaseWeaponLauncher, BaseC2ContrabandUnredeemable ] # Frontier: BaseMajorContraband<BaseC3Contraband #-Frontier КБ
   id: WeaponLauncherRocket
   description: A modified ancient rocket-propelled grenade launcher.
   components:
@@ -130,8 +130,8 @@
     steps: 2
     zeroVisible: false
   - type: Appearance
-  - type: GunRequiresWield # Corvax-Frontier
-  - type: Wieldable # Corvax-Frontier
+  - type: GunRequiresWield # -Frontier
+  - type: Wieldable # -Frontier
 
 - type: entity
   abstract: true # Frontier: use NF variant
@@ -201,8 +201,8 @@
       # proto: CannonBall # Frontier
       soundInsert:
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
-    - type: GunRequiresWield # Corvax-Frontier
-    - type: Wieldable # Corvax-Frontier
+    - type: GunRequiresWield # -Frontier
+    - type: Wieldable # -Frontier
 
 - type: entity
   name: tether gun

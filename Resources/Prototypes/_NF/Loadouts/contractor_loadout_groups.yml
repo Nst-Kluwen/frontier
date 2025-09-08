@@ -833,7 +833,7 @@
   - ContractorBalloonNT
   - ContractorFlashlightUmbrella
   - ContractorDawInstrumentFlatpack
-#   - ContractorHoverbikeFlatpack #Corvax-Frontier
+#   - ContractorHoverbikeFlatpack #-Frontier
   - ContractorEmotionalPetCarrier
   - ContractorAppraisalTool
   - ContractorPickaxe
@@ -851,7 +851,7 @@
   - ContractorHandheldCrewMonitor
   - ContractorHypoMini
   - ContractorBible
-  - Contractorrepairkit #Corvax-Frontier
+  - Contractorrepairkit #-Frontier
 
 - type: loadoutGroup
   id: ContractorFace
@@ -897,7 +897,7 @@
   maxLimit: 5
   loadouts:
   - ContractorEncryptionKeyTraffic
-#  - ContractorEncryptionKeyMedical #CorvaxFrontier
+#  - ContractorEncryptionKeyMedical #Frontier
   - ContractorEncryptionKeyCargo
   - ContractorEncryptionKeyEngineering
   - ContractorEncryptionKeyScience

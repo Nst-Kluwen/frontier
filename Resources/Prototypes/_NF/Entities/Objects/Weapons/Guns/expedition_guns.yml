@@ -166,12 +166,12 @@
   categories: [ HideSpawnMenu ]
   id: NFWeaponRifleRepeaterExpedition
 
-- type: entity #CorvaxFrontier
+- type: entity #Frontier
   parent:
   - BaseC3ExpeditionContraband
   - WeaponShotgunKD12
   categories: [ HideSpawnMenu ]
-  id: WeaponShotgunKD12Expedition #CorvaxFrontier
+  id: WeaponShotgunKD12Expedition #Frontier
 
 # region Tier 2
 ## Pistols
@@ -189,12 +189,12 @@
   categories: [ HideSpawnMenu ]
   id: NFWeaponPistolN1984Expedition
 
-- type: entity #CorvaxFrontier
+- type: entity #Frontier
   parent:
   - BaseC3ExpeditionContraband
   - WeaponSubMachineGunVector22
   categories: [ HideSpawnMenu ]
-  id: SubMachineGunVector22Expedition #CorvaxFrontier
+  id: SubMachineGunVector22Expedition #Frontier
 
 - type: entity
   parent:
@@ -248,12 +248,12 @@
   categories: [ HideSpawnMenu ]
   id: NFWeaponSubMachineGunC20rExpedition
 
-- type: entity #CorvaxFrontier
+- type: entity #Frontier
   parent:
   - BaseC3ExpeditionContraband
   - WeaponSubMachineP90LRK
   categories: [ HideSpawnMenu ]
-  id: WeaponSubMachineP90LRKExpedition #CorvaxFrontier
+  id: WeaponSubMachineP90LRKExpedition #Frontier
 
 ## Assault Rifles
 - type: entity

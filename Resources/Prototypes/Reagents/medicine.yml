@@ -191,10 +191,10 @@
           damage:
           # todo scale with temp like SS13
             groups:
-              Airloss: -4 # Corvax-Frontier: -6<-10
-              Brute: -2.25 # Corvax-Frontier
-              Burn: -2 # Corvax-Frontier
-              Toxin: -1 # Corvax-Frontier
+              Airloss: -4 # -Frontier: -6<-10
+              Brute: -2.25 # -Frontier
+              Burn: -2 # -Frontier
+              Toxin: -1 # -Frontier
 
 - type: reagent
   id: Doxarubixadone
@@ -828,10 +828,10 @@
       - !type:HealthChange
         damage:
           groups:
-            Burn: -3 # Corvax-Frontier
-            Toxin: -2.75 # Corvax-Frontier
-            Airloss: -3.25 # Corvax-Frontier
-            Brute: -3 # Corvax-Frontier
+            Burn: -3 # -Frontier
+            Toxin: -2.75 # -Frontier
+            Airloss: -3.25 # -Frontier
+            Brute: -3 # -Frontier
 
 - type: reagent
   id: Ultravasculine

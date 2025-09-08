@@ -1,5 +1,5 @@
 - type: entity
-  parent: [FoodEggBase, BaseC3Contraband] #Corvax-Frontier КБ
+  parent: [FoodEggBase, BaseC3Contraband] #-Frontier КБ
   id: DragonEgg
   name: dragon egg
   description: How many did you kill just to get one of these eggs.
@@ -64,7 +64,7 @@
           Quantity: 12
   - type: StaticPrice
     price: 20000
-  - type: MercenaryBountyItem # Corvax-Frontier
+  - type: MercenaryBountyItem # -Frontier
     id: DragonEgg
 
 - type: entity

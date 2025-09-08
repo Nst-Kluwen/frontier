@@ -11,7 +11,7 @@
     - Hair # Frontier
     - HeadTop # Frontier
     - Snout # Frontier
-  - type: Hunger # Corvax-Frontier
+  - type: Hunger
     starvationDamage:
       types:
         Cold: 0.15

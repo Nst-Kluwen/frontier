@@ -387,7 +387,7 @@
       - id: BeachBall
       - id: ClothingShoesSkates
       - id: RubberChicken
-      - id: HolyPlushieOrangeFox # Corvax-Frontier
+      - id: HolyPlushieOrangeFox # -Frontier
 
 - type: entity
   id: CrateFunBikeHornImplants

@@ -1,4 +1,4 @@
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   id: MagazineVector22
   name: magazine (.22 LR)
   parent: BaseItem
@@ -32,7 +32,7 @@
     zeroVisible: false
   - type: Appearance
 
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   id: MagazineVector22Empty
   parent: MagazineVector22
   suffix: Empty
@@ -46,7 +46,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   id: MagazineVector45
   name: magazine (.45 ACP)
   parent: BaseItem
@@ -80,7 +80,7 @@
     zeroVisible: false
   - type: Appearance
 
-- type: entity #FrontierCorvax
+- type: entity #Frontier
   id: MagazineVector45Empty
   parent: MagazineVector45
   suffix: Empty

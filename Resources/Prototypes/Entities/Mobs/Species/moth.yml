@@ -9,7 +9,7 @@
     species: Moth
     hideLayersOnEquip:
     - HeadTop
-  - type: Hunger # Corvax-Frontier
+  - type: Hunger # -Frontier
     starvationDamage:
       types:
         Cold: 0.15

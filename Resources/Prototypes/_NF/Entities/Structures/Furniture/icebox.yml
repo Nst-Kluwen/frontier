@@ -22,7 +22,7 @@
       reagents:
       - ReagentId: Ice
         Quantity: 1
-  - type: Drink #CorvaxFrontier
+  - type: Drink #Frontier
     delay: 4
     solution: tank
 
@@ -40,6 +40,6 @@
         reagents:
         - ReagentId: Ice
           Quantity: 500
-  - type: Drink #CorvaxFrontier
+  - type: Drink #Frontier
     delay: 4
     solution: tank

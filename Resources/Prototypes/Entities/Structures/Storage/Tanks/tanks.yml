@@ -100,7 +100,7 @@
     fillBaseName: watertank-2-
   - type: ExaminableSolution
     solution: tank
-  - type: Drink #CorvaxFrontier
+  - type: Drink #Frontier
     delay: 8
     solution: tank
 
@@ -115,7 +115,7 @@
         reagents:
         - ReagentId: Water
           Quantity: 1500
-  - type: Drink #CorvaxFrontier
+  - type: Drink #Frontier
     delay: 8
     solution: tank
 
@@ -167,7 +167,7 @@
     solution: tank
   - type: StaticPrice
     price: 500
-  - type: Drink #CorvaxFrontier
+  - type: Drink #Frontier
     delay: 8
     solution: tank
 

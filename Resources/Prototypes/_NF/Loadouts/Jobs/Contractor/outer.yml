@@ -858,7 +858,7 @@
 
 - type: loadout
   id: ContractorClothingOuterCoatBomberRandomized
-  name: панковская куртка (случайно) #Corvax-Frontier
+  name: панковская куртка (случайно) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2

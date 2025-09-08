@@ -186,7 +186,7 @@
   result: MaterialBananium
   completetime: 2
   materials:
-    RawBananium: 1000 #Corvax-Frontier
+    RawBananium: 1000 #-Frontier
 
 - type: latheRecipe
   id: MaterialDiamond

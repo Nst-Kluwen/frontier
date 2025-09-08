@@ -7,7 +7,7 @@
   components:
   - type: HumanoidAppearance
     species: Diona
-  - type: Hunger # Corvax-Frontier
+  - type: Hunger # -Frontier
     starvationDamage:
       types:
         Cold: 0.15

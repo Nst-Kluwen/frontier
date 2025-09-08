@@ -24,7 +24,7 @@
     trackOnInit: true
     doNotCull: true
   - type: ProtectedGrid
-    noGridCollision: true #CorvaxFrontier
+    noGridCollision: true #Frontier
 
 - type: gameMap
   id: Edison

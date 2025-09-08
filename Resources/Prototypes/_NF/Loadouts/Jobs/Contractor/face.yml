@@ -35,7 +35,7 @@
 
 - type: loadout
   id: ContractorClothingMaskPunkHalf
-  name: маска панка (случайно) #Corvax-Frontier
+  name: маска панка (случайно) #-Frontier
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1

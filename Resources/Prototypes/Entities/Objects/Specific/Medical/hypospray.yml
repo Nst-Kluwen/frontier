@@ -702,7 +702,7 @@
     - id: Hypopen
     sound:
       path: /Audio/Effects/unwrap.ogg
-  - type: StaticPrice #CorvaxFrontier
+  - type: StaticPrice #Frontier
     price: 500
 
 - type: entity

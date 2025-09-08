@@ -110,7 +110,7 @@
     sprite: _NF/Structures/Machines/VendingMachines/expeditionaryflatpackvend.rsi
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, StorePresetUplink, VendingMachine, BaseC3Contraband] #Corvax-Frontier КБ
+  parent: [BaseStructureDisableAnchoring, StorePresetUplink, VendingMachine, BaseC3Contraband] #-Frontier КБ
   id: VendingMachineSyndieContraband
   name: ContraVend
   description: Wanted across multiple sectors!
@@ -150,12 +150,12 @@
     key: enum.StoreUiKey.Key
   - type: Store
     balance:
-      Telecrystal: 20 #CorvaxFrontier
+      Telecrystal: 20 #Frontier
   - type: AccessReader
     access: [["NuclearOperative"], ["SyndicateAgent"]]
 
 - type: entity
-  parent: [ VendingMachine, BaseC1Contraband ] #Corvax-Frontier КБ
+  parent: [ VendingMachine, BaseC1Contraband ] #-Frontier КБ
   id: VendingMachineBountyVend
   name: BountyVend
   description: Essential gear for the bounty hunter on the go.
@@ -380,7 +380,7 @@
     color: "#EEEEFF"
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [BaseStructureDisableAnchoring, VendingMachine, BaseC2ContrabandUnredeemable] #-Frontier КБ
   id: VendingMachineNfsdDrobe
   name: NFSDDrobe
   description: A vending machine for NFSD and NFSD clothing!
@@ -480,7 +480,7 @@
 # Punk stuff
 - type: entity
   parent:
-  - BaseC1Contraband #Corvax-Frontier КБ
+  - BaseC1Contraband #-Frontier КБ
   - VendingMachine
   - PunkHoloGraffitiOverlay # Prototype can be located at \Resources\Prototypes\_NF\Entities\Structures\Holographic\graffiti.yml
   id: VendingMachineClothingPunk
@@ -622,9 +622,9 @@
   id: VendingMachineCiviMedPlus
   name: CiviMed Plus
   description: CiviMed Plus, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
-  components:  #CorvaxFrontier
-  - type: MarketModifier  #CorvaxFrontier
-    mod: 40  #CorvaxFrontier
+  components:  #Frontier
+  - type: MarketModifier  #Frontier
+    mod: 40  #Frontier
 
 - type: entity
   parent: [BaseCiviMedVend, BaseStructureDisableAnchoring, BaseStructureIndestructible, VendingMachineWallmount]
