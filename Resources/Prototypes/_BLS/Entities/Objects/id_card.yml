@@ -1,0 +1,12 @@
+- type: entity
+  parent: DeputyIDCard
+  id: PatrolIDCard
+  name: NFSD patrol ID card
+  components:
+  - type: PresetIdCard
+    job: Patrol
+  - type: Sprite
+    sprite: _BLS/Entities/Objects/id_cards.rsi
+    layers:
+    - state: nfsd
+    - state: idnfsdpatrol

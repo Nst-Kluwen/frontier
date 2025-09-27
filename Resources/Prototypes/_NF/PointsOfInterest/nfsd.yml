@@ -51,6 +51,7 @@
             Brigmedic: [ 1, 1 ]
             NFDetective: [ 1, 1 ]
             Deputy: [ 3, 3 ]
+            Patrol: [ 3, 3 ] #Bluespace
             Cadet: [ 1, 1 ]
             # Others:
             PublicAffairsLiaison: [ 1, 1 ]

@@ -130,6 +130,7 @@
   - Sheriff # Frontier
   - SeniorOfficer # Frontier
   - PublicAffairsLiaison # Frontier
+  - Patrol #Bluespace
 
 - type: department
   id: Science
