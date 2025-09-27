@@ -176,7 +176,7 @@
   - type: SpawnPoint
     job_id: SeniorOfficer
 
-- type: entity
+- type: entity #Bluespace
   id: SpawnPointPatrol
   parent: SpawnPointDeputy
   name: patrol
