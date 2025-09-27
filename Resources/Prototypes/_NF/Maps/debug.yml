@@ -27,6 +27,7 @@
             Brigmedic: [ -1, -1]
             NFDetective: [ -1, -1]
             Deputy: [ -1, -1]
+            Patrol: [ -1, -1] #Bluespace
             Cadet: [ -1, -1]
             PublicAffairsLiaison: [ -1, -1]
             NFPirateCaptain: [ -1, -1]
