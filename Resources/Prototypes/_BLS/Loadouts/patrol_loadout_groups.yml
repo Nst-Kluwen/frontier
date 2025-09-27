@@ -1,6 +1,6 @@
 - type: loadoutGroup
   id: PatrolPDA
-  name: loadout-group-patrol-pda #kluwen
+  name: loadout-group-patrol-pda
   hidden: true # No point in showing this, it gets auto-selected.
   loadouts:
   - PatrolPDA

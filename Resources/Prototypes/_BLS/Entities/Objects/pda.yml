@@ -1,8 +1,8 @@
 - type: entity
   parent: DeputyPDA
   id: PatrolPDA
-  name: patrol PDA #kluwen
-  description: On perimeter security. #kluwen
+  name: patrol PDA
+  description: On perimeter security. 
   components:
   - type: Pda
     id: PatrolIDCard
