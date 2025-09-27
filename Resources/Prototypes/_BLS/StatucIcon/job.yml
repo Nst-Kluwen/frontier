@@ -1,0 +1,7 @@
+- type: jobIcon
+  parent: JobIconDeputy
+  id: JobIconPatrol
+  icon:
+    sprite: /Textures/_BLS/Misc/job_icons.rsi
+    state: nfsdpatrol
+  jobName: job-name-patrol
