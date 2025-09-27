@@ -1,0 +1,24 @@
+- type: roleLoadout
+  id: JobPatrol
+  groups:
+  - DeputyHead
+  - DeputyNeck
+  - DeputyJumpsuit
+  - NfsdGlovesBrown
+  - NfsdBackpackBrown
+  - DeputyOuterClothing
+  - NfsdForcedOuterClothing
+  - NfsdShoesBrown
+  - NfsdFace
+  - NfsdGlasses
+  - NfsdBelt
+  - NfsdEarsBrown
+  - NfsdBoxSurvival
+  - PatrolPDA
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NfsdSpeciesSpecific

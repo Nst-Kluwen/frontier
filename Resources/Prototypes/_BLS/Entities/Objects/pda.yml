@@ -1,0 +1,25 @@
+- type: entity
+  parent: DeputyPDA
+  id: PatrolPDA
+  name: patrol PDA #kluwen
+  description: On perimeter security. #kluwen
+  components:
+  - type: Pda
+    id: PatrolIDCard
+    bookSlot: # Frontier
+      startingItem: HyperlinkBookNfsdSop
+      priority: -2
+      whitelist:
+        tags:
+        - BookSpaceLaw
+        - BookNfsdSop
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-deputy
+  - type: PdaBorderColor
+    borderColor: "#FFFDD0"
+    accentHColor: "#896b49"
+  - type: Icon
+    state: pda-deputy

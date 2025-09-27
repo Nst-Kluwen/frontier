@@ -1,7 +1,7 @@
 - type: job
   id: Patrol
-  name: job-name-patrol
-  description: job-description-patrol
+  name: job-name-patrol #kluwen
+  description: job-description-patrol #kluwen
   playTimeTracker: JobPatrol
   requirements:
     - !type:OverallPlaytimeRequirement
