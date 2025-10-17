@@ -70,8 +70,11 @@ public sealed partial class NFCargoSystem : SharedNFCargoSystem
         InitializeTelepad();
         InitializePirateBounty();
         InitializeTradeCrates();
+<<<<<<< HEAD
         InitializeMercenaryBounty(); // Forge-Change
 	    InitializeMinersBounty(); //Forge-Change
+=======
+>>>>>>> upstream/master
     }
 
     public override void Update(float frameTime)

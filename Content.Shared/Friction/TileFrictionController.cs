@@ -51,6 +51,7 @@ namespace Content.Shared.Friction
             _gridQuery = GetEntityQuery<MapGridComponent>();
         }
 
+<<<<<<< HEAD
         public override void UpdateBeforeSolve(bool prediction, float frameTime) // Forge-Change
         {
             base.UpdateBeforeSolve(prediction, frameTime); // Forge-Change
@@ -59,6 +60,16 @@ namespace Content.Shared.Friction
             {
                 var uid = ent.Owner; // Forge-Change
                 var body = ent.Comp1; // Forge-Change
+=======
+        public override void UpdateBeforeSolve(bool prediction, float frameTime)
+        {
+            base.UpdateBeforeSolve(prediction, frameTime);
+
+            foreach (var ent in PhysicsSystem.AwakeBodies)
+            {
+                var uid = ent.Owner;
+                var body = ent.Comp1;
+>>>>>>> upstream/master
 
                 // Only apply friction when it's not a mob (or the mob doesn't have control)
                 // We may want to instead only apply friction to dynamic entities and not mobs ever.
@@ -68,7 +79,11 @@ namespace Content.Shared.Friction
                 if (body.LinearVelocity.Equals(Vector2.Zero) && body.AngularVelocity.Equals(0f))
                     continue;
 
+<<<<<<< HEAD
                 var xform = ent.Comp2; // Forge-Change
+=======
+                var xform = ent.Comp2;
+>>>>>>> upstream/master
                 float friction;
 
                 // If we're not touching the ground, don't use tileFriction.
@@ -114,11 +129,19 @@ namespace Content.Shared.Friction
                 // You may think you can just pass the body.LinearVelocity to the Friction function and edit it there!
                 // But doing so is unpredicted! And you will doom yourself to 1000 years of rubber banding!
                 var velocity = body.LinearVelocity;
+<<<<<<< HEAD
                 var angVelocity = body.AngularVelocity; // Forge-Change
                 _mover.Friction(0f, frameTime, friction, ref velocity);
                 _mover.Friction(0f, frameTime, friction, ref angVelocity); // Forge-Change
                 PhysicsSystem.SetLinearVelocity(uid, velocity, body: body);
                 PhysicsSystem.SetAngularVelocity(uid, angVelocity, body: body); // Forge-Change
+=======
+                var angVelocity = body.AngularVelocity;
+                _mover.Friction(0f, frameTime, friction, ref velocity);
+                _mover.Friction(0f, frameTime, friction, ref angVelocity);
+                PhysicsSystem.SetLinearVelocity(uid, velocity, body: body);
+                PhysicsSystem.SetAngularVelocity(uid, angVelocity, body: body);
+>>>>>>> upstream/master
             }
         }
 

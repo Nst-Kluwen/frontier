@@ -231,7 +231,11 @@ public sealed partial class ResearchesContainerPanel : LayoutContainer
         }
         else
         {
+<<<<<<< HEAD
             // Vertical-dominant: go vertical first, then horizontal
+=======
+            // Vertical-dominant: go vertical first, then horizontal  
+>>>>>>> upstream/master
             var verticalDistance = delta.Y * 0.7f; // Don't go all the way
             intermediatePoint = new Vector2(start.X, start.Y + verticalDistance);
         }

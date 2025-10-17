@@ -32,8 +32,14 @@
 - type: latheRecipe
   id: SmeltScrapTech
   result: SpawnRandomScrapTech
+<<<<<<< HEAD
   parent: BaseMaterialsNoDiscountRecipe
   completetime: 2 # similar to ore processor rates
+=======
+  completetime: 2 # similar to ore processor rates
+  categories:
+  - Materials
+>>>>>>> upstream/master
   icon:
     sprite: _NF/Structures/Machines/scrap_processor.rsi
     state: boards_blueprints

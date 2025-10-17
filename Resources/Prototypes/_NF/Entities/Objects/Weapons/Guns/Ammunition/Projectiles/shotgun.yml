@@ -106,7 +106,11 @@
   components:
   - type: ProjectileSpread
     count: 7 # eight(?) total, includes the spread as a bullet
+<<<<<<< HEAD
     spread: 10
+=======
+    spread: 7.5
+>>>>>>> upstream/master
 
 - type: entity
   categories: [ HideSpawnMenu ]

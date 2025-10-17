@@ -2,6 +2,7 @@
 # GitHub: ThatOneGoblin25 (https://github.com/ThatOneGoblin25)
 # Discord: ???
 
+<<<<<<< HEAD
 # Maintainer Info
 # GitHub: ???
 # Discord: ???
@@ -42,3 +43,42 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+# Engineering & Medical ship.
+- type: vessel
+  id: Eagle
+  parent: BaseVessel
+  name: NM Eagle
+  description: "A modern, medium-sized engineering & medical vessel. Focused on responding to shuttle distress, the Eagle comes equipped to restore most crew and shuttles to good health."
+  price: 62500 # 52038 0.2 62445.6
+  category: Medium
+  group: Medical
+  shuttlePath: /Maps/_NF/Shuttles/eagle.yml
+  guidebookPage: ShipyardEagle
+  class:
+  - Medical
+  - Engineering
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Eagle
+  mapName: 'NM Eagle'
+  mapPath: /Maps/_NF/Shuttles/eagle.yml
+  minPlayers: 0
+  stations:
+    Eagle:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Eagle {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

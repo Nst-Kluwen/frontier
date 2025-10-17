@@ -6,7 +6,11 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200
+<<<<<<< HEAD
   icon: "JobIconPilot" 
+=======
+  icon: "JobIconPilot"
+>>>>>>> upstream/master
   supervisors: job-supervisors-hire
   weight: 2 # Prioritize station & department jobs
   displayWeight: 30 # Second from the top
@@ -33,9 +37,25 @@
   accessGroups:
   - GeneralAccess
   jobEntity: InterviewHologramPilot
+<<<<<<< HEAD
+=======
+  newPlayerMessage: false
+>>>>>>> upstream/master
 
 - type: startingGear
   id: PilotHologramGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPilot
     shoes: ClothingShoesBootsPilot
+<<<<<<< HEAD
+=======
+
+- type: chameleonOutfit
+  id: PilotChameleonOutfit
+  job: Pilot
+  equipment:
+    head: ClothingHeadHatPilot
+    mask: ClothingMaskPilot
+    outerClothing: ClothingOuterCoatBomber
+    gloves: ClothingHandsGlovesPilot
+>>>>>>> upstream/master

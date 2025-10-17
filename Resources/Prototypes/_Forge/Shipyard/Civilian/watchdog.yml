@@ -12,9 +12,15 @@
 - type: vessel
   id: Watchdog
   parent: BaseVessel
+<<<<<<< HEAD:Resources/Prototypes/_Forge/Shipyard/Civilian/watchdog.yml
   name: SBI Сторожевой пёс
   description: Обновленная и перекрашенная старая модель "Тамплиера" NSF, предназначенная для использования наемниками и "перепрофилированная" для станционной охраны
   price: 20000
+=======
+  name: SBI Watchdog
+  description: "A refurbished and repainted older model of the NSF Templar for use for Mercenaries and 'repurposed' for the Station Guard, mind the gap."
+  price: 20000 #13779 0.05 14467.95 leaving this one up researched
+>>>>>>> upstream/master:Resources/Prototypes/_NF/Shipyard/Sr/watchdog.yml
   category: Small
   group: Sr
   access: Brig # Oddball, matches guard ID, specific enough to exclude cadets

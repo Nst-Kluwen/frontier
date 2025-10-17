@@ -641,6 +641,14 @@
       targets:
         - Lattice
         - Plating
+<<<<<<< HEAD
+=======
+        # Frontier : Allow catwalks on top of lava, plasma and water
+        - FloorBasalt
+        - FloorSnow
+        - FloorPlanetDirt
+        # End Frontier
+>>>>>>> upstream/master
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1251,5 +1259,20 @@
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
+<<<<<<< HEAD
+=======
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: FungalSoil
+  graph: Soil
+  startNode: start
+  targetNode: fungalSoil
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+>>>>>>> upstream/master
   conditions:
     - !type:TileNotBlocked

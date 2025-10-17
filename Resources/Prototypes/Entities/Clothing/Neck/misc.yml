@@ -8,20 +8,20 @@
     sprite: Clothing/Neck/Misc/headphones.rsi
     layers:
     - state: icon
-      map: [ "enum.ToggleVisuals.Layer" ]
+      map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
     equippedPrefix: off
     sprite: Clothing/Neck/Misc/headphones.rsi
-  - type: ToggleableLightVisuals
-    spriteLayer: enum.ToggleVisuals.Layer
+  - type: ToggleableVisuals
+    spriteLayer: enum.ToggleableVisuals.Layer
     clothingVisuals:
       neck:
       - state: on-equipped-NECK
   - type: Appearance
   - type: GenericVisualizer
     visuals:
-      enum.ToggleVisuals.Toggled:
-        enum.ToggleVisuals.Layer:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
           True: {state: icon-on}
           False: {state: icon}
   - type: ItemToggle
@@ -50,6 +50,7 @@
   - type: Stethoscope
 
 - type: entity
+<<<<<<< HEAD
   id: ActionStethoscope
   name: Listen with stethoscope
   components:
@@ -61,6 +62,22 @@
     checkCanInteract: false
     priority: -1
     itemIconStyle: BigAction
+=======
+  parent: BaseAction
+  id: ActionStethoscope
+  name: Listen with stethoscope
+  components:
+  - type: Action
+    icon:
+      sprite: Clothing/Neck/Misc/stethoscope.rsi
+      state: icon
+    priority: -1
+    itemIconStyle: BigAction
+    checkCanInteract: false
+  - type: TargetAction
+  - type: EntityTargetAction
+    event: !type:StethoscopeActionEvent
+>>>>>>> upstream/master
 
 - type: entity
   parent: ClothingNeckBase
@@ -74,6 +91,7 @@
     sprite: Clothing/Neck/Misc/bling.rsi
   - type: Item
     sprite: Clothing/Neck/Misc/bling.rsi
+  - type: NFTreasure # Frontier
 
 - type: entity
   parent: ClothingNeckBase

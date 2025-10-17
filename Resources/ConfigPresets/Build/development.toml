@@ -44,6 +44,10 @@ see_own_notes = true
 [ic]
 random_characters = false # Frontier true<false
 random_species_weights = ""
+<<<<<<< HEAD
+=======
+ssd_sleep_time = 3600
+>>>>>>> upstream/master
 
 # Frontier: expedition params
 [nf14.salvage]

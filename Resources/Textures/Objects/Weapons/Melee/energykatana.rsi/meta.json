@@ -25,10 +25,13 @@
         {
             "name": "equipped-BELT",
             "directions": 4
+<<<<<<< HEAD
         },
         {
             "name": "equipped-SUITSTORAGE",
             "directions": 4
+=======
+>>>>>>> upstream/master
         }
     ]
 }

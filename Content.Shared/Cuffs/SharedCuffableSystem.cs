@@ -41,7 +41,6 @@ namespace Content.Shared.Cuffs
     // TODO remove all the IsServer() checks.
     public abstract partial class SharedCuffableSystem : EntitySystem
     {
-        [Dependency] private readonly IComponentFactory _componentFactory = default!;
         [Dependency] private readonly INetManager _net = default!;
         [Dependency] private readonly ISharedAdminLogManager _adminLog = default!;
         [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
@@ -57,8 +56,11 @@ namespace Content.Shared.Cuffs
         [Dependency] private readonly SharedTransformSystem _transform = default!;
         [Dependency] private readonly UseDelaySystem _delay = default!;
         [Dependency] private readonly SharedCombatModeSystem _combatMode = default!;
+<<<<<<< HEAD
 
         private EntityQuery<HandcuffComponent> _cuffQuery; // Forge-Change
+=======
+>>>>>>> upstream/master
 
         public override void Initialize()
         {
@@ -155,7 +157,7 @@ namespace Content.Shared.Cuffs
 
         private void OnStartup(EntityUid uid, CuffableComponent component, ComponentInit args)
         {
-            component.Container = _container.EnsureContainer<Container>(uid, _componentFactory.GetComponentName(component.GetType()));
+            component.Container = _container.EnsureContainer<Container>(uid, Factory.GetComponentName(component.GetType()));
         }
 
         private void OnRejuvenate(EntityUid uid, CuffableComponent component, RejuvenateEvent args)
@@ -807,9 +809,12 @@ namespace Content.Shared.Cuffs
                 shoved = true;
             }
 
+<<<<<<< HEAD
             if (!MathHelper.CloseTo(cuff.MovementMod, 1f)) // Forge-Change
                 _move.RefreshMovementSpeedModifiers(target); // Forge-Change
 
+=======
+>>>>>>> upstream/master
             if (cuffable.CuffedHandCount == 0)
             {
                 if (user != null)

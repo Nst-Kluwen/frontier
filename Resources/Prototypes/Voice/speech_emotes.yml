@@ -7,9 +7,12 @@
   whitelist:
     components:
     - Vocal
+<<<<<<< HEAD
   blacklist:
     tags:
     - SiliconEmotes
+=======
+>>>>>>> upstream/master
   chatMessages: ["chat-emote-msg-scream"]
   chatTriggers:
     - scream

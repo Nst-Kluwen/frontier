@@ -23,6 +23,7 @@ public sealed class RandomArtifactSpriteSystem : VisualizerSystem<RandomArtifact
         var spritePrefix = isUnlocking ? "_on" : "";
 
         // layered artifact sprite
+<<<<<<< HEAD
         if (args.Sprite.LayerMapTryGet(ArtifactsVisualLayers.UnlockingEffect, out var layer))
         {
             var spriteState = "ano" + spriteIndexStr;
@@ -34,13 +35,26 @@ public sealed class RandomArtifactSpriteSystem : VisualizerSystem<RandomArtifact
             {
                 args.Sprite.LayerSetState(activationEffectLayer, "artifact-activation");
                 args.Sprite.LayerSetVisible(activationEffectLayer, isActivated);
+=======
+        if (SpriteSystem.LayerMapTryGet((uid, args.Sprite), ArtifactsVisualLayers.UnlockingEffect, out var layer, false))
+        {
+            var spriteState = "ano" + spriteIndexStr;
+            SpriteSystem.LayerSetRsiState((uid, args.Sprite), ArtifactsVisualLayers.Base, spriteState);
+            SpriteSystem.LayerSetRsiState((uid, args.Sprite), layer, spriteState + "_on");
+            SpriteSystem.LayerSetVisible((uid, args.Sprite), layer, isUnlocking);
+
+            if (SpriteSystem.LayerMapTryGet((uid, args.Sprite), ArtifactsVisualLayers.ActivationEffect, out var activationEffectLayer, false))
+            {
+                SpriteSystem.LayerSetRsiState((uid, args.Sprite), activationEffectLayer, "artifact-activation");
+                SpriteSystem.LayerSetVisible((uid, args.Sprite), activationEffectLayer, isActivated);
+>>>>>>> upstream/master
             }
         }
         // non-layered
         else
         {
             var spriteState = "ano" + spriteIndexStr + spritePrefix;
-            args.Sprite.LayerSetState(ArtifactsVisualLayers.Base, spriteState);
+            SpriteSystem.LayerSetRsiState((uid, args.Sprite), ArtifactsVisualLayers.Base, spriteState);
         }
     }
 }

@@ -1,7 +1,12 @@
 - type: entity
   abstract: true
+<<<<<<< HEAD
   id: GasPipeSansLayers
   parent: [RecyclableItemSteelSmall, BaseItem] # Frontier: add RecyclableItemSteelSmall
+=======
+  parent: [RecyclableItemSteelSmall, BaseItem] # Frontier: add RecyclableItemSteelSmall
+  id: GasPipeSansLayers
+>>>>>>> upstream/master
   name: gas pipe
   description: Holds gas.
   placement:

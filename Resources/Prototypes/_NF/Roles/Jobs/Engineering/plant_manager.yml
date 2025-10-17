@@ -20,6 +20,12 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, TrackingImplant ]
+<<<<<<< HEAD
+=======
+  - !type:AddComponentSpecial
+    components:
+      - type: PreventShipyardTitleOverwrite
+>>>>>>> upstream/master
   - !type:GiveItemOnHolidaySpecial
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
@@ -33,3 +39,18 @@
     back:
     - RubberStampPlantManager
     - HandheldSecurityMonitor
+<<<<<<< HEAD
+=======
+
+- type: chameleonOutfit
+  id: PlantManagerChameleonOutfit
+  job: PlantManager
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+    mask: ClothingMaskBreath
+    neck: ClothingNeckCloakCe
+    outerClothing: ClothingOuterWinterCE
+    gloves: ClothingHandsGlovesColorYellow
+    shoes: ClothingShoesBootsMagAdv
+>>>>>>> upstream/master

@@ -2,7 +2,6 @@ using Content.Shared.Access.Systems;
 using Content.Shared.PDA;
 using Content.Shared.Roles;
 using Content.Shared.StatusIcon;
-using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 
@@ -65,6 +64,7 @@ public sealed partial class IdCardComponent : Component
 
     [DataField]
     public bool CanMicrowave = true;
+<<<<<<< HEAD
 
     // Frontier: sounds for shipyard RCD, etc.
     [DataField]
@@ -79,4 +79,6 @@ public sealed partial class IdCardComponent : Component
     public SoundSpecifier InsertSound =
         new SoundPathSpecifier("/Audio/Machines/id_insert.ogg");
     // End Frontier
+=======
+>>>>>>> upstream/master
 }

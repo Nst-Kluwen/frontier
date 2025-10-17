@@ -13,6 +13,7 @@
   # engine:
   # - Plasma
 
+<<<<<<< HEAD
 # - type: gameMap
   # id: Tide
   # mapName: 'SV Tide'
@@ -32,3 +33,24 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+- type: gameMap
+  id: Tide
+  mapName: 'SV Tide'
+  mapPath: /Maps/_NF/Shuttles/Scrap/tide.yml
+  minPlayers: 0
+  stations:
+    Tide:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Tide {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

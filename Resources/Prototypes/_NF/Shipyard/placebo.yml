@@ -6,6 +6,7 @@
 # GitHub: ???
 # Discord: ???
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+# 
+- type: vessel
+  id: Placebo
+  parent: BaseVessel
+  name: NC Placebo
+  description: A small psychology vessel. Named after the famous Placebo effect.
+  price: 18500 # 16100 0.05 16905
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/placebo.yml
+  guidebookPage: ShipyardPlacebo
+  class:
+  - Medical
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Placebo
+  mapName: 'NC Placebo'
+  mapPath: /Maps/_NF/Shuttles/placebo.yml
+  minPlayers: 0
+  stations:
+    Placebo:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Placebo {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

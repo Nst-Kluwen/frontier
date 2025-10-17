@@ -131,7 +131,11 @@
   - type: Sprite
     layers:
     - state: blue
+<<<<<<< HEAD
     - state: voucherstationguard
+=======
+    - state: voucherstationtrafficcontroller
+>>>>>>> upstream/master
   - type: ShipyardVoucher
     access:
     - StationTrafficController

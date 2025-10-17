@@ -10,8 +10,13 @@
     node: airlock
     containers:
     - board
+<<<<<<< HEAD
   - type: Paintable # Upstream#37341
     group: null # Upstream#37341
+=======
+  - type: Paintable
+    group: null
+>>>>>>> upstream/master
 
 - type: entity
   parent: AirlockGlass
@@ -27,5 +32,10 @@
     - board
   # - type: StaticPrice # Frontier - TODO: material value rework
   #   price: 165 # Frontier
+<<<<<<< HEAD
   - type: Paintable # Upstream#37341
     group: null # Upstream#37341
+=======
+  - type: Paintable
+    group: null
+>>>>>>> upstream/master

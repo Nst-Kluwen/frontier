@@ -1,10 +1,12 @@
-using Content.Server._NF.Shuttles.Components; // Frontier
 using Content.Server.Administration.Logs;
 using Content.Server.Body.Systems;
 using Content.Server.Buckle.Systems;
+<<<<<<< HEAD
 using Content.Server.Doors.Systems;
 using Content.Server.Explosion.EntitySystems; //Forge-Change
 using Content.Server.GameTicking;
+=======
+>>>>>>> upstream/master
 using Content.Server.Parallax;
 using Content.Server.Procedural;
 using Content.Server.Popups; // Forge-Change
@@ -14,9 +16,13 @@ using Content.Server.Station.Systems;
 using Content.Server.Stunnable;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Damage;
+<<<<<<< HEAD
 using Content.Shared.GameTicking;
 using Content.Shared.Inventory;
 using Content.Shared.Mobs.Systems;
+=======
+using Content.Shared.Light.Components;
+>>>>>>> upstream/master
 using Content.Shared.Movement.Events;
 using Content.Shared.Salvage;
 using Content.Shared.Shuttles.Systems;
@@ -24,7 +30,6 @@ using Content.Shared.Throwing;
 using JetBrains.Annotations;
 using Robust.Server.GameObjects;
 using Robust.Server.GameStates;
-using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.EntitySerialization.Systems;
@@ -36,7 +41,12 @@ using Robust.Shared.Physics.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
+<<<<<<< HEAD
 using System.Numerics;
+=======
+using Content.Server._NF.Shuttles.Components; // Frontier
+using Content.Server.GameTicking; // Frontier
+>>>>>>> upstream/master
 
 namespace Content.Server.Shuttles.Systems;
 
@@ -44,7 +54,6 @@ namespace Content.Server.Shuttles.Systems;
 public sealed partial class ShuttleSystem : SharedShuttleSystem
 {
     [Dependency] private readonly IAdminLogManager _logger = default!;
-    [Dependency] private readonly IComponentFactory _factory = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
@@ -54,7 +63,10 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
     [Dependency] private readonly PopupSystem _popup = default!; // Forge-Change
     [Dependency] private readonly BiomeSystem _biomes = default!;
     [Dependency] private readonly BodySystem _bobby = default!;
+<<<<<<< HEAD
     [Dependency] private readonly ExplosionSystem _explosion = default!; //Forge-Change
+=======
+>>>>>>> upstream/master
     [Dependency] private readonly BuckleSystem _buckle = default!;
     [Dependency] private readonly DamageableSystem _damageSys = default!;
     [Dependency] private readonly DockingSystem _dockSystem = default!;
@@ -76,16 +88,22 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
     [Dependency] private readonly ThrowingSystem _throwing = default!;
     [Dependency] private readonly ThrusterSystem _thruster = default!;
     [Dependency] private readonly UserInterfaceSystem _uiSystem = default!;
-    [Dependency] private readonly GameTicker _ticker = default!; //frontier edit to get the main map in FTL
+    [Dependency] private readonly GameTicker _ticker = default!; //Frontier: needed to get the main map in FTL
 
+<<<<<<< HEAD
     public const float TileDensityMultiplier = 0.5f; // Forge-Change
 
+=======
+>>>>>>> upstream/master
     private EntityQuery<BuckleComponent> _buckleQuery;
     private EntityQuery<MapGridComponent> _gridQuery;
     private EntityQuery<PhysicsComponent> _physicsQuery;
     private EntityQuery<TransformComponent> _xformQuery;
+<<<<<<< HEAD
 
     public const float TileMassMultiplier = 0.5f;
+=======
+>>>>>>> upstream/master
 
     public override void Initialize()
     {
@@ -108,10 +126,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
         SubscribeLocalEvent<ShuttleComponent, FTLCompletedEvent>(OnFTLCompleted);
 
         SubscribeLocalEvent<GridInitializeEvent>(OnGridInit);
-        SubscribeLocalEvent<FixturesComponent, GridFixtureChangeEvent>(OnGridFixtureChange);
-
-        NfInitialize(); // Frontier Initialization for the ShuttleSystem
-
+        NfInitialize(); // Frontier
     }
 
     public override void Update(float frameTime)
@@ -121,6 +136,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
         UpdateIFF(frameTime); // Forge-Change
     }
 
+<<<<<<< HEAD
     private void OnGridFixtureChange(EntityUid uid, FixturesComponent manager, GridFixtureChangeEvent args)
     {
         foreach (var fixture in args.NewFixtures)
@@ -130,12 +146,15 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
         }
     }
 
+=======
+>>>>>>> upstream/master
     private void OnGridInit(GridInitializeEvent ev)
     {
         if (HasComp<MapComponent>(ev.EntityUid))
             return;
 
-        EntityManager.EnsureComponent<ShuttleComponent>(ev.EntityUid);
+        EnsureComp<ShuttleComponent>(ev.EntityUid);
+        EnsureComp<ImplicitRoofComponent>(ev.EntityUid);
     }
 
     private void OnShuttleStartup(EntityUid uid, ShuttleComponent component, ComponentStartup args)

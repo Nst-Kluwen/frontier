@@ -11,9 +11,12 @@ namespace Content.Shared.Construction.Steps
         [DataField] public LocId Name { get; private set; } = string.Empty;
 
         [DataField] public SpriteSpecifier? Icon { get; private set; }
+<<<<<<< HEAD
 
         [DataField("tag", customTypeSerializer: typeof(PrototypeIdSerializer<TagPrototype>))] //Corvax-Frontier
         public string? Tag { get; private set; } //Corvax-Frontier
+=======
+>>>>>>> upstream/master
 
         public override void DoExamine(ExaminedEvent examinedEvent)
         {

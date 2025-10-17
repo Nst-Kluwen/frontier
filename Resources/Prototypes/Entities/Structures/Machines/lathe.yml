@@ -242,6 +242,10 @@
     whitelist:
       tags:
       - NFBlueprintProtolathe
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced
+>>>>>>> upstream/master
   - type: ContainerContainer
     containers:
       machine_board: !type:Container
@@ -462,7 +466,11 @@
 
 - type: entity
   id: AmmoTechFab
+<<<<<<< HEAD
   parent: [NFBlueprintReceiverBase, BaseLatheLube, BaseC1Contraband] # Frontier: added NFBlueprintReceiverBase # Forge-Change
+=======
+  parent: [NFBlueprintReceiverBase, BaseLatheLube] # Frontier: added NFBlueprintReceiverBase
+>>>>>>> upstream/master
   name: ammo techfab
   description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
   components:
@@ -498,6 +506,10 @@
       whitelist: # Frontier
         tags: # Frontier
         - NFBlueprintMercenaryTechfab # Frontier
+<<<<<<< HEAD
+=======
+        - NFBlueprintAdvanced # Frontier
+>>>>>>> upstream/master
 
 - type: entity
   id: MedicalTechFab
@@ -531,6 +543,11 @@
     - EmptyMedkitsStatic
     - SurgeryStatic
     - NFMedicalStatic # Frontier
+<<<<<<< HEAD
+=======
+    - LightsStatic # Frontier
+    - NFLights # Frontier
+>>>>>>> upstream/master
     # dynamicPacks: # Frontier
     # - Chemistry # Frontier
   - type: Machine
@@ -544,6 +561,10 @@
     whitelist: # Frontier
       tags: # Frontier
       - NFBlueprintMedicalTechfab # Frontier
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced # Frontier
+>>>>>>> upstream/master
 
 - type: entity
   parent: BaseLathe
@@ -597,7 +618,11 @@
         - Sheet
         - RawMaterial
         - Ingot
+<<<<<<< HEAD
   - type: OreSiloClient # Frontier
+=======
+  - type: OreSiloClient
+>>>>>>> upstream/master
 
 - type: entity
   id: Biogenerator
@@ -805,4 +830,8 @@
         - RawMaterial
         - Plastic
         - Ingot # Frontier
+<<<<<<< HEAD
   - type: OreSiloClient # Frontier
+=======
+  - type: OreSiloClient
+>>>>>>> upstream/master

@@ -127,9 +127,14 @@
   - type: SolutionContainerVisuals
     fillBaseName: syndie-
   - type: Slippery
+<<<<<<< HEAD
     staminaDamage: 50 # Forge-Change
     slipData:
       knockdownTime: 3 # Forge-Change
+=======
+    slipData:
+      paralyzeTime: 3
+>>>>>>> upstream/master
       launchForwardsMultiplier: 3
   - type: Item
     heldPrefix: syndie
@@ -154,6 +159,12 @@
     layers:
     - state: syndie-soaplet
   - type: Slippery
+<<<<<<< HEAD
+=======
+    slipData:
+      paralyzeTime: 1.5 # these things are tiny
+      launchForwardsMultiplier: 1.5
+>>>>>>> upstream/master
   - type: StepTrigger
     intersectRatio: 0.04
   - type: Item
@@ -218,9 +229,14 @@
   - type: SolutionContainerVisuals
     fillBaseName: omega-
   - type: Slippery
+<<<<<<< HEAD
     staminaDamage: 50 # Forge-Change
     slipData:
       knockdownTime: 5.0 # Forge-Change
+=======
+    slipData:
+      paralyzeTime: 5.0
+>>>>>>> upstream/master
       launchForwardsMultiplier: 3.0
   - type: Item
     heldPrefix: omega

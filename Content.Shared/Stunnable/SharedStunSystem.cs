@@ -4,8 +4,13 @@ using Content.Shared.Alert; // Forge-Change
 using Content.Shared.Interaction.Events;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Item;
+<<<<<<< HEAD
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems; // Forge-Change
+=======
+using Content.Shared.Bed.Sleep;
+using Content.Shared.Damage.Components;
+>>>>>>> upstream/master
 using Content.Shared.Database;
 using Content.Shared.DoAfter; // Forge-Change
 using Content.Shared.Hands;
@@ -25,9 +30,13 @@ namespace Content.Shared.Stunnable;
 
 public abstract partial class SharedStunSystem : EntitySystem // Forge-Change (patrial)
 {
+<<<<<<< HEAD
     [Dependency] protected readonly ActionBlockerSystem Blocker = default!; // Forge-Change
     [Dependency] protected readonly AlertsSystem Alerts = default!; // Forge-Change
     [Dependency] protected readonly IGameTiming GameTiming = default!; // Forge-Change
+=======
+    [Dependency] private readonly ActionBlockerSystem _blocker = default!;
+>>>>>>> upstream/master
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
     [Dependency] private readonly EntityWhitelistSystem _entityWhitelist = default!; // Forge-Change
     [Dependency] private readonly MovementSpeedModifierSystem _movementSpeedModifier = default!;
@@ -37,6 +46,15 @@ public abstract partial class SharedStunSystem : EntitySystem // Forge-Change (p
     [Dependency] protected readonly SharedStaminaSystem Stamina = default!; // Forge-Change
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
 
+<<<<<<< HEAD
+=======
+    /// <summary>
+    /// Friction modifier for knocked down players.
+    /// Doesn't make them faster but makes them slow down... slower.
+    /// </summary>
+    public const float KnockDownModifier = 0.2f;
+
+>>>>>>> upstream/master
     public override void Initialize()
     {
         SubscribeLocalEvent<SlowedDownComponent, ComponentInit>(OnSlowInit);
@@ -110,7 +128,11 @@ public abstract partial class SharedStunSystem : EntitySystem // Forge-Change (p
     {
         Blocker.UpdateCanMove(uid);
     }
+<<<<<<< HEAD
     // Forge-Change-End
+=======
+
+>>>>>>> upstream/master
     private void OnStunOnContactCollide(Entity<StunOnContactComponent> ent, ref StartCollideEvent args)
     {
         if (args.OurFixtureId != ent.Comp.FixtureId)
@@ -265,6 +287,48 @@ public abstract partial class SharedStunSystem : EntitySystem // Forge-Change (p
     public void UpdateStunModifiers(Entity<StaminaComponent?> ent,
         float walkSpeedModifier = 1f,
         float runSpeedModifier = 1f)
+<<<<<<< HEAD
+=======
+    {
+        if (!Resolve(ent, ref ent.Comp))
+            return;
+
+        if (
+            (MathHelper.CloseTo(walkSpeedModifier, 1f) && MathHelper.CloseTo(runSpeedModifier, 1f) && ent.Comp.StaminaDamage == 0f) ||
+            (walkSpeedModifier == 0f && runSpeedModifier == 0f)
+        )
+        {
+            RemComp<SlowedDownComponent>(ent);
+            return;
+        }
+
+        EnsureComp<SlowedDownComponent>(ent, out var comp);
+
+        comp.WalkSpeedModifier = walkSpeedModifier;
+
+        comp.SprintSpeedModifier = runSpeedModifier;
+
+        _movementSpeedModifier.RefreshMovementSpeedModifiers(ent);
+
+        Dirty(ent);
+    }
+
+    /// <summary>
+    /// A convenience overload of <see cref="UpdateStunModifiers(EntityUid, float, float, StaminaComponent?)"/> that sets both
+    /// walk and run speed modifiers to the same value.
+    /// </summary>
+    /// <param name="ent">Entity whose movement speed should be updated.</param>
+    /// <param name="speedModifier">New walk and run speed modifier. Default is 1f (normal speed).</param>
+    /// <param name="component">
+    /// Optional <see cref="StaminaComponent"/> of the entity.
+    /// </param>
+    public void UpdateStunModifiers(Entity<StaminaComponent?> ent, float speedModifier = 1f)
+    {
+        UpdateStunModifiers(ent, speedModifier, speedModifier);
+    }
+
+    private void OnInteractHand(EntityUid uid, KnockedDownComponent knocked, InteractHandEvent args)
+>>>>>>> upstream/master
     {
         if (!Resolve(ent, ref ent.Comp))
             return;

@@ -44,7 +44,11 @@
   ## Tools
     - NetworkConfigurator
     - SprayPainter
+<<<<<<< HEAD
     - SprayPainterAmmo # Upstream#37341
+=======
+    - SprayPainterAmmo
+>>>>>>> upstream/master
     - TRayScanner
     - GasAnalyzer
     - Holoprojector
@@ -71,6 +75,7 @@
     - MailingUnitElectronics
     - APCElectronics
     - SMESMachineCircuitboard
+    - PortableSMESMachineCircuitboard
     - SubstationMachineCircuitboard
     - SmallThrusterMachineCircuitboard
     - SmallGyroscopeMachineCircuitboard

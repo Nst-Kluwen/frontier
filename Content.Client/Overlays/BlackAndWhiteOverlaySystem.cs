@@ -1,7 +1,10 @@
 using Content.Shared.Inventory.Events;
 using Content.Shared.Overlays;
 using Robust.Client.Graphics;
+<<<<<<< HEAD
 using Robust.Client.Player;
+=======
+>>>>>>> upstream/master
 
 namespace Content.Client.Overlays;
 

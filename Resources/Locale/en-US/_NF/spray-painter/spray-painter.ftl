@@ -42,3 +42,7 @@ spray-painter-style-canisters-liquid-oxygen = Oxygen (liquid)
 spray-painter-style-canisters-liquid-nitrogen = Nitrogen (liquid)
 spray-painter-style-canisters-liquid-carbon-dioxide = Carbon dioxide (liquid)
 spray-painter-style-canisters-respiron = Respiron
+<<<<<<< HEAD
+=======
+spray-painter-style-canisters-helium = Helium
+>>>>>>> upstream/master

@@ -9,6 +9,10 @@
     # - id: CargoSaleComputerCircuitboard # Frontier
     # - id: CargoShuttleConsoleCircuitboard # Frontier
     # - id: SalvageMagnetMachineCircuitboard # Frontier
+<<<<<<< HEAD
+=======
+    # - id: SalvageJobBoardComputerCircuitboard # Frontier
+>>>>>>> upstream/master
     # - id: CigPackGreen # Frontier
     #   prob: 0.50 # Frontier
     - id: ClothingHeadsetAltCargo
@@ -173,6 +177,7 @@
     # - id: RCD # Frontier
     # - id: RCDAmmo # Frontier
     - id: RubberStampCE
+    - id: MetalFoamGrenade
     - id: ShipyardRCD # Frontier
     - id: ShipyardRCDAmmo # Frontier
     - id: trayScanner # Frontier
@@ -251,7 +256,11 @@
     - id: ClothingOuterHardsuitMedical
 #    - id: OxygenTankFilled # Frontier
     - id: NFTankO2N2EqualFilled # Frontier
+<<<<<<< HEAD
     - id: JetpackParamedFilled # Forge
+=======
+    - id: JetpackMiniFilled # Frontier
+>>>>>>> upstream/master
 
 # No hardsuit locker
 - type: entity
@@ -415,7 +424,10 @@
   - type: StorageFill
     contents:
     - id: NFWeaponRevolverDeckard # Frontier: WeaponRevolverDeckard<NFWeaponRevolverDeckard
+<<<<<<< HEAD
     - id: ClothingOuterHardsuitBasic
+=======
+>>>>>>> upstream/master
     - id: JetpackBlue
     - id: SpaceCash1000
     - id: BeachBall

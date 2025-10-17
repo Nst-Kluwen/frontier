@@ -67,11 +67,15 @@
     - WizardWand
 
 - type: entity
+  parent: BaseAction
   id: ActionRgbLight
   components:
   - type: EntityTargetAction
     whitelist: { components: [ PointLight ] }
+<<<<<<< HEAD
     sound: /Audio/Magic/blink.ogg
+=======
+>>>>>>> upstream/master
     event: !type:ChangeComponentsSpellEvent
       toAdd:
       - type: RgbLightController

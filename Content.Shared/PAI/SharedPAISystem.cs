@@ -30,7 +30,11 @@ public abstract class SharedPAISystem : EntitySystem
 
     private void OnShutdown(Entity<PAIComponent> ent, ref ComponentShutdown args)
     {
+<<<<<<< HEAD
         _actions.RemoveAction(ent, ent.Comp.ShopAction);
+=======
+        _actions.RemoveAction(ent.Owner, ent.Comp.ShopAction);
+>>>>>>> upstream/master
     }
 }
 public sealed partial class PAIShopActionEvent : InstantActionEvent

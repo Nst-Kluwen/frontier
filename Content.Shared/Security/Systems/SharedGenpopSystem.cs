@@ -1,5 +1,9 @@
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
+<<<<<<< HEAD
+=======
+using Content.Shared.CCVar;
+>>>>>>> upstream/master
 using Content.Shared.Database;
 using Content.Shared.Examine;
 using Content.Shared.Lock;
@@ -8,12 +12,20 @@ using Content.Shared.Security.Components;
 using Content.Shared.Storage.Components;
 using Content.Shared.Storage.EntitySystems;
 using Content.Shared.Verbs;
+<<<<<<< HEAD
+=======
+using Robust.Shared.Configuration;
+>>>>>>> upstream/master
 using Robust.Shared.Timing;
 
 namespace Content.Shared.Security.Systems;
 
 public abstract class SharedGenpopSystem : EntitySystem
 {
+<<<<<<< HEAD
+=======
+    [Dependency] private readonly IConfigurationManager _cfgManager = default!;
+>>>>>>> upstream/master
     [Dependency] protected readonly IGameTiming Timing = default!;
     [Dependency] private readonly AccessReaderSystem _accessReader = default!;
     [Dependency] private readonly SharedEntityStorageSystem _entityStorage = default!;
@@ -23,6 +35,11 @@ public abstract class SharedGenpopSystem : EntitySystem
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedUserInterfaceSystem _userInterface = default!;
 
+<<<<<<< HEAD
+=======
+    // CCvar.
+    private int _maxIdJobLength;
+>>>>>>> upstream/master
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -33,12 +50,21 @@ public abstract class SharedGenpopSystem : EntitySystem
         SubscribeLocalEvent<GenpopLockerComponent, LockToggledEvent>(OnLockToggled);
         SubscribeLocalEvent<GenpopLockerComponent, GetVerbsEvent<Verb>>(OnGetVerbs);
         SubscribeLocalEvent<GenpopIdCardComponent, ExaminedEvent>(OnExamine);
+<<<<<<< HEAD
+=======
+
+        Subs.CVar(_cfgManager, CCVars.MaxIdJobLength, value => _maxIdJobLength = value, true);
+>>>>>>> upstream/master
     }
 
     private void OnIdConfigured(Entity<GenpopLockerComponent> ent, ref GenpopLockerIdConfiguredMessage args)
     {
         // validation.
+<<<<<<< HEAD
         if (string.IsNullOrWhiteSpace(args.Name) || args.Name.Length > IdCardConsoleComponent.MaxFullNameLength ||
+=======
+        if (string.IsNullOrWhiteSpace(args.Name) || args.Name.Length > _maxIdJobLength ||
+>>>>>>> upstream/master
             args.Sentence < 0 ||
             string.IsNullOrWhiteSpace(args.Crime) || args.Crime.Length > GenpopLockerComponent.MaxCrimeLength)
         {

@@ -87,7 +87,11 @@ public sealed partial class EntitySpawnPowerConsumerComponent : Component
     /// The maximum power to increase without logarithmic reduction.
     ///</summary>
     [DataField(serverOnly: true)]
+<<<<<<< HEAD
     public float LinearMaxValue = 1_000_000;
+=======
+    public float LinearMaxValue = 3_000_000;
+>>>>>>> upstream/master
 
     ///<summary>
     /// The base on power the logarithmic mode: a in Tk*a^(log10(x/T)-R)
@@ -100,7 +104,11 @@ public sealed partial class EntitySpawnPowerConsumerComponent : Component
     /// Note: should be set to LinearMaxValue for a continuous function.
     ///</summary>
     [DataField(serverOnly: true)]
+<<<<<<< HEAD
     public float LogarithmCoefficient = 1_000_000f;
+=======
+    public float LogarithmCoefficient = 3_000_000f;
+>>>>>>> upstream/master
 
     ///<summary>
     /// The exponential subtrahend of the logarithmic mode: R in Tk*a^(log10(x/T)-R)

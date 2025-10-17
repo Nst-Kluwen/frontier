@@ -79,6 +79,7 @@
   - type: StorageFill
     contents:
     - id: NFWeaponRifleAssaultLecter
+<<<<<<< HEAD
       amount: 5
     - id: NFWeaponRifleAssaultVulcan
       amount: 4
@@ -92,6 +93,21 @@
       amount: 4
     - id: NFWeaponPistolMk58
       amount: 4
+=======
+      amount: 2
+    - id: NFWeaponRifleAssaultVulcan
+      amount: 2
+    - id: NFWeaponSubMachineGunWt550
+      amount: 2
+    - id: NFWeaponShotgunEnforcer
+      amount: 2
+    - id: NFWeaponEnergyRifleCarbine
+      amount: 2
+    - id: NFWeaponEnergySubMachineGunDeltaV
+      amount: 2
+    - id: NFWeaponPistolMk58
+      amount: 2
+>>>>>>> upstream/master
 
 - type: entity
   id: CrateArmoryNonLethalNfsd
@@ -102,6 +118,7 @@
   - type: StorageFill
     contents:
     - id: NFWeaponEnergyPistolDisabler
+<<<<<<< HEAD
       amount: 5
     - id: NFWeaponPistolUniversalNfsdLessLethal
       amount: 4
@@ -115,3 +132,18 @@
       amount: 4
     - id: NFWeaponEnergySubMachineGunDeltaV
       amount: 4
+=======
+      amount: 2
+    - id: NFWeaponPistolUniversalNfsdLessLethal
+      amount: 2
+    - id: NFWeaponEnergySubMachineGunDisabler
+      amount: 2
+    - id: NFWeaponRifleAssaultLecterLessLethal
+      amount: 2
+    - id: NFWeaponRifleAssaultVulcanLessLethal
+      amount: 2
+    - id: NFWeaponShotgunEnforcerLessLethal
+      amount: 2
+    - id: NFWeaponEnergySubMachineGunDeltaV
+      amount: 2
+>>>>>>> upstream/master

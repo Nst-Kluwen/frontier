@@ -52,9 +52,12 @@
             "name": "plainwhite"
         },
         {
+<<<<<<< HEAD
           "name": "buncotton"
         },
         {
+=======
+>>>>>>> upstream/master
           "name": "plaincotton"
         },
         {

@@ -13,10 +13,17 @@
     maxAngle: -0
   - type: Gun
     projectileSpeed: 30
+<<<<<<< HEAD
     minAngle: 1.6
     maxAngle: 8
     angleIncrease: 0.4
     angleDecay: 2
+=======
+    minAngle: 1.4
+    maxAngle: 7
+    angleIncrease: 5.6
+    angleDecay: 3.7
+>>>>>>> upstream/master
     fireRate: 1
     selectedMode: SemiAuto
     availableModes:
@@ -35,8 +42,13 @@
   abstract: true
   components:
   - type: Gun
+<<<<<<< HEAD
     angleIncrease: 0.5
     angleDecay: 3.5
+=======
+    angleIncrease: 5.6
+    angleDecay: 3.7
+>>>>>>> upstream/master
     fireRate: 0.8
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-cybersun-industries

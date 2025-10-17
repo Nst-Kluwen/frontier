@@ -28,12 +28,21 @@
     sprite: Objects/Misc/landmine.rsi
     layers:
     - state: landmine-inactive
+<<<<<<< HEAD
       map: [ "enum.ToggleVisuals.Layer" ]
   - type: Appearance
   - type: GenericVisualizer
     visuals:
       enum.ToggleVisuals.Toggled:
         enum.ToggleVisuals.Layer:
+=======
+      map: [ "enum.ToggleableVisuals.Layer" ]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
+>>>>>>> upstream/master
           True: {state: landmine}
           False: {state: landmine-inactive}
   - type: Damageable
@@ -81,7 +90,11 @@
 - type: entity
   name: modular mine
   description: This bad boy could be packing any number of dangers. Or a bike horn.
+<<<<<<< HEAD
   parent: [BaseLandMine, BaseC3Contraband] #Forge-Change КБ
+=======
+  parent: BaseLandMine
+>>>>>>> upstream/master
   id: LandMineModularUnarmed
   components:
   - type: PayloadCase
@@ -104,7 +117,11 @@
 
 - type: entity
   name: explosive mine
+<<<<<<< HEAD
   parent: [BaseLandMine, BaseC3Contraband] #Forge-Change КБ
+=======
+  parent: BaseLandMine
+>>>>>>> upstream/master
   id: LandMineExplosiveUnarmed
   components:
   - type: ExplodeOnTrigger

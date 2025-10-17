@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Added in Upstream#37341
 
+=======
+>>>>>>> upstream/master
 - type: paintableGroupCategory
   id: Airlocks
   groups:

@@ -44,6 +44,10 @@ public sealed partial class AtmosAlarmGaslockEntryContainer : BoxContainer
         [Gas.Tritium] = "T",
         [Gas.WaterVapor] = "H₂O",
         [Gas.Respiron] = "R", // Frontier
+<<<<<<< HEAD
+=======
+        [Gas.Helium] = "He", // Frontier
+>>>>>>> upstream/master
     };
 
     public AtmosAlarmGaslockEntryContainer(NetEntity uid, EntityCoordinates? coordinates)

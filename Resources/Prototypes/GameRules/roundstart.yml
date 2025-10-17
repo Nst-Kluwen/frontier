@@ -450,3 +450,14 @@
 #      prob: 0.90 # Frontier
     - id: SolarPanelDamageVariationPass
     - id: SolarPanelEmptyVariationPass
+<<<<<<< HEAD
+=======
+    - id: BasicDecalDirtVariationPass
+    - id: BasicDecalGraffitiVariationPass
+    - id: BasicDecalBrunsVariationPass
+      prob: 0.50
+      orGroup: monospaceDecals
+    - id: BasicDecalDirtMonospaceVariationPass
+      prob: 0.50
+      orGroup: monospaceDecals
+>>>>>>> upstream/master

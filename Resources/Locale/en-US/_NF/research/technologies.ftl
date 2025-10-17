@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+nf-research-discipline-all = All Available
+>>>>>>> upstream/master
 nf-research-discipline-engineering = Engineering
 nf-research-discipline-medical = Medical
 nf-research-discipline-arsenal-mercenary = Mercenary
@@ -59,6 +63,10 @@ nf-research-technology-bluespace-cargo-transport = Bluespace Cargo Transport
 nf-research-technology-bluespace-chemistry = Bluespace Chemistry
 nf-research-technology-bluespace-storage = Bluespace Storage
 nf-research-technology-bluespace-time-manipulation = Bluespace Time Manipulation
+<<<<<<< HEAD
+=======
+nf-research-technology-bluespace-gas-tanks = Bluespace Gas Tanks
+>>>>>>> upstream/master
 nf-research-technology-bounty-hunting = Peacekeeping Basics
 nf-research-technology-clowning-utilities = Clowning Utilities
 nf-research-technology-combat-propulsion = Combat Personal Propulsion
@@ -135,5 +143,8 @@ nf-research-technology-syringe-gun = Syringe Gun
 nf-research-technology-trash-power-generators = Combustion Power Generators
 nf-research-technology-vim = Vim
 nf-research-technology-wireless-audio-visual-communication = Wireless Telecommunications
+<<<<<<< HEAD
 nf-research-technology-thermal-vision-goggles = ThermalVision Goggles
 nf-research-technology-nightvision-goggles = NightVision Goggles
+=======
+>>>>>>> upstream/master

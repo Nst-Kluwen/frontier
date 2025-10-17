@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 // Rewritten in Upstream#37341
 
+=======
+>>>>>>> upstream/master
 using Content.Shared.Decals;
 using Content.Shared.SprayPainter;
 using Content.Shared.SprayPainter.Components;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
+<<<<<<< HEAD
 using Robust.Shared.Prototypes; // Upstream#37341
+=======
+using Robust.Shared.Prototypes;
+>>>>>>> upstream/master
 
 namespace Content.Client.SprayPainter.UI;
 
@@ -17,7 +24,10 @@ public sealed class SprayPainterBoundUserInterface(EntityUid owner, Enum uiKey) 
     [ViewVariables]
     private SprayPainterWindow? _window;
 
+<<<<<<< HEAD
     // Upstream#37341
+=======
+>>>>>>> upstream/master
     protected override void Open()
     {
         base.Open();

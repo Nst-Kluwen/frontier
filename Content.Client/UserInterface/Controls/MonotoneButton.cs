@@ -7,7 +7,11 @@ namespace Content.Client.UserInterface.Controls;
 /// <summary>
 /// A button intended for use with a monotone color palette
 /// </summary>
+<<<<<<< HEAD
 public sealed class MonotoneButton : ContainerButton
+=======
+public sealed class MonotoneButton : Button
+>>>>>>> upstream/master
 {
     /// <summary>
     /// Specifies the color of the label text when the button is pressed.
@@ -15,6 +19,7 @@ public sealed class MonotoneButton : ContainerButton
     [ViewVariables]
     public Color AltTextColor { set; get; } = new Color(0.2f, 0.2f, 0.2f);
 
+<<<<<<< HEAD
     /// <summary>
     /// The label that holds the button text.
     /// </summary>
@@ -52,6 +57,11 @@ public sealed class MonotoneButton : ContainerButton
         };
 
         AddChild(Label);
+=======
+    public MonotoneButton()
+    {
+        RemoveStyleClass("button");
+>>>>>>> upstream/master
         UpdateAppearance();
     }
 

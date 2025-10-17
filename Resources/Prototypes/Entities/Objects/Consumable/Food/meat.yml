@@ -383,8 +383,11 @@
       reagents:
       - ReagentId: Ichor
         Quantity: 10
+<<<<<<< HEAD
   - type: MercenaryBountyItem # Corvax-Frontier
     id: MeatDragon
+=======
+>>>>>>> upstream/master
   - type: SliceableFood
     count: 3
     slice: FoodMeatDragonCutlet

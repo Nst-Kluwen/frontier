@@ -36,7 +36,18 @@
     belt: NFMailBag
   storage:
     back:
-    - EncryptionKeyService # Frontier
     - HandheldCrewMonitor # Frontier
     - ShipVoucherFrontierMailCarrier # Frontier
+<<<<<<< HEAD
     - MailMetricsCartridge # Frontier
+=======
+  encryptionKeys:
+  - EncryptionKeyService
+  cartridges:
+  - MailMetricsCartridge
+
+- type: chameleonOutfit
+  id: MailCarrierChameleonOutfit
+  job: MailCarrier
+  hasMindShield: true
+>>>>>>> upstream/master

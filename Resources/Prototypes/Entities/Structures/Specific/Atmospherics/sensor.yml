@@ -26,6 +26,10 @@
       NitrousOxide: stationNO
       Frezon: danger
       Respiron: ignore # Frontier
+<<<<<<< HEAD
+=======
+      Helium: stationHe # Frontier
+>>>>>>> upstream/master
   - type: Tag
     tags:
       - AirSensor

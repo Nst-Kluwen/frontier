@@ -20,6 +20,10 @@ namespace Content.Server.Entry
             "LightFade",
             "HolidayRsiSwap",
             "OptionsVisualizer",
+<<<<<<< HEAD
+=======
+            "MultipartMachineGhost",
+>>>>>>> upstream/master
             "BlueprintLatheClientState" // Frontier
         };
     }

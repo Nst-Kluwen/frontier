@@ -25,6 +25,7 @@
   name: jetpack
   description: It's a jetpack. It can hold 5 L of gas.
   components:
+<<<<<<< HEAD
     - type: Sprite
       sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
       state: icon
@@ -55,13 +56,54 @@
     - type: Appearance
     - type: StaticPrice
       price: 100
+=======
+  - type: Sprite
+    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    layers:
+    - state: icon
+      map: ["enum.JetpackVisuals.Layer"]
+  - type: Item
+    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    size: Huge
+  - type: UserInterface
+    interfaces:
+      enum.SharedGasTankUiKey.Key:
+        type: GasTankBoundUserInterface
+  - type: UseDelay
+    delays:
+      gasTank:
+        length: 1.0
+  - type: Clothing
+    sprite: _DV/Objects/Tanks/Jetpacks/blue.rsi # DeltaV - Modified sprites to allow SUITSTORAGE use.
+    quickEquip: false
+    slots:
+    - Back
+    - SuitStorage # DeltaV - Allow all jetpacks to fit in the suit storage slot
+  - type: GasTank
+    outputPressure: 21.3
+    air:
+      volume: 5
+      temperature: 293.15
+  - type: Jetpack
+    moleUsage: 0.00085
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.JetpackVisuals.Enabled:
+        enum.JetpackVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
+  - type: StaticPrice
+    price: 100
+>>>>>>> upstream/master
 
 - type: entity
+  parent: BaseAction
   id: ActionToggleJetpack
   name: Toggle jetpack
   description: Toggles the jetpack, giving you movement outside the station.
   components:
-  - type: InstantAction
+  - type: Action
     icon:
       sprite: Objects/Tanks/Jetpacks/blue.rsi
       state: icon
@@ -69,6 +111,7 @@
       sprite: Objects/Tanks/Jetpacks/blue.rsi
       state: icon-on
     useDelay: 1.0
+  - type: InstantAction
     event: !type:ToggleJetpackEvent
 
 #Empty blue
@@ -124,7 +167,10 @@
   # Frontier: emaggable jetpacks
   - type: Tag
     tags:
+<<<<<<< HEAD
       - HideContextMenu
+=======
+>>>>>>> upstream/master
       - DemagImmune
   - type: Jetpack
     radarBlip: false
@@ -198,6 +244,8 @@
   components:
     - type: Item
       sprite: Objects/Tanks/Jetpacks/mini.rsi
+      shape: # Frontier
+      - 0,0,3,2 # Frontier
     - type: Sprite
       sprite: Objects/Tanks/Jetpacks/mini.rsi
     - type: Clothing

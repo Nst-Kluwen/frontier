@@ -7,6 +7,14 @@
   id: robot
   typingState: robot0
   idleState: robot3
+<<<<<<< HEAD
+=======
+
+- type: typingIndicator
+  id: xenoborg
+  typingState: xenoborg0
+  idleState: xenoborg3
+>>>>>>> upstream/master
 
 - type: typingIndicator
   id: alien
@@ -65,11 +73,25 @@
 - type: typingIndicator
   id: gingerbread
   typingState: gingerbread0
+<<<<<<< HEAD
   idleState: gingerbread0
+=======
+  idleState: gingerbread3
+>>>>>>> upstream/master
   offset: 0, 0.125
 
 - type: typingIndicator
   id: diona
   typingState: diona0
+<<<<<<< HEAD
   idleState: diona0
+=======
+  idleState: diona3
+  offset: 0, 0.125
+
+- type: typingIndicator
+  id: regal
+  typingState: regal0
+  idleState: regal3
+>>>>>>> upstream/master
   offset: 0, 0.125

@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<<< HEAD:Resources/Textures/_White/Clothing/Eyes/Goggles/sthermals.rsi/meta.json
   "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation",
+========
+  "copyright": "Made by Pato Grone for ss14",
+>>>>>>>> upstream/master:Resources/Textures/_NF/Objects/Weapons/Guns/Revolvers/flintlock.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32
@@ -11,7 +15,21 @@
       "name": "icon"
     },
     {
+<<<<<<<< HEAD:Resources/Textures/_White/Clothing/Eyes/Goggles/sthermals.rsi/meta.json
       "name": "equipped-EYES",
+========
+      "name": "base"
+    },
+    {
+      "name": "bolt-open"
+    },
+    {
+      "name": "equipped-BELT",
+      "directions": 4
+    },
+    {
+      "name": "equipped-SUITSTORAGE",
+>>>>>>>> upstream/master:Resources/Textures/_NF/Objects/Weapons/Guns/Revolvers/flintlock.rsi/meta.json
       "directions": 4
     },
     {

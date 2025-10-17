@@ -28,6 +28,7 @@
       # Frontier: general vox digestion
       tags:
       - Trash
+<<<<<<< HEAD
       # - Fruit
       # - ReptilianFood
       # - Meat
@@ -37,6 +38,9 @@
       - VoxFood
       # - Vegetable
       # End Frontier: general vox digestion
+=======
+    isSpecialDigestibleExclusive: false
+>>>>>>> upstream/master
 
 - type: entity
   parent: OrganHumanLiver

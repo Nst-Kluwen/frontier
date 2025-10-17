@@ -88,7 +88,7 @@
         - id: NFTankO2N2EqualFilled # Frontier
         - id: ClothingOuterEVASuitPirate # Frontier ClothingOuterHardsuitPirateEVA<ClothingOuterEVASuitPirate
         - id: ClothingMaskGas
-        - id: JetpackBlackFilled # Frontier
+        - id: JetpackPirateFilled # Frontier
         - id: ClothingShoesBootsMagPirateFilled # Frontier
 
 #NTSRA Voidsuit
@@ -109,6 +109,7 @@
         - id: JetpackMiniFilled # Frontier
 
 #HARDSUITS
+<<<<<<< HEAD
 #Basic hardsuit
 - type: entity
   id: SuitStorageBasic
@@ -124,12 +125,15 @@
         - id: ClothingMaskBreath
         - id: JetpackMiniFilled # Frontier
 
+=======
+>>>>>>> upstream/master
 #Engineering hardsuit
 - type: entity
   id: SuitStorageEngi
   parent: SuitStorageBase
   suffix: Station Engineer
   components:
+<<<<<<< HEAD
   - type: StorageFill
     contents:
 #        - id: NitrogenTankFilled
@@ -139,6 +143,12 @@
         - id: ClothingOuterHardsuitEngineering
         - id: ClothingMaskBreath
         - id: JetpackMiniFilled # Frontier
+=======
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillEngineerHardsuit
+>>>>>>> upstream/master
   - type: AccessReader
     # access: [["Engineering"]] # Frontier
 
@@ -148,6 +158,7 @@
   parent: SuitStorageBase
   suffix: Atmospheric Technician
   components:
+<<<<<<< HEAD
   - type: StorageFill
     contents:
 #        - id: NitrogenTankFilled
@@ -156,6 +167,12 @@
         - id: ClothingOuterHardsuitAtmos
         - id: ClothingMaskBreath
         - id: JetpackMiniFilled # Frontier
+=======
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillAtmosphericsHardsuit
+>>>>>>> upstream/master
   - type: AccessReader
     # access: [["Atmospherics"]] # Frontier
 
@@ -303,7 +320,7 @@
         - id: ClothingOuterHardsuitPirateCap
         - id: ClothingMaskGas
         - id: ClothingNeckCloakPirateCap # Frontier
-        - id: JetpackBlackFilled # Frontier
+        - id: JetpackPirateFilled # Frontier
         - id: ClothingShoesBootsMagPirateFilled # Frontier
 
 #Wizard

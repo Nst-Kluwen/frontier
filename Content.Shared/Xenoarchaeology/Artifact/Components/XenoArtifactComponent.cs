@@ -1,4 +1,8 @@
 using Content.Shared.Actions;
+<<<<<<< HEAD
+=======
+using Content.Shared.Actions.Components;
+>>>>>>> upstream/master
 using Content.Shared.Destructible.Thresholds;
 using Content.Shared.EntityTable.EntitySelectors;
 using Content.Shared.Xenoarchaeology.Artifact.Prototypes;

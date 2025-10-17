@@ -4,7 +4,11 @@ meta:
   engineVersion: 255.1.0
   forkId: ""
   forkVersion: ""
+<<<<<<< HEAD
   time: 07/04/2025 04:01:05
+=======
+  time: 07/14/2025 23:50:31
+>>>>>>> upstream/master
   entityCount: 707
 maps: []
 grids:
@@ -3615,6 +3619,7 @@ entities:
       parent: 1
 - proto: LockerWallColorHydroponicsFilled
   entities:
+<<<<<<< HEAD
   - uid: 697
     components:
     - type: Transform
@@ -3622,11 +3627,23 @@ entities:
       pos: -2.5,-1.5
       parent: 1
   - uid: 698
+=======
+  - uid: 487
+>>>>>>> upstream/master
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 3.5,-1.5
       parent: 1
+<<<<<<< HEAD
+=======
+  - uid: 697
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -2.5,-1.5
+      parent: 1
+>>>>>>> upstream/master
 - proto: LockerWallMaterialsBasicFilled
   entities:
   - uid: 484

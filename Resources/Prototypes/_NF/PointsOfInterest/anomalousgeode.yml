@@ -25,7 +25,11 @@
 
 - type: gameMap
   id: AnomalousGeode
+<<<<<<< HEAD
   mapName: 'Аномальная Жеода'
+=======
+  mapName: 'Anomalous Geode'
+>>>>>>> upstream/master
   mapPath: /Maps/_NF/POI/anomalousgeode.yml
   minPlayers: 0
   stations:

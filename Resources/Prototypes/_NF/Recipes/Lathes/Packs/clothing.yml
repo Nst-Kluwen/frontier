@@ -220,6 +220,11 @@
   - ClothingOuterCoatPirate
   - ClothingOuterCoatGentle
   - ClothingOuterCoatPirateCaptain
+<<<<<<< HEAD
+=======
+  - ClothingOuterCoatVictorian
+  - ClothingOuterCoatVictorianRed
+>>>>>>> upstream/master
   # Shoes
   - ClothingShoesBootsLaceup
   - ClothingShoesBootsPirateLuffy

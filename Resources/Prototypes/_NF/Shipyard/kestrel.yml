@@ -6,6 +6,7 @@
 # GitHub: ???
 # Discord: ???
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Kestrel
+  parent: BaseVessel
+  name: NC Kestrel
+  description: Once a local shipping lane freighter, this model has been converted for use in debris field mining and salvage operations.
+  price: 46000 # ~41754 0.06 44259.24
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/kestrel.yml
+  guidebookPage: ShipyardKestrel
+  class:
+  - Salvage
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Kestrel
+  mapName: 'NC Kestrel'
+  mapPath: /Maps/_NF/Shuttles/kestrel.yml
+  minPlayers: 0
+  stations:
+    Kestrel:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Kestrel {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]  
+>>>>>>> upstream/master

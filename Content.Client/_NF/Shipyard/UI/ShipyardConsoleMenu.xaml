@@ -49,12 +49,24 @@
         <GridContainer Columns="3" HorizontalExpand="True" Margin="0 8 0 2">
             <Button Name="TargetIdButton" Access="Public"/>
             <Button Name="SellShipButton"
+<<<<<<< HEAD
                     Text="{Loc 'shipyard-console-sell-button'}"
                     Disabled="True" />
             <BoxContainer Orientation="Vertical">
                 <Label Text="{Loc 'shipyard-console-deed-label'}" />
                 <Label Name="DeedTitle"
                     Text=""/>
+=======
+                Text="Sell"
+                Disabled="True" />
+            <BoxContainer Orientation="Vertical" Name="NoDeedHelperContainer" Visible="True">
+                <Label Text="{Loc 'shipyard-console-no-idcard-helper-line1'}"/>
+                <Label Text="{Loc 'shipyard-console-no-idcard-helper-line2'}"/>
+            </BoxContainer>
+            <BoxContainer Orientation="Vertical" Name="DeedContainer" Visible="False">
+                <Label Text="{Loc 'shipyard-console-deed-label'}"/>
+                <Label Name="DeedTitle" Text=""/>
+>>>>>>> upstream/master
             </BoxContainer>
         </GridContainer>
     </BoxContainer>

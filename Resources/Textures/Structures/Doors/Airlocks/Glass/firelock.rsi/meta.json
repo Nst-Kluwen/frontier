@@ -63,9 +63,12 @@
     },
     {
       "name": "open"
+<<<<<<< HEAD
     },
     {
       "name": "open_unlit"
+=======
+>>>>>>> upstream/master
     },
     {
       "name": "opening",

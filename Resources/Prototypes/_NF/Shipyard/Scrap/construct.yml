@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # - type: vessel
   # id: Construct
   # name: NT Construct
@@ -31,3 +32,39 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+- type: vessel
+  id: Construct
+  parent: BaseVessel
+  name: NT Construct
+  description: A technically spacefaring vessel.  No livery.
+  price: 10500
+  category: Micro
+  group: Scrap
+  shuttlePath: /Maps/_NF/Shuttles/Scrap/construct.yml
+  guidebookPage: ShipyardConstruct
+  class:
+  - Scrapyard
+  - Engineering
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Construct
+  mapName: 'NT Construct'
+  mapPath: /Maps/_NF/Shuttles/Scrap/construct.yml
+  minPlayers: 0
+  stations:
+    Construct:
+      stationProto: StandardFrontierVessel
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: 'Construct {1}'
+        nameGenerator: !type:NanotrasenNameGenerator
+          prefixCreator: '14'
+      - type: StationJobs
+        availableJobs:
+          ContractorInterview: [ 0, 0 ]
+          PilotInterview: [ 0, 0 ]
+          MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

@@ -83,8 +83,14 @@
         key: Jitter
         time: 3.0
         type: Remove
+<<<<<<< HEAD
       - !type:ModifyStatusEffect # Forge-Change
         effectProto: StatusEffectDrowsiness # Forge-Change
+=======
+      - !type:GenericStatusEffect
+        key: Drowsiness
+        component: Drowsiness
+>>>>>>> upstream/master
         time: 1.5
         type: Add
         refresh: false
@@ -319,6 +325,13 @@
   metabolisms:
     Medicine:
       effects:
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Histamine
+          min: 45
+        reagent: Histamine
+        amount: -5
       - !type:HealthChange
         conditions:
           # they gotta be in crit first
@@ -825,13 +838,20 @@
   metabolisms:
     Medicine:
       effects:
-      - !type:HealthChange
+      - !type:EvenHealthChange
         damage:
+<<<<<<< HEAD
           groups:
             Burn: -3 # Corvax-Frontier
             Toxin: -2.75 # Corvax-Frontier
             Airloss: -3.25 # Corvax-Frontier
             Brute: -3 # Corvax-Frontier
+=======
+          Burn: -2
+          Toxin: -2
+          Airloss: -2
+          Brute: -2
+>>>>>>> upstream/master
 
 - type: reagent
   id: Ultravasculine
@@ -1092,6 +1112,7 @@
   name: reagent-name-holywater
   group: Medicine
   desc: reagent-desc-holywater
+  evaporationSpeed: 0.3
   physicalDesc: reagent-physical-desc-holy
   flavor: holy
   color: "#91C3F7"
@@ -1111,6 +1132,24 @@
             Heat: -0.2
             Shock: -0.2
             Cold: -0.2
+<<<<<<< HEAD
+=======
+    Sheleg: # Frontier
+      effects: # Frontier
+      - !type:SatiateThirst
+        factor: 3
+      - !type:HealthChange
+        conditions:
+        - !type:TotalDamage
+          max: 50
+        damage:
+          types:
+            Blunt: -0.2
+            Poison: -0.2
+            Heat: -0.2
+            Shock: -0.2
+            Cold: -0.2
+>>>>>>> upstream/master
 
   reactiveEffects:
     Extinguish:
@@ -1280,10 +1319,10 @@
           max: 213.0
         damage:
           types:
-            Heat: -3.0
-            Shock: -3.0
-            Cold: -3.0 # Frontier
-            Caustic: -3.0 # Frontier
+            Cold: -4.0
+            Heat: -4.0
+            Shock: -4.0
+            Caustic: -1.5
 
 - type: reagent
   id : Mannitol # currently this is just a way to create psicodine

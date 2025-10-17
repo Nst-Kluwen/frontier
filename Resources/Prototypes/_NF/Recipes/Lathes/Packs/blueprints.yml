@@ -160,12 +160,20 @@
   # MiscellaneousItemsOrganization
   - NFPouchFirstAid
   - NFPouchFirstAidAlt
+<<<<<<< HEAD
+=======
+  - MedicalPouch
+>>>>>>> upstream/master
   # ChemicalDispensary
   - ChemMasterMachineCircuitboard
   - ChemDispenserMachineCircuitboard
   # IndustrialMedicine
   - MedicalAssemblerMachineCircuitboard
   - HotplateMachineCircuitboard
+<<<<<<< HEAD
+=======
+  - DefibrillatorCompact
+>>>>>>> upstream/master
   # SyringeGun
   - LauncherSyringe
   - MiniSyringe
@@ -251,6 +259,12 @@
   - JetpackCaptain
   # AdvancedPersonalPropulsion
   - JetpackVoid
+<<<<<<< HEAD
+=======
+  # BluespaceGasTanks
+  - BluespaceAirTank
+  - SmallBluespaceAirTank
+>>>>>>> upstream/master
   # SalvageEquipment
   - MiningDrill
   - WeaponGrapplingGun
@@ -272,7 +286,10 @@
   - ClothingOuterHardsuitSalvage
   # HardsuitsAdvanced
   - ClothingOuterHardsuitLuxury
+<<<<<<< HEAD
   - ClothingOuterHardsuitMaxims #Frontier
+=======
+>>>>>>> upstream/master
 
 # region Science
 - type: latheRecipePack
@@ -374,6 +391,10 @@
   - ElectricGrillMachineCircuitboard
   - BoozeDispenserMachineCircuitboard
   - SodaDispenserMachineCircuitboard
+<<<<<<< HEAD
+=======
+  - ImpCoffeeMachineCircuitboard
+>>>>>>> upstream/master
   # MiscellaneousItemsOrganization
   - NFPouchUtility
   - NFPouchEngineering
@@ -447,7 +468,10 @@
   - PinpointerUniversalNF
   - ClothingEyesHudBountyHunter
   - NFForensicPad
+<<<<<<< HEAD
   - ClothingOuterHardsuitMercenaryElite #CorvaxFrontier
+=======
+>>>>>>> upstream/master
   # ImprovedPistolAmmo
   - NFAmmunitionBoxPistol35Overpressure
   - NFAmmunitionBoxPistol45Overpressure
@@ -516,6 +540,11 @@
   # PortableFission
   - PowerCellMicroreactor
   # HardsuitsBasic
+<<<<<<< HEAD
   - ClothingOuterHardsuitBasic
+=======
+  - ClothingOuterHardsuitSpatio
+  - ClothingOuterHardsuitPilot
+>>>>>>> upstream/master
   # HardsuitsAdvanced
   - ClothingOuterHardsuitCap

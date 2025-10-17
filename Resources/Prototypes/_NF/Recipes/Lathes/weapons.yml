@@ -75,7 +75,11 @@
 - type: latheRecipe
   parent: BaseWeaponRecipeLong
   id: NFWeaponHoloflareGun
+<<<<<<< HEAD
   result: NFWeaponHoloflareGun
+=======
+  result: NFWeaponHoloflareGun  
+>>>>>>> upstream/master
   materials:
     Steel: 300
     Glass: 200

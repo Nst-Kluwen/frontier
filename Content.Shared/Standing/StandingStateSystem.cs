@@ -1,5 +1,8 @@
 using Content.Shared.Hands.Components;
+<<<<<<< HEAD
 using Content.Shared.Movement.Events; // Forge-Change
+=======
+>>>>>>> upstream/master
 using Content.Shared.Movement.Systems;
 using Content.Shared.Physics;
 using Content.Shared.Rotation;
@@ -24,9 +27,12 @@ public sealed class StandingStateSystem : EntitySystem
         base.Initialize();
         SubscribeLocalEvent<StandingStateComponent, AttemptMobCollideEvent>(OnMobCollide);
         SubscribeLocalEvent<StandingStateComponent, AttemptMobTargetCollideEvent>(OnMobTargetCollide);
+<<<<<<< HEAD
         SubscribeLocalEvent<StandingStateComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshMovementSpeedModifiers); // Forge-Change
         SubscribeLocalEvent<StandingStateComponent, RefreshFrictionModifiersEvent>(OnRefreshFrictionModifiers); // Forge-Change
         SubscribeLocalEvent<StandingStateComponent, TileFrictionEvent>(OnTileFriction); // Forge-Change
+=======
+>>>>>>> upstream/master
     }
 
     private void OnMobTargetCollide(Entity<StandingStateComponent> ent, ref AttemptMobTargetCollideEvent args)
@@ -44,6 +50,7 @@ public sealed class StandingStateSystem : EntitySystem
             args.Cancelled = true;
         }
     }
+<<<<<<< HEAD
     // Forge-Change-Start
     private void OnRefreshMovementSpeedModifiers(Entity<StandingStateComponent> entity, ref RefreshMovementSpeedModifiersEvent args)
     {
@@ -66,6 +73,9 @@ public sealed class StandingStateSystem : EntitySystem
             args.Modifier *= entity.Comp.FrictionModifier;
     }
     // Forge-Change-End
+=======
+
+>>>>>>> upstream/master
     public bool IsDown(EntityUid uid, StandingStateComponent? standingState = null)
     {
         if (!Resolve(uid, ref standingState, false))

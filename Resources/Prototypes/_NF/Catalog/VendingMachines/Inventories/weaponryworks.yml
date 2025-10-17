@@ -9,8 +9,11 @@
     NFWeaponShotgunDoubleBarreled: 1
     ClothingHandsKnuckleDusters: 1
     SurvivalKnife: 1
+<<<<<<< HEAD
     WeaponSubMachineGunVector45: 1 #CorvaxFrontier
     MagazineVector45Empty: 1 #CorvaxFrontier
+=======
+>>>>>>> upstream/master
   # Magazines
     NFSpeedLoaderPistol35Empty: 1
     NFSpeedLoaderPistol45Empty: 1
@@ -32,11 +35,17 @@
     NFWeaponShotgunDoubleBarreled: 4294967295
     ClothingHandsKnuckleDusters: 4294967295
     SurvivalKnife: 4294967295
+<<<<<<< HEAD
     WeaponSubMachineGunVector45: 4294967295 #CorvaxFrontier
   # Magazines
     NFSpeedLoaderPistol35Empty: 4294967295
     NFSpeedLoaderPistol45Empty: 4294967295
     MagazineVector45Empty: 4294967295 #CorvaxFrontier
+=======
+  # Magazines
+    NFSpeedLoaderPistol35Empty: 4294967295
+    NFSpeedLoaderPistol45Empty: 4294967295
+>>>>>>> upstream/master
   # Ammo boxes
     NFAmmunitionBoxPistol35: 4294967295
     NFAmmunitionBoxPistol45: 4294967295

@@ -108,7 +108,7 @@
     - prefRoles: [ NFPirateCaptain ]
       max: 999
       playerRatio: -1
-      lateJoinAdditional: true
+      lateJoinAdditional: false
       allowNonHumans: true
       multiAntagSetting: All
       components: &pirateComponents
@@ -127,7 +127,11 @@
     - prefRoles: [ NFPirateFirstMate ]
       max: 999
       playerRatio: -1
+<<<<<<< HEAD
       lateJoinAdditional: true
+=======
+      lateJoinAdditional: false
+>>>>>>> upstream/master
       allowNonHumans: true
       multiAntagSetting: All
       components: *pirateComponents
@@ -141,7 +145,11 @@
     - prefRoles: [ NFPirate ]
       max: 999
       playerRatio: -1
+<<<<<<< HEAD
       lateJoinAdditional: true
+=======
+      lateJoinAdditional: false
+>>>>>>> upstream/master
       allowNonHumans: true
       multiAntagSetting: All
       components: *pirateComponents

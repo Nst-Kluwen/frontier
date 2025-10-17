@@ -294,6 +294,12 @@
         {
             "name": "equipped-IDCARD",
             "directions": 4
+<<<<<<< HEAD
+=======
+        },
+        {
+            "name": "pda-shantyman"
+>>>>>>> upstream/master
         }
     ]
 }

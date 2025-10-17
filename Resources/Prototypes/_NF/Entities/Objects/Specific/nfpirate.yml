@@ -6,6 +6,7 @@
   suffix: 20 DB
   description: A dirty gold coin used for nefarious pirate exchanges.
   components:
+  - type: WarnOnCryoSleep
   - type: Sprite
     sprite: _NF/Objects/Specific/Pirate/pirate_doubloon.rsi
     state: doubloon
@@ -152,7 +153,11 @@
   - type: Appearance
   - type: GenericVisualizer
     visuals:
+<<<<<<< HEAD
       enum.ToggleVisuals.Toggled:
+=======
+      enum.ToggleableVisuals.Enabled:
+>>>>>>> upstream/master
         on:
           True: { visible: true }
           False: { visible: false }
@@ -167,9 +172,14 @@
     minRange: 3
   - type: ProximityDetector
     range: 10
+<<<<<<< HEAD
     criteria:
       components:
       - PinpointerTarget
+=======
+    components:
+    - type: PinpointerTarget
+>>>>>>> upstream/master
   - type: Beeper
     isMuted: true
     minBeepInterval: 0.25

@@ -422,8 +422,14 @@
         damage:
           types:
             Cellular: 1
+<<<<<<< HEAD
       - !type:ModifyStatusEffect # Forge-Change
         effectProto: StatusEffectSeeingRainbow # Forge-Change
+=======
+      - !type:GenericStatusEffect
+        key: SeeingRainbows
+        component: SeeingRainbows
+>>>>>>> upstream/master
         type: Add
         time: 100
         refresh: false

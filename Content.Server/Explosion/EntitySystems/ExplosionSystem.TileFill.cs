@@ -107,7 +107,11 @@ public sealed partial class ExplosionSystem
                 airtightMap = new();
 
             var initialGridData = new ExplosionGridTileFlood(
+<<<<<<< HEAD
                 (epicentreGrid.Value, Comp<MapGridComponent>(epicentreGrid.Value)), // Forge-Change
+=======
+                (epicentreGrid.Value, Comp<MapGridComponent>(epicentreGrid.Value)),
+>>>>>>> upstream/master
                 airtightMap,
                 maxIntensity,
                 stepSize,
@@ -196,7 +200,11 @@ public sealed partial class ExplosionSystem
                         airtightMap = new();
 
                     data = new ExplosionGridTileFlood(
+<<<<<<< HEAD
                         (grid, Comp<MapGridComponent>(grid)), // Forge-Change
+=======
+                        (grid, Comp<MapGridComponent>(grid)),
+>>>>>>> upstream/master
                         airtightMap,
                         maxIntensity,
                         stepSize,

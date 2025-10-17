@@ -9,6 +9,7 @@
 # Shuttle Notes:
 #
 
+<<<<<<< HEAD
 # - type: vessel
   # id: Vagabond
   # name: NT Vagabond
@@ -42,3 +43,39 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+- type: vessel
+  id: Vagabond
+  parent: BaseVessel
+  name: NT Vagabond
+  description: A adaptable long-haul industrial freighter that pilots have adapted to many different purposes.
+  price: 61000 # 50579 0.2 60694.8
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/vagabond.yml
+  guidebookPage: ShipyardVagabond
+  class:
+  - Cargo
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Vagabond
+  mapName: 'NT Vagabond'
+  mapPath: /Maps/_NF/Shuttles/vagabond.yml
+  minPlayers: 0
+  stations:
+    Vagabond:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Vagabond {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

@@ -61,7 +61,11 @@
     sprite: Clothing/Uniforms/Jumpsuit/paramedic_nt.rsi
 
 - type: entity
+<<<<<<< HEAD
   parent: [ UnsensoredClothingUniformBase, BaseC3SyndicateContrabandNoValue ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContrabandNoValue
+=======
+  parent: [ ClothingUniformBase, BaseC3SyndicateContrabandNoValue ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContrabandNoValue
+>>>>>>> upstream/master
   id: ClothingUniformJumpsuitParamedicSyndie
   name: syndicate paramedic jumpsuit
   description: For some reason, wearing this makes you feel like you're awfully close to violating the Geneva Convention.

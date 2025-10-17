@@ -17,7 +17,11 @@
           Quantity: 5
   - type: Slippery
     slipData:
+<<<<<<< HEAD
       knockdownTime: 3 # Forge-Change
+=======
+      paralyzeTime: 3
+>>>>>>> upstream/master
       launchForwardsMultiplier: 3
   - type: StepTrigger
     intersectRatio: 0.2

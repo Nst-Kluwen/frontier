@@ -7,6 +7,7 @@
 
 <!-- Frontier: all disciplines below swapped to NF variants -->
 
+<<<<<<< HEAD
 ## Инженерия
 <GuideTechDisciplineEmbed Discipline="NFEngineering"/>
 
@@ -14,11 +15,21 @@
 <GuideTechDisciplineEmbed Discipline="NFMedical"/>
 
 ## Наёмники
+=======
+## Engineering
+<GuideTechDisciplineEmbed Discipline="NFEngineering"/>
+
+## Medical
+<GuideTechDisciplineEmbed Discipline="NFMedical"/>
+
+## Mercenary
+>>>>>>> upstream/master
 <GuideTechDisciplineEmbed Discipline="NFArsenalMercenary"/>
 
 ## NFSD
 <GuideTechDisciplineEmbed Discipline="NFArsenalNfsd"/>
 
+<<<<<<< HEAD
 ## Утилизация
 <GuideTechDisciplineEmbed Discipline="NFSalvage"/>
 
@@ -26,6 +37,15 @@
 <GuideTechDisciplineEmbed Discipline="NFScience"/>
 
 ## Сервис
+=======
+## Salvage
+<GuideTechDisciplineEmbed Discipline="NFSalvage"/>
+
+## Science
+<GuideTechDisciplineEmbed Discipline="NFScience"/>
+
+## Service
+>>>>>>> upstream/master
 <GuideTechDisciplineEmbed Discipline="NFService"/>
 
 </Document>

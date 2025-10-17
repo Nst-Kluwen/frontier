@@ -1,21 +1,34 @@
 using Content.Shared.Doors.Components;
 using Content.Shared.Doors.Systems;
+<<<<<<< HEAD
 using Content.Shared.SprayPainter.Prototypes; // Upstream#37341
 using Robust.Client.Animations;
 using Robust.Client.GameObjects;
 // using Robust.Client.ResourceManagement; // Upstream#37341
 // using Robust.Shared.Serialization.TypeSerializers.Implementations; // Upstream#37341
 using Robust.Shared.Prototypes; // Upstream#37341
+=======
+using Content.Shared.SprayPainter.Prototypes;
+using Robust.Client.Animations;
+using Robust.Client.GameObjects;
+using Robust.Shared.Prototypes;
+>>>>>>> upstream/master
 
 namespace Content.Client.Doors;
 
 public sealed class DoorSystem : SharedDoorSystem
 {
     [Dependency] private readonly AnimationPlayerSystem _animationSystem = default!;
+<<<<<<< HEAD
     // [Dependency] private readonly IResourceCache _resourceCache = default!; // Upstream#37341
     [Dependency] private readonly IComponentFactory _componentFactory = default!; // Upstream#37341
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!; // Upstream#37341
     [Dependency] private readonly SpriteSystem _sprite = default!; // Upstream#37341
+=======
+    [Dependency] private readonly IComponentFactory _componentFactory = default!;
+    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+    [Dependency] private readonly SpriteSystem _sprite = default!;
+>>>>>>> upstream/master
 
     public override void Initialize()
     {
@@ -89,10 +102,15 @@ public sealed class DoorSystem : SharedDoorSystem
         if (!AppearanceSystem.TryGetData<DoorState>(entity, DoorVisuals.State, out var state, args.Component))
             state = DoorState.Closed;
 
+<<<<<<< HEAD
         // Upstream#37341
         if (AppearanceSystem.TryGetData<string>(entity, PaintableVisuals.Prototype, out var prototype, args.Component))
             UpdateSpriteLayers((entity.Owner, args.Sprite), prototype);
         // End Upstream#37341
+=======
+        if (AppearanceSystem.TryGetData<string>(entity, PaintableVisuals.Prototype, out var prototype, args.Component))
+            UpdateSpriteLayers((entity.Owner, args.Sprite), prototype);
+>>>>>>> upstream/master
 
         if (_animationSystem.HasRunningAnimation(entity, DoorComponent.AnimationKey))
             _animationSystem.Stop(entity.Owner, DoorComponent.AnimationKey);
@@ -145,7 +163,10 @@ public sealed class DoorSystem : SharedDoorSystem
         }
     }
 
+<<<<<<< HEAD
     // Upstream#37341
+=======
+>>>>>>> upstream/master
     private void UpdateSpriteLayers(Entity<SpriteComponent> sprite, string targetProto)
     {
         if (!_prototypeManager.TryIndex(targetProto, out var target))
@@ -154,7 +175,11 @@ public sealed class DoorSystem : SharedDoorSystem
         if (!target.TryGetComponent(out SpriteComponent? targetSprite, _componentFactory))
             return;
 
+<<<<<<< HEAD
         sprite.Comp.BaseRSI = targetSprite.BaseRSI;
+=======
+        _sprite.SetBaseRsi(sprite.AsNullable(), targetSprite.BaseRSI);
+>>>>>>> upstream/master
     }
     // End Upstream#37341
 }

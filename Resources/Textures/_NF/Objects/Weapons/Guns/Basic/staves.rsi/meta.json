@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-4.0",
+<<<<<<< HEAD
   "copyright": "Made by ra.Y Discord (ray-boop Github)",
+=======
+  "copyright": "Made by ra.Y Discord (ray-boop Github). Fake staff from Paradise at https://github.com/ParadiseSS13/Paradise/commit/8bfbf74c1600816626c0dd6d16ef670e1c261b67",
+>>>>>>> upstream/master
   "size": {
     "x": 32,
     "y": 32
@@ -157,6 +161,20 @@
             0.5
         ]
       ]
+<<<<<<< HEAD
+=======
+    },
+    {
+      "name": "fake"
+    },
+    {
+      "name": "fake-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "fake-inhand-right",
+      "directions": 4
+>>>>>>> upstream/master
     }
   ]
 }

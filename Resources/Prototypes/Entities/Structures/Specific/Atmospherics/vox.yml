@@ -16,6 +16,10 @@
       NitrousOxide: stationNO
       Frezon: danger
       Respiron: ignore # Frontier
+<<<<<<< HEAD
+=======
+      Helium: stationHe # Frontier
+>>>>>>> upstream/master
 
 - type: entity
   parent: [AirSensorVoxBase, AirSensor]
@@ -40,6 +44,7 @@
     - Ammonia
     - NitrousOxide
     - Frezon
+    - Helium # Frontier
 
 # use this to prevent overriding filters with hardcoded defaults
 - type: entity

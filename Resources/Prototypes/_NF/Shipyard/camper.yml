@@ -1,13 +1,15 @@
 # Author Info
-# GitHub: https://github.com/AF-Buyrcsp2
-# Discord:
+# GitHub: https://github.com/AmbitiousFailure
+# Discord: ambitiousfailure
 
 # Maintainer Info
-#
+# GitHub: https://github.com/AmbitiousFailure
+# Discord: ambitiousfailure
 
 # Shuttle Notes:
 #
 
+<<<<<<< HEAD
 # - type: vessel
   # id: Camper
   # name: SSS Camper
@@ -41,3 +43,39 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+- type: vessel
+  id: Camper
+  parent: BaseVessel
+  name: SSF Camper
+  description: A personal mobile home for nomadic spacers, equipped with a small kitchen, toilet and bedroom.
+  price: 13000 # ~11800 0.1 ~12980
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/camper.yml
+  guidebookPage: ShipyardCamper
+  class:
+  - Civilian
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Camper
+  mapName: 'SSF Camper'
+  mapPath: /Maps/_NF/Shuttles/camper.yml
+  minPlayers: 0
+  stations:
+    Camper:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Camper {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

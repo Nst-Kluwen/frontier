@@ -568,19 +568,34 @@
 
 - type: entity
   id: ActionLeviathingSpawn
+<<<<<<< HEAD
+=======
+  parent: BaseAction
+>>>>>>> upstream/master
   categories: [ HideSpawnMenu ]
   name: "[color=yellow]Spawn Argocyte[/color]"
   description: "Spawn an argocyte that will follow you. [color=yellow]60 second cooldown.[/color]"
   components:
+<<<<<<< HEAD
   - type: InstantAction
     icon: { sprite : Mobs/Aliens/Argocyte/argocyte_common.rsi, state: pouncer }
     event: !type:InstantSpawnSpellEvent
       prototype: SpawnMobArgocyteLeviathingSpawned
+=======
+  - type: Action
+    icon: { sprite : Mobs/Aliens/Argocyte/argocyte_common.rsi, state: pouncer }
+>>>>>>> upstream/master
     priority: 2
     itemIconStyle: BigAction
     useDelay: 60
     sound:
       path: /Audio/Animals/space_dragon_roar.ogg
+<<<<<<< HEAD
+=======
+  - type: InstantAction
+    event: !type:InstantSpawnSpellEvent
+      prototype: SpawnMobArgocyteLeviathingSpawned
+>>>>>>> upstream/master
 
 - type: entity
   id: MobArgocyteLeviathingSpawned

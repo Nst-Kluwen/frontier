@@ -5390,7 +5390,7 @@ entities:
     - type: Transform
       pos: -7.5197897,3.5972664
       parent: 1
-- proto: SpawnDungeonVendomatsRecreational
+- proto: RandomVending
   entities:
   - uid: 778
     components:
@@ -6092,6 +6092,18 @@ entities:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
+<<<<<<< HEAD
+=======
+- proto: NFWeaponRevolverDeckardExpeditionGrifty
+  entities:
+  - uid: 219
+    components:
+    - type: Transform
+      parent: 563
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+>>>>>>> upstream/master
 - proto: Window
   entities:
   - uid: 896

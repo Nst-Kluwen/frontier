@@ -189,6 +189,7 @@
         - ReagentId: Fiber
           Quantity: 6
   - type: MothFood
+<<<<<<< HEAD
 
 - type: entity
   name: cotton bun
@@ -219,3 +220,5 @@
         - ReagentId: Fiber
           Quantity: 2
   - type: MothFood
+=======
+>>>>>>> upstream/master

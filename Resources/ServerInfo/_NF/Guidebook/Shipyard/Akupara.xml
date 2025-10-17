@@ -17,14 +17,19 @@
 
   [color=#a4885c]Тип генератора:[/color] Урановый
 
+<<<<<<< HEAD
   [color=#a4885c]Экспедиции:[/color] Нет
 
   [color=#a4885c]Консоль IFF:[/color] Отсутствует
 
   [color=#a4885c]Доступные роли:[/color] Контрактник, Пилот, Наёмник
+=======
+  # Shuttle Brief
+>>>>>>> upstream/master
 
   "Средний биодом для ботанических исследований с полным функционалом, позволяющий ботанику взаимодействовать с растениями практически любым мыслимым способом."
 
+<<<<<<< HEAD
   # ПРЕДПОЛЁТНЫЙ ЧЕК-ЛИСТ
 
   ## 1. Энергосистема
@@ -114,5 +119,29 @@
   * - На шаттлах класса "Акупара" установлены три APC для мониторинга энергопотребления. Стандартная конфигурация требует 30 кВт для штатной работы.
 
   ** - Кислородные и азотные фильтры критически важны при мутагенных экспериментах с газообразующими растениями. Их активация позволяет настраивать скрубберы для обработки избыточного давления.
+=======
+  # Medical
 
+  [textlink="Chemistry" link="Chemist"/]
+
+  [textlink="Chemicals" link="Chemicals"/]
+
+  [textlink="Botany" link="Botany"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+>>>>>>> upstream/master
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
 </Document>

@@ -34,3 +34,14 @@ lathe-recipe-DrinkKegPlastic-name = cask (plastic)
 # Paper
 lathe-recipe-NFSheetPaperFromWood-name = paper (wood)
 lathe-recipe-NFSheetPaperFromCardboard-name = paper (cardboard)
+<<<<<<< HEAD
+=======
+
+# Inflatables
+lathe-recipe-NFInflatableWallStack1-name = inflatable wall
+lathe-recipe-NFInflatableWindowStack1-name = inflatable window
+lathe-recipe-NFInflatableDoorStack1-name = inflatable door
+lathe-recipe-NFInflatableDoorWindowStack1-name = inflatable windoor
+lathe-recipe-NFInflatableDockStack1-name = inflatable dock
+lathe-recipe-NFInflatableCrateStack1-name = inflatable crate
+>>>>>>> upstream/master

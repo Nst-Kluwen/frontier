@@ -202,7 +202,11 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<bool> ImpactEnabled =
+<<<<<<< HEAD
         CVarDef.Create("shuttle.impact.enabled", true, CVar.SERVERONLY);
+=======
+        CVarDef.Create("shuttle.impact.enabled", false, CVar.SERVERONLY); // Frontier true>false
+>>>>>>> upstream/master
 
     /// <summary>
     /// Minimum impact inertia to trigger special shuttle impact behaviors when impacting slower than MinimumImpactVelocity.
@@ -223,14 +227,22 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> TileBreakEnergyMultiplier =
+<<<<<<< HEAD
         CVarDef.Create("shuttle.impact.tile_break_energy", 3000f, CVar.SERVERONLY);
+=======
+        CVarDef.Create("shuttle.impact.tile_break_energy", 30000f, CVar.SERVERONLY); // Frontier 3000f>35000f
+>>>>>>> upstream/master
 
     /// <summary>
     /// Multiplier of damage done to entities on colliding areas
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> ImpactDamageMultiplier =
+<<<<<<< HEAD
         CVarDef.Create("shuttle.impact.damage_multiplier", 0.00005f, CVar.SERVERONLY);
+=======
+        CVarDef.Create("shuttle.impact.damage_multiplier", 0.00001f, CVar.SERVERONLY); // Frontier 0.00005f>0.00001f
+>>>>>>> upstream/master
 
     /// <summary>
     /// Multiplier of additional structural damage to do
@@ -244,7 +256,11 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> SparkEnergy =
+<<<<<<< HEAD
         CVarDef.Create("shuttle.impact.spark_energy", 2000000f, CVar.SERVERONLY);
+=======
+        CVarDef.Create("shuttle.impact.spark_energy", 250f, CVar.SERVERONLY); // Frontier 2000000f>250f
+>>>>>>> upstream/master
 
     /// <summary>
     /// Area to consider for impact calculations
@@ -258,14 +274,22 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> ImpactSlowdown =
+<<<<<<< HEAD
         CVarDef.Create("shuttle.impact.slowdown", 0.8f, CVar.SERVERONLY);
+=======
+        CVarDef.Create("shuttle.impact.slowdown", 10f, CVar.SERVERONLY); // Frontier 8f>10f
+>>>>>>> upstream/master
 
     /// <summary>
     /// Minimum velocity change from impact for special throw effects (e.g. stuns, beakers breaking) to occur
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> ImpactMinThrowVelocity =
+<<<<<<< HEAD
         CVarDef.Create("shuttle.impact.min_throw_velocity", 1f, CVar.SERVERONLY); // due to how it works this is about 16 m/s for cargo shuttle
+=======
+        CVarDef.Create("shuttle.impact.min_throw_velocity", 50f, CVar.SERVERONLY); // due to how it works this is about 16 m/s for cargo shuttle // Frontier 1f>50f
+>>>>>>> upstream/master
 
     /// <summary>
     /// Affects how much damage reduction to give to grids with higher mass
@@ -279,6 +303,7 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> ImpactInertiaScaling =
+<<<<<<< HEAD
         CVarDef.Create("shuttle.impact.inertia_scaling", 0.5f, CVar.SERVERONLY);
 
     #endregion
@@ -302,4 +327,9 @@ public sealed partial class CCVars
 
     #endregion
     // Forge-Change-End
+=======
+        CVarDef.Create("shuttle.impact.inertia_scaling", 0.025f, CVar.SERVERONLY); // Frontier 0.5f>0.025f
+
+    #endregion
+>>>>>>> upstream/master
 }

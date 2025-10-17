@@ -152,5 +152,8 @@
     state: icon
   - type: Item
     sprite: Objects/Tools/Toolboxes/toolbox_gold.rsi
+<<<<<<< HEAD
   - type: MercenaryBountyItem # Forge-Change
     id: ToolboxGold
+=======
+>>>>>>> upstream/master

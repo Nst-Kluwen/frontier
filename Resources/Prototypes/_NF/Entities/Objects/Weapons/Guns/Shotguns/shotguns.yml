@@ -88,6 +88,11 @@
     sprite: _DV/Objects/Weapons/Guns/Shotguns/sawn.rsi
   - type: Item
     size: Normal
+<<<<<<< HEAD
+=======
+    shape:
+      - 0,0,2,1
+>>>>>>> upstream/master
   - type: BallisticAmmoProvider
     capacity: 2
   - type: NFWeaponDetails

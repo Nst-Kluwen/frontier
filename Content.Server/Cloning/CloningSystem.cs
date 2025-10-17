@@ -26,7 +26,6 @@ namespace Content.Server.Cloning;
 /// </summary>
 public sealed partial class CloningSystem : EntitySystem
 {
-    [Dependency] private readonly IComponentFactory _componentFactory = default!;
     [Dependency] private readonly HumanoidAppearanceSystem _humanoidSystem = default!;
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly MetaDataSystem _metaData = default!;
@@ -106,7 +105,11 @@ public sealed partial class CloningSystem : EntitySystem
 
         foreach (var componentName in componentsToCopy)
         {
+<<<<<<< HEAD
             if (!_componentFactory.TryGetRegistration(componentName, out var componentRegistration))
+=======
+            if (!Factory.TryGetRegistration(componentName, out var componentRegistration))
+>>>>>>> upstream/master
             {
                 Log.Error($"Tried to use invalid component registration for cloning: {componentName}");
                 continue;
@@ -122,7 +125,11 @@ public sealed partial class CloningSystem : EntitySystem
 
         foreach (var componentName in componentsToEvent)
         {
+<<<<<<< HEAD
             if (!_componentFactory.TryGetRegistration(componentName, out var componentRegistration))
+=======
+            if (!Factory.TryGetRegistration(componentName, out var componentRegistration))
+>>>>>>> upstream/master
             {
                 Log.Error($"Tried to use invalid component registration for cloning: {componentName}");
                 continue;

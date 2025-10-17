@@ -278,7 +278,11 @@
   productEntity: NFWeaponEnergyRifleCarbine
   icon: { sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi, state: icon }
   cost:
+<<<<<<< HEAD
     FrontierUplinkCoin: 8
+=======
+    FrontierUplinkCoin: 5
+>>>>>>> upstream/master
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -299,7 +303,11 @@
   productEntity: NFWeaponEnergyRifleSniperCannon
   icon: { sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi, state: icon }
   cost:
+<<<<<<< HEAD
     FrontierUplinkCoin: 14
+=======
+    FrontierUplinkCoin: 10
+>>>>>>> upstream/master
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -318,7 +326,11 @@
   productEntity: NFWeaponEnergySubMachineGunDisabler
   icon: { sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi, state: base }
   cost:
+<<<<<<< HEAD
     FrontierUplinkCoin: 6
+=======
+    FrontierUplinkCoin: 4
+>>>>>>> upstream/master
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -422,7 +434,11 @@
   productEntity: NFWeaponEnergySubMachineGunDeltaV
   icon: { sprite: _DV/Objects/Weapons/Guns/Battery/energygun.rsi, state: icon }
   cost:
+<<<<<<< HEAD
     FrontierUplinkCoin: 8
+=======
+    FrontierUplinkCoin: 5
+>>>>>>> upstream/master
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -454,6 +470,7 @@
       whitelist:
         - Sheriff
 
+<<<<<<< HEAD
 - type: listing # Corvax-Frontier
   id: UplinkSecurityKS23
   name:  uplink-security-ks23-name
@@ -475,6 +492,8 @@
         - SeniorOfficer
         - Sheriff
 
+=======
+>>>>>>> upstream/master
 #region utililty
 - type: listing
   id: UplinkSecurityHolo
@@ -588,7 +607,11 @@
   productEntity: BoxT3SuperCapacitor
   icon: { sprite: Objects/Storage/boxes.rsi, state: box}
   cost:
+<<<<<<< HEAD
     FrontierUplinkCoin: 5 # CorvaxFrontier
+=======
+    FrontierUplinkCoin: 8 # 4<8
+>>>>>>> upstream/master
   categories:
     - UplinkSecurityBundles
   conditions:
@@ -1165,6 +1188,7 @@
         - SeniorOfficer
         - Sheriff
 
+<<<<<<< HEAD
 #- type: listing #CorvaxFrontier
 #  id: UplinkSecurityHoverbikeNfsdFlatpack
 #  name:  uplink-security-hoverbike-name
@@ -1185,6 +1209,28 @@
 #        - Bailiff
 #        - SeniorOfficer
 #        - Sheriff
+=======
+- type: listing
+  id: UplinkSecurityHoverbikeNfsdFlatpack
+  name:  uplink-security-hoverbike-name
+  description: uplink-security-hoverbike-desc
+  productEntity: HoverbikeNfsdFlatpack
+  icon: { sprite: _NF/Objects/Vehicles/hoverbike.rsi, state: vehicle }
+  cost:
+    FrontierUplinkCoin: 10
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+>>>>>>> upstream/master
 
 - type: listing
   id: UplinkSecurityLethalArmory

@@ -1,15 +1,33 @@
 #region NFBase
+<<<<<<< HEAD
 - type: entity # Forge-change remove bullet-trace state, color, and tracer
+=======
+- type: entity
+>>>>>>> upstream/master
   id: NFBaseBullet
   parent: BaseBullet
   abstract: true
   components:
   - type: Sprite
     noRot: false
+<<<<<<< HEAD
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
     layers:
     - state: bullet
       shader: unshaded
+=======
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
+    layers:
+    - state: bullet
+      color: "#ddddddFF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#ddddddBB"
+      shader: unshaded
+  - type: Tracer
+    color: "#ddddddFF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletTrigger
@@ -18,10 +36,24 @@
   components:
   - type: Sprite
     noRot: false
+<<<<<<< HEAD
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
     layers:
     - state: bullet
       shader: unshaded
+=======
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
+    layers:
+    - state: bullet
+      color: "#ddddddFF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#ddddddBB"
+      shader: unshaded
+  - type: Tracer
+    color: "#ddddddFF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBasePellet
@@ -31,9 +63,20 @@
   - type: Sprite
     layers:
     - state: pellet
+<<<<<<< HEAD
       shader: unshaded
     - state: pellet-trace
       shader: unshaded
+=======
+      color: "#ddddddFF"
+      shader: unshaded
+    - state: pellet-trace
+      color: "#ddddddBB"
+      shader: unshaded
+  - type: Tracer
+    color: "#ddddddFF"
+    length: 1
+>>>>>>> upstream/master
 
 #region Bullets
 - type: entity
@@ -44,7 +87,18 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
       shader: unshaded
+=======
+      color: "#ff8d00FF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#ff8d00BB"
+      shader: unshaded
+  - type: Tracer
+    color: "#ff8d00FF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletIncendiary
@@ -54,6 +108,13 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
+=======
+      color: "#ff0000FF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#ff0000BB"
+>>>>>>> upstream/master
       shader: unshaded
   - type: PointLight
     enabled: true
@@ -64,6 +125,12 @@
     fireStacks: 0.25
   - type: IgnitionSource
     ignited: true
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#ff0000FF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletUranium
@@ -73,12 +140,26 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
+=======
+      color: "#00ff00FF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#9BE792BB"
+>>>>>>> upstream/master
       shader: unshaded
   - type: PointLight
     enabled: true
     color: "#9BE792"
     radius: 1.1
     energy: 3.0
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#00ff00FF"
+    length: 1.5
+
+>>>>>>> upstream/master
 - type: entity
   id: NFBaseBulletPractice
   parent: NFBaseBullet
@@ -87,7 +168,18 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
       shader: unshaded
+=======
+      color: "#ddddddFF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#ddddddBB"
+      shader: unshaded
+  - type: Tracer
+    color: "#ddddddFF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletEmp
@@ -97,12 +189,25 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
+=======
+      color: "#00ffffFF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#00ffffBB"
+>>>>>>> upstream/master
       shader: unshaded
   - type: PointLight
     enabled: true
     color: "#00ffff"
     radius: 1.1
     energy: 3.0
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#00ffffFF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletRubber
@@ -112,6 +217,13 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
+=======
+      color: "#00b0ffFF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#00b0ffBB"
+>>>>>>> upstream/master
       shader: unshaded
   - type: Projectile
     damage:
@@ -121,6 +233,12 @@
       path: /Audio/Weapons/Guns/Hits/snap.ogg
   - type: StaminaDamageOnCollide
     damage: 15
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#00b0ffFF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletExplosive
@@ -130,6 +248,13 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
+=======
+      color: "#ffff00FF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#ffff00BB"
+>>>>>>> upstream/master
       shader: unshaded
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -143,6 +268,12 @@
     color: "#ffff00FF"
     radius: 1.1
     energy: 3.0
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#ffff00FF"
+    length: 1.5
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletAP
@@ -152,12 +283,25 @@
   - type: Sprite
     layers:
     - state: bullet
+<<<<<<< HEAD
+=======
+      color: "#330000FF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#666666BB"
+>>>>>>> upstream/master
       shader: unshaded
   - type: Projectile
     damage:
       types:
         Piercing: 8
     ignoreResistances: true
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#666666FF"
+    length: 1.5
+>>>>>>> upstream/master
 
 #region AntiMateriel
 - type: entity
@@ -173,6 +317,12 @@
     penetrationThreshold: 360
     penetrationDamageTypeRequirement:
     - Structural
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#ddddddFF"
+    length: 3
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBaseBulletAntiMaterielRubber
@@ -185,6 +335,12 @@
         Blunt: 10
   - type: StaminaDamageOnCollide
     damage: 60
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#00b0ffFF"
+    length: 3
+>>>>>>> upstream/master
 
 #region Pellets
 - type: entity
@@ -200,6 +356,12 @@
     - state: pellet-trace
       color: "#ff8d00BB"
       shader: unshaded
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#ff8d00FF"
+    length: 1
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBasePelletIncendiary
@@ -223,6 +385,12 @@
     fireStacks: 0.25
   - type: IgnitionSource
     ignited: true
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#ff0000FF"
+    length: 1
+>>>>>>> upstream/master
 
 - type: entity
   id: NFBasePelletUranium
@@ -242,6 +410,13 @@
     color: "#9BE792"
     radius: 1.1
     energy: 1.0
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#00ff00FF"
+    length: 1
+
+>>>>>>> upstream/master
 - type: entity
   id: NFBasePelletPractice
   parent: NFBaseBullet
@@ -255,3 +430,9 @@
     - state: pellet-trace
       color: "#ddddddBB"
       shader: unshaded
+<<<<<<< HEAD
+=======
+  - type: Tracer
+    color: "#ddddddFF"
+    length: 1
+>>>>>>> upstream/master

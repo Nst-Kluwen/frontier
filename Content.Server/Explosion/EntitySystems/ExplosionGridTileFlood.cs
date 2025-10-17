@@ -11,7 +11,11 @@ namespace Content.Server.Explosion.EntitySystems;
 /// </summary>
 public sealed class ExplosionGridTileFlood : ExplosionTileFlood
 {
+<<<<<<< HEAD
     public Entity<MapGridComponent> Grid; // Forge-Change
+=======
+    public Entity<MapGridComponent> Grid;
+>>>>>>> upstream/master
     private bool _needToTransform = false;
 
     private Matrix3x2 _matrix = Matrix3x2.Identity;
@@ -37,7 +41,11 @@ public sealed class ExplosionGridTileFlood : ExplosionTileFlood
     private Dictionary<Vector2i, NeighborFlag> _edgeTiles;
 
     public ExplosionGridTileFlood(
+<<<<<<< HEAD
         Entity<MapGridComponent> grid, // Forge-Change
+=======
+        Entity<MapGridComponent> grid,
+>>>>>>> upstream/master
         Dictionary<Vector2i, TileData> airtightMap,
         float maxIntensity,
         float intensityStepSize,
@@ -73,7 +81,11 @@ public sealed class ExplosionGridTileFlood : ExplosionTileFlood
 
         var transformSystem = entityManager.System<SharedTransformSystem>();
         var transform = entityManager.GetComponent<TransformComponent>(Grid.Owner);
+<<<<<<< HEAD
         var size = (float)Grid.Comp.TileSize; // Forge-Change
+=======
+        var size = (float)Grid.Comp.TileSize;
+>>>>>>> upstream/master
 
         _matrix.M31 = size / 2;
         _matrix.M32 = size / 2;

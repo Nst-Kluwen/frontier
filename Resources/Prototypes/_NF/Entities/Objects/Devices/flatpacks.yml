@@ -291,7 +291,11 @@
   - type: Flatpack
     entity: MachineMaterialSilo
   - type: StaticPrice
+<<<<<<< HEAD
     price: 250
+=======
+    price: 150
+>>>>>>> upstream/master
 
 #region Service
 - type: entity

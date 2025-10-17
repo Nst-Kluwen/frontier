@@ -49,7 +49,11 @@
   id: ComputerShipyard
   components:
   - type: ShipyardConsole
+<<<<<<< HEAD
     #Corvax Change newJobTitle: job-name-captain
+=======
+    newJobTitle: job-name-captain
+>>>>>>> upstream/master
 
 - type: entity
   id: ComputerShipyardSecurity

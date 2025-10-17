@@ -43,7 +43,11 @@
             "name": "bomb"
         },
         {
+<<<<<<< HEAD
             "name": "bomb-unshaded",
+=======
+            "name": "bomb_unshaded",
+>>>>>>> upstream/master
             "delays": [
                 [
                     0.2,

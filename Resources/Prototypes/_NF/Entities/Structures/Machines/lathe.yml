@@ -6,6 +6,7 @@
     whitelist:
       tags:
       - BlueprintAutolathe
+      - NFBlueprintAdvanced
   - type: ContainerContainer
     containers:
       machine_board: !type:Container
@@ -44,6 +45,10 @@
     - NFServiceTechfabDeprecatedStatic
     - NFPaperAndPaperAccessories
     - ReportingStatic # DeltaV
+<<<<<<< HEAD
+=======
+    - NFLightsColoredStatic
+>>>>>>> upstream/master
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFServiceTechfabDeprecatedEmagStatic
@@ -51,6 +56,10 @@
     whitelist:
       tags:
       - NFBlueprintServiceTechfab
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced
+>>>>>>> upstream/master
   - type: OreSiloClient
 
 - type: entity
@@ -108,10 +117,18 @@
     runningState: icon
     staticPacks:
     - NFEngineeringTechfabDeprecatedStatic
+<<<<<<< HEAD
+=======
+    - NFInflatablesStatic
+>>>>>>> upstream/master
   - type: BlueprintReceiver
     whitelist:
       tags:
       - NFBlueprintEngineeringTechfab
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced
+>>>>>>> upstream/master
   - type: OreSiloClient
 
 - type: entity
@@ -141,8 +158,12 @@
     runningState: icon
     staticPacks:
     - NFSalvageTechfabDeprecatedStatic
+<<<<<<< HEAD
     dynamicPacks:
     - NFSalvageTechfabDeprecatedDynamic
+=======
+    - NFInflatablesStatic
+>>>>>>> upstream/master
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFSalvageTechfabDeprecatedEmag
@@ -150,6 +171,10 @@
     whitelist:
       tags:
       - NFBlueprintSalvageTechfab
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced
+>>>>>>> upstream/master
   - type: OreSiloClient
 
 - type: entity
@@ -182,15 +207,22 @@
     - NfsdPracticeStatic
     - NfsdAmmoStatic
     - ReportingStatic # DeltaV
+<<<<<<< HEAD
     - CorvaxAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - CorvaxMechsWeaponsNFSDDynamic #Corvax-Frontier
     - CorvaxShuttleGunsDynamic #Corvax-Frontier
     - CorvaxAmmoDynamic #Corvax-Frontier
+=======
+>>>>>>> upstream/master
   - type: BlueprintReceiver
     whitelist:
       tags:
       - NFBlueprintNfsdTechfab
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced
+>>>>>>> upstream/master
   - type: OreSiloClient
 
 - type: entity
@@ -221,12 +253,19 @@
     staticPacks:
     - NFMercenaryTechfabDeprecatedStatic
     - NfsdPracticeStatic
+<<<<<<< HEAD
     dynamicPacks:
     - CorvaxMechsWeaponsDynamic #Corvax-Frontier
+=======
+>>>>>>> upstream/master
   - type: BlueprintReceiver
     whitelist:
       tags:
       - NFBlueprintMercenaryTechfab
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced
+>>>>>>> upstream/master
   - type: OreSiloClient
 
 - type: entity
@@ -270,12 +309,19 @@
     runningState: mercenary-hacked
     staticPacks:
     - NFHackedMercenaryTechfabDeprecatedStatic
+<<<<<<< HEAD
     - CorvaxAmmoStatic #Corvax-Frontier
+=======
+>>>>>>> upstream/master
   - type: BlueprintReceiver
     whitelist:
       tags:
       - NFBlueprintMercenaryTechfab
       - NFBlueprintNfsdTechfab
+<<<<<<< HEAD
+=======
+      - NFBlueprintAdvanced
+>>>>>>> upstream/master
   - type: OreSiloClient
 
 - type: entity

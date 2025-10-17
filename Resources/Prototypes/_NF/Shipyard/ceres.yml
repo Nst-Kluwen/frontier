@@ -6,6 +6,7 @@
 # GitHub: arimah
 # Discord: arimah
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Ceres
+  parent: BaseVessel
+  name: BB Ceres
+  description: A medium-size, high-class restaurant ship with ample seating, integrated botany and a dining room for VIP guests
+  price: 73000 # ~10% markup, big luxury restaurant
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/ceres.yml
+  guidebookPage: ShipyardCeres
+  class:
+  - Kitchen
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Ceres
+  mapName: 'BB Ceres'
+  mapPath: /Maps/_NF/Shuttles/ceres.yml
+  minPlayers: 0
+  stations:
+    Ceres:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Ceres {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

@@ -5,6 +5,7 @@
 # Shuttle Notes:
 #
 
+<<<<<<< HEAD
 # - type: vessel
   # id: McDelivery
   # name: DC McDelivery
@@ -18,6 +19,22 @@
   # - Civilian
   # engine:
   # - Welding
+=======
+- type: vessel
+  id: McDelivery
+  parent: BaseVessel
+  name: DC McDelivery
+  description: "Fast food fast ship, bring the McCargo meals to the people"
+  price: 9250 #7861 0.05 8254.05
+  category: Micro
+  group: Custom
+  shuttlePath: /Maps/_NF/Shuttles/mcdelivery.yml
+  guidebookPage: ShipyardMcDelivery
+  class:
+  - Civilian
+  engine:
+  - Welding
+>>>>>>> upstream/master
 
 # - type: gameMap
   # id: McDelivery

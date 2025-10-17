@@ -18,6 +18,11 @@
   - type: Tag
     tags:
     - Trash
+<<<<<<< HEAD
+=======
+    - Document
+    - Paper
+>>>>>>> upstream/master
   - type: Paper
     editingDisabled: true
   - type: PaperVisuals
