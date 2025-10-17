@@ -12,6 +12,7 @@
   # engine:
   # - AME
 
+<<<<<<< HEAD
 # - type: gameMap
   # id: Infiltrator
   # mapName: 'Infiltrator'
@@ -28,3 +29,21 @@
             # prefixCreator: '14'
         # - type: StationJobs
           # availableJobs: {}
+=======
+- type: gameMap
+  id: Infiltrator
+  mapName: 'Infiltrator'
+  mapPath: /Maps/_NF/Shuttles/Syndicate/infiltrator.yml
+  minPlayers: 0
+  stations:
+    Infiltrator:
+      stationProto: StandardFrontierAntagVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Infiltrator {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}
+>>>>>>> upstream/master

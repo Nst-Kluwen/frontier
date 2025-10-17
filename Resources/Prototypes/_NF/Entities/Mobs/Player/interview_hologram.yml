@@ -97,25 +97,49 @@
 
 - type: entity
   id: ActionInterviewToggleApproval
+<<<<<<< HEAD
   name: Toggle Approval
   description: Toggles whether or not you approve to work with this crew.
   components:
   - type: InstantAction
+=======
+  parent: BaseAction
+  name: Toggle Approval
+  description: Toggles whether or not you approve to work with this crew.
+  components:
+  - type: Action
+>>>>>>> upstream/master
     icon: _NF/Interface/Actions/acceptOff.png
     iconOn: _NF/Interface/Actions/accept.png
     checkCanInteract: false
     itemIconStyle: NoItem
     useDelay: 1.5
+<<<<<<< HEAD
+=======
+  - type: InstantAction
+>>>>>>> upstream/master
     event: !type:ToggleApplicantApprovalEvent
 
 - type: entity
   id: ActionInterviewCancel
+<<<<<<< HEAD
   name: Cancel Application
   description: Cancel your application and return to the lobby.
   components:
   - type: InstantAction
+=======
+  parent: BaseAction
+  name: Cancel Application
+  description: Cancel your application and return to the lobby.
+  components:
+  - type: Action
+>>>>>>> upstream/master
     icon: _NF/Interface/Actions/paperFire.png
     checkCanInteract: false
     itemIconStyle: NoItem
     useDelay: 3
+<<<<<<< HEAD
+=======
+  - type: InstantAction
+>>>>>>> upstream/master
     event: !type:CancelInterviewEvent

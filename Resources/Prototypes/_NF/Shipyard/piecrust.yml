@@ -6,6 +6,7 @@
 # GitHub: https://github.com/MoistBiscuits
 # Discord: moistbiscuits
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Piecrust
+  parent: BaseVessel
+  name: NC Piecrust
+  description: A rustic cafe for the nostalgic deep space chef.
+  price: 34000 # 30500 0.05 32025
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/piecrust.yml
+  guidebookPage: Null
+  class:
+  - Kitchen
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Piecrust
+  mapName: 'NT Piecrust'
+  mapPath: /Maps/_NF/Shuttles/piecrust.yml
+  minPlayers: 0
+  stations:
+    Piecrust:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Piecrust {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

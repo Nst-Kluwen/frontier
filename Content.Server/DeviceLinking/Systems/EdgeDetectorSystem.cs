@@ -1,4 +1,8 @@
 using Content.Server.DeviceLinking.Components;
+<<<<<<< HEAD
+=======
+using Content.Shared.DeviceLinking;
+>>>>>>> upstream/master
 using Content.Shared.DeviceLinking.Events;
 using Content.Shared.DeviceNetwork;
 

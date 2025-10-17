@@ -16,13 +16,33 @@ public sealed class ComponentTogglerSystem : EntitySystem
 
     private void OnToggled(Entity<ComponentTogglerComponent> ent, ref ItemToggledEvent args)
     {
+<<<<<<< HEAD
         var target = ent.Comp.Parent ? Transform(ent).ParentUid : ent.Owner;
         if (TerminatingOrDeleted(target))
             return;
 
+=======
+>>>>>>> upstream/master
         if (args.Activated)
+        {
+            var target = ent.Comp.Parent ? Transform(ent).ParentUid : ent.Owner;
+
+            if (TerminatingOrDeleted(target))
+                return;
+
+            ent.Comp.Target = target;
+
             EntityManager.AddComponents(target, ent.Comp.Components);
+        }
         else
-            EntityManager.RemoveComponents(target, ent.Comp.RemoveComponents ?? ent.Comp.Components);
+        {
+            if (ent.Comp.Target == null)
+                return;
+
+            if (TerminatingOrDeleted(ent.Comp.Target.Value))
+                return;
+
+            EntityManager.RemoveComponents(ent.Comp.Target.Value, ent.Comp.RemoveComponents ?? ent.Comp.Components);
+        }
     }
 }

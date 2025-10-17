@@ -1,5 +1,6 @@
 - type: loadout
   id: ContractorForcedClothingOuterEVASuitContractor
+<<<<<<< HEAD
   effects:
   - !type:GroupLoadoutEffect
     proto: NFOuterSuitRequired
@@ -16,8 +17,14 @@
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
   price: 1300
+=======
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NFOuterSuitRequired
+  price: 0
+>>>>>>> upstream/master
   equipment:
-    outerClothing: ClothingOuterHardsuitBasic
+    outerClothing: ClothingOuterEVASuitContractor
 
 - type: loadout
   id: ContractorClothingOuterHardsuitVoidParamed

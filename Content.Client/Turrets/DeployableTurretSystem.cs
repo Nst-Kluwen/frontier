@@ -9,6 +9,10 @@ public sealed partial class DeployableTurretSystem : SharedDeployableTurretSyste
 {
     [Dependency] private readonly AppearanceSystem _appearance = default!;
     [Dependency] private readonly AnimationPlayerSystem _animation = default!;
+<<<<<<< HEAD
+=======
+    [Dependency] private readonly SpriteSystem _sprite = default!;
+>>>>>>> upstream/master
 
     public override void Initialize()
     {
@@ -83,20 +87,32 @@ public sealed partial class DeployableTurretSystem : SharedDeployableTurretSyste
         if (_animation.HasRunningAnimation(ent, animPlayer, DeployableTurretComponent.AnimationKey))
             return;
 
+<<<<<<< HEAD
         if (state == ent.Comp.VisualState)
             return;
 
+=======
+>>>>>>> upstream/master
         var targetState = state & DeployableTurretState.Deployed;
         var destinationState = ent.Comp.VisualState & DeployableTurretState.Deployed;
 
         if (targetState != destinationState)
+<<<<<<< HEAD
             targetState = targetState | DeployableTurretState.Retracting;
+=======
+            targetState |= DeployableTurretState.Retracting;
+>>>>>>> upstream/master
 
         ent.Comp.VisualState = state;
 
         // Toggle layer visibility
+<<<<<<< HEAD
         sprite.LayerSetVisible(DeployableTurretVisuals.Weapon, (targetState & DeployableTurretState.Deployed) > 0);
         sprite.LayerSetVisible(PowerDeviceVisualLayers.Powered, HasAmmo(ent) && targetState == DeployableTurretState.Retracted);
+=======
+        _sprite.LayerSetVisible((ent.Owner, sprite), DeployableTurretVisuals.Weapon, (targetState & DeployableTurretState.Deployed) > 0);
+        _sprite.LayerSetVisible((ent.Owner, sprite), PowerDeviceVisualLayers.Powered, HasAmmo(ent) && targetState == DeployableTurretState.Retracted);
+>>>>>>> upstream/master
 
         // Change the visual state
         switch (targetState)
@@ -110,11 +126,19 @@ public sealed partial class DeployableTurretSystem : SharedDeployableTurretSyste
                 break;
 
             case DeployableTurretState.Deployed:
+<<<<<<< HEAD
                 sprite.LayerSetState(DeployableTurretVisuals.Turret, ent.Comp.DeployedState);
                 break;
 
             case DeployableTurretState.Retracted:
                 sprite.LayerSetState(DeployableTurretVisuals.Turret, ent.Comp.RetractedState);
+=======
+                _sprite.LayerSetRsiState((ent.Owner, sprite), DeployableTurretVisuals.Turret, ent.Comp.DeployedState);
+                break;
+
+            case DeployableTurretState.Retracted:
+                _sprite.LayerSetRsiState((ent.Owner, sprite), DeployableTurretVisuals.Turret, ent.Comp.RetractedState);
+>>>>>>> upstream/master
                 break;
         }
     }

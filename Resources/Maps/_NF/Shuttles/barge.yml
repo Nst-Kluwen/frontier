@@ -4,8 +4,13 @@ meta:
   engineVersion: 255.1.0
   forkId: ""
   forkVersion: ""
+<<<<<<< HEAD
   time: 07/12/2025 14:51:11
   entityCount: 819
+=======
+  time: 07/17/2025 15:49:20
+  entityCount: 823
+>>>>>>> upstream/master
 maps: []
 grids:
 - 70
@@ -1034,6 +1039,7 @@ entities:
     - type: Transform
       pos: 5.5,-7.5
       parent: 70
+<<<<<<< HEAD
   - uid: 111
     components:
     - type: Transform
@@ -1105,9 +1111,107 @@ entities:
       pos: -5.5,-11.5
       parent: 70
   - uid: 346
+=======
+  - uid: 98
+    components:
+    - type: Transform
+      pos: 4.5,7.5
+      parent: 70
+  - uid: 111
+    components:
+    - type: Transform
+      pos: 2.5,-19.5
+      parent: 70
+  - uid: 112
+    components:
+    - type: Transform
+      pos: 0.5,-21.5
+      parent: 70
+  - uid: 117
+    components:
+    - type: Transform
+      pos: 5.5,4.5
+      parent: 70
+  - uid: 162
+    components:
+    - type: Transform
+      pos: 5.5,-5.5
+      parent: 70
+  - uid: 168
+    components:
+    - type: Transform
+      pos: 5.5,-6.5
+      parent: 70
+  - uid: 194
+    components:
+    - type: Transform
+      pos: -4.5,-19.5
+      parent: 70
+  - uid: 197
+    components:
+    - type: Transform
+      pos: 3.5,-19.5
+      parent: 70
+  - uid: 234
+>>>>>>> upstream/master
     components:
     - type: Transform
       pos: -5.5,7.5
+      parent: 70
+<<<<<<< HEAD
+  - uid: 373
+    components:
+    - type: Transform
+      pos: -3.5,-19.5
+      parent: 70
+  - uid: 448
+    components:
+    - type: Transform
+      pos: -0.5,-21.5
+      parent: 70
+  - uid: 481
+    components:
+    - type: Transform
+      pos: 4.5,-14.5
+      parent: 70
+  - uid: 484
+    components:
+    - type: Transform
+      pos: 5.5,-4.5
+      parent: 70
+  - uid: 513
+    components:
+    - type: Transform
+=======
+  - uid: 261
+    components:
+    - type: Transform
+      pos: -6.5,-1.5
+      parent: 70
+  - uid: 269
+    components:
+    - type: Transform
+      pos: 5.5,-1.5
+      parent: 70
+  - uid: 272
+    components:
+    - type: Transform
+      pos: -5.5,-13.5
+      parent: 70
+  - uid: 273
+    components:
+    - type: Transform
+      pos: -1.5,-21.5
+      parent: 70
+  - uid: 340
+    components:
+    - type: Transform
+      pos: -6.5,4.5
+      parent: 70
+  - uid: 344
+    components:
+    - type: Transform
+      pos: -5.5,-11.5
       parent: 70
   - uid: 373
     components:
@@ -1132,6 +1236,7 @@ entities:
   - uid: 513
     components:
     - type: Transform
+>>>>>>> upstream/master
       pos: 4.5,-11.5
       parent: 70
   - uid: 532
@@ -1356,6 +1461,17 @@ entities:
     - type: Transform
       pos: -3.5,-4.5
       parent: 70
+<<<<<<< HEAD
+=======
+- proto: BarSpoon
+  entities:
+  - uid: 674
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -5.503344,-5.858896
+      parent: 70
+>>>>>>> upstream/master
 - proto: Bed
   entities:
   - uid: 486
@@ -3017,6 +3133,18 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 794
+<<<<<<< HEAD
+=======
+- proto: FloorDrain
+  entities:
+  - uid: 821
+    components:
+    - type: Transform
+      pos: 0.5,-1.5
+      parent: 70
+    - type: Fixtures
+      fixtures: {}
+>>>>>>> upstream/master
 - proto: GasMixerOn
   entities:
   - uid: 240
@@ -4091,7 +4219,19 @@ entities:
       rot: 3.141592653589793 rad
       pos: -4.5,-9.5
       parent: 70
+<<<<<<< HEAD
 - proto: JukeboxShip
+=======
+- proto: ImpCoffeeMachine
+  entities:
+  - uid: 820
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -5.5,-7.5
+      parent: 70
+- proto: Jukebox
+>>>>>>> upstream/master
   entities:
   - uid: 159
     components:
@@ -4106,6 +4246,15 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 3.5,-11.5
       parent: 70
+<<<<<<< HEAD
+=======
+  - uid: 822
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,-11.5
+      parent: 70
+>>>>>>> upstream/master
 - proto: LockerWallColorGenericGreen
   entities:
   - uid: 587
@@ -4114,6 +4263,15 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 3.5,-13.5
       parent: 70
+<<<<<<< HEAD
+=======
+  - uid: 823
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,-13.5
+      parent: 70
+>>>>>>> upstream/master
 - proto: LockerWallEVAColorCargoFilled
   entities:
   - uid: 814
@@ -4214,7 +4372,11 @@ entities:
       pos: -1.5,-19.5
       parent: 70
     - type: FuelGenerator
+<<<<<<< HEAD
       targetPower: 34000
+=======
+      targetPower: 36000
+>>>>>>> upstream/master
 - proto: PosterLegitSafetyMothFires
   entities:
   - uid: 667
@@ -4911,6 +5073,15 @@ entities:
         180:
         - - Pressed
           - Toggle
+<<<<<<< HEAD
+=======
+        291:
+        - - Pressed
+          - Toggle
+        523:
+        - - Pressed
+          - Toggle
+>>>>>>> upstream/master
   - uid: 365
     components:
     - type: Transform
@@ -4974,6 +5145,15 @@ entities:
         47:
         - - Pressed
           - Toggle
+<<<<<<< HEAD
+=======
+        32:
+        - - Pressed
+          - Toggle
+        346:
+        - - Pressed
+          - Toggle
+>>>>>>> upstream/master
   - uid: 380
     components:
     - type: Transform
@@ -5201,6 +5381,7 @@ entities:
       pos: -2.5,-16.5
       parent: 70
   - uid: 802
+<<<<<<< HEAD
     components:
     - type: Transform
       pos: -2.5,-17.5
@@ -5212,6 +5393,11 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -5.5,-7.5
+=======
+    components:
+    - type: Transform
+      pos: -2.5,-17.5
+>>>>>>> upstream/master
       parent: 70
 - proto: SolarPanel
   entities:
@@ -5521,6 +5707,14 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -5.5,-7.5
       parent: 70
+<<<<<<< HEAD
+=======
+  - uid: 49
+    components:
+    - type: Transform
+      pos: -5.5,-5.5
+      parent: 70
+>>>>>>> upstream/master
   - uid: 139
     components:
     - type: Transform
@@ -5570,6 +5764,14 @@ entities:
       parent: 70
 - proto: Thruster
   entities:
+<<<<<<< HEAD
+=======
+  - uid: 32
+    components:
+    - type: Transform
+      pos: -5.5,7.5
+      parent: 70
+>>>>>>> upstream/master
   - uid: 47
     components:
     - type: Transform
@@ -5588,6 +5790,14 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,-21.5
       parent: 70
+<<<<<<< HEAD
+=======
+  - uid: 346
+    components:
+    - type: Transform
+      pos: 4.5,7.5
+      parent: 70
+>>>>>>> upstream/master
   - uid: 352
     components:
     - type: Transform
@@ -5732,6 +5942,7 @@ entities:
           - Reverse
         - - Middle
           - Off
+<<<<<<< HEAD
 - proto: VendingMachineBooze
   entities:
   - uid: 49
@@ -5744,6 +5955,13 @@ entities:
   - uid: 516
     components:
     - type: Transform
+=======
+- proto: WallmountTelevision
+  entities:
+  - uid: 516
+    components:
+    - type: Transform
+>>>>>>> upstream/master
       rot: 3.141592653589793 rad
       pos: -2.5,-13.5
       parent: 70
@@ -6025,11 +6243,14 @@ entities:
       rot: 3.141592653589793 rad
       pos: 5.5,-9.5
       parent: 70
+<<<<<<< HEAD
   - uid: 32
     components:
     - type: Transform
       pos: -5.5,7.5
       parent: 70
+=======
+>>>>>>> upstream/master
   - uid: 48
     components:
     - type: Transform
@@ -6041,12 +6262,15 @@ entities:
       rot: 3.141592653589793 rad
       pos: 2.5,-18.5
       parent: 70
+<<<<<<< HEAD
   - uid: 98
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 4.5,7.5
       parent: 70
+=======
+>>>>>>> upstream/master
   - uid: 150
     components:
     - type: Transform

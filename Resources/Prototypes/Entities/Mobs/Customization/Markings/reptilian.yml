@@ -379,6 +379,15 @@
     state: tail_large_wagging
 
 - type: marking
+  id: LizardTailLargeAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: tail_large_wagging
+
+- type: marking
   id: LizardTailSpikesAnimated
   bodyPart: Tail
   markingCategory: Tail
@@ -402,8 +411,13 @@
   markingCategory: Tail
   speciesRestriction: []
   sprites:
+<<<<<<< HEAD
   - sprite: Mobs/Customization/reptilian_parts.rsi
     state: tail_dtiger_wagging
+=======
+    - sprite: Mobs/Customization/reptilian_parts.rsi
+      state: tail_dtiger_wagging
+>>>>>>> upstream/master
 
 - type: marking
   id: LizardTailAquaticAnimated
@@ -411,5 +425,10 @@
   markingCategory: Tail
   speciesRestriction: []
   sprites:
+<<<<<<< HEAD
   - sprite: Mobs/Customization/reptilian_parts.rsi
     state: tail_aquatic_wagging
+=======
+    - sprite: Mobs/Customization/reptilian_parts.rsi
+      state: tail_aquatic_wagging
+>>>>>>> upstream/master

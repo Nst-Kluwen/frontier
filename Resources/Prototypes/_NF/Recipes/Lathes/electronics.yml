@@ -112,6 +112,14 @@
   parent: [ BaseSilverCircuitboardRecipe, BaseEngineeringMachineRecipeCategory ]
   result: DeepFryerMachineCircuitboard
 
+<<<<<<< HEAD
+=======
+- type: latheRecipe
+  parent: [BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory]
+  id: ImpCoffeeMachineCircuitboard
+  result: ImpCoffeeMachineCircuitboard
+
+>>>>>>> upstream/master
 # region Consoles
 - type: latheRecipe
   id: ResearchComputerCircuitboard
@@ -180,3 +188,18 @@
   id: PortableGeneratorDKJrMachineCircuitboard
   parent: [ BaseGoldCircuitboardRecipe, BaseEngineeringMachineRecipeCategory ]
   result: PortableGeneratorDKJrMachineCircuitboard
+<<<<<<< HEAD
+=======
+  materials:
+    Steel: 800
+    Glass: 900
+
+# Battery
+- type: latheRecipe
+  id: PortableSMESMachineCircuitboard
+  parent: BaseCircuitboardRecipe
+  result: PortableSMESMachineCircuitboard
+  materials:
+    Steel: 800
+    Glass: 900
+>>>>>>> upstream/master

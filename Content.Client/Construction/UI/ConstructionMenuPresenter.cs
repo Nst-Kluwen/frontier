@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Numerics;
+using Content.Client.Lobby;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.MenuBar.Widgets;
 using Content.Shared.Construction.Prototypes;
@@ -28,6 +29,10 @@ namespace Content.Client.Construction.UI
         [Dependency] private readonly IPlacementManager _placementManager = default!;
         [Dependency] private readonly IUserInterfaceManager _uiManager = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+<<<<<<< HEAD
+=======
+        [Dependency] private readonly IClientPreferencesManager _preferencesManager = default!;
+>>>>>>> upstream/master
         private readonly SpriteSystem _spriteSystem;
 
         private readonly IConstructionMenuView _constructionView;
@@ -116,7 +121,7 @@ namespace Content.Client.Construction.UI
 
             _constructionView.RecipeFavorited += (_, _) => OnViewFavoriteRecipe();
 
-            PopulateCategories();
+            SetFavorites(_preferencesManager.Preferences?.ConstructionFavorites ?? []);
             OnViewPopulateRecipes(_constructionView, (string.Empty, string.Empty));
         }
 
@@ -431,11 +436,19 @@ namespace Content.Client.Construction.UI
                 }
 
                 _placementManager.BeginPlacing(new PlacementInformation
+<<<<<<< HEAD
                 {
                     IsTile = false,
                     PlacementOption = _selected.PlacementMode
                 },
                 new ConstructionPlacementHijack(_constructionSystem, _selected));
+=======
+                    {
+                        IsTile = false,
+                        PlacementOption = _selected.PlacementMode
+                    },
+                    new ConstructionPlacementHijack(_constructionSystem, _selected));
+>>>>>>> upstream/master
 
                 UpdateGhostPlacement();
             }
@@ -459,11 +472,19 @@ namespace Content.Client.Construction.UI
             var constructSystem = _systemManager.GetEntitySystem<ConstructionSystem>();
 
             _placementManager.BeginPlacing(new PlacementInformation()
+<<<<<<< HEAD
             {
                 IsTile = false,
                 PlacementOption = _selected.PlacementMode,
             },
             new ConstructionPlacementHijack(constructSystem, _selected));
+=======
+                {
+                    IsTile = false,
+                    PlacementOption = _selected.PlacementMode,
+                },
+                new ConstructionPlacementHijack(constructSystem, _selected));
+>>>>>>> upstream/master
 
             _constructionView.BuildButtonPressed = true;
         }
@@ -494,7 +515,31 @@ namespace Content.Client.Construction.UI
                     _favoritedRecipes.Count > 0 ? (string.Empty, FavoriteCatName) : (string.Empty, string.Empty));
             }
 
+            var newFavorites = new List<ProtoId<ConstructionPrototype>>(_favoritedRecipes.Count);
+            foreach (var recipe in _favoritedRecipes)
+                newFavorites.Add(recipe.ID);
+
+            _preferencesManager.UpdateConstructionFavorites(newFavorites);
             PopulateInfo(_selected);
+            PopulateCategories(_selectedCategory);
+        }
+
+        public void SetFavorites(IReadOnlyList<ProtoId<ConstructionPrototype>> favorites)
+        {
+            _favoritedRecipes.Clear();
+
+            foreach (var id in favorites)
+            {
+                if (_prototypeManager.TryIndex(id, out ConstructionPrototype? recipe, logError: false))
+                    _favoritedRecipes.Add(recipe);
+            }
+
+            if (_selectedCategory == FavoriteCatName)
+            {
+                OnViewPopulateRecipes(_constructionView,
+                    _favoritedRecipes.Count > 0 ? (string.Empty, FavoriteCatName) : (string.Empty, string.Empty));
+            }
+
             PopulateCategories(_selectedCategory);
         }
 

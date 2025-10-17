@@ -45,8 +45,13 @@
 
 - type: gameMap
   id: CargoDepot
+<<<<<<< HEAD
   mapName: 'Грузовое Депо' # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_NF/POI/cargodepotalt.yml
+=======
+  mapName: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+  mapPath: /Maps/_NF/POI/cargodepot.yml
+>>>>>>> upstream/master
   minPlayers: 0
   stations:
     CargoDepot:

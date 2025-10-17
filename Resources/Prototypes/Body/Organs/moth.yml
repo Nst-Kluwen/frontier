@@ -13,6 +13,10 @@
       components:
       - MothFood
       # End Frontier: general moth digestion
+<<<<<<< HEAD
+=======
+    isSpecialDigestibleExclusive: false # Frontier
+>>>>>>> upstream/master
   - type: SolutionContainerManager
     solutions:
       stomach:

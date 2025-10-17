@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 // Rewritten in Upstream#37341
+=======
+>>>>>>> upstream/master
 
 using Content.Shared.Decals;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+<<<<<<< HEAD
+=======
+using Robust.Shared.Serialization;
+>>>>>>> upstream/master
 
 namespace Content.Shared.SprayPainter.Components;
 
@@ -106,6 +113,29 @@ public sealed partial class SprayPainterComponent : Component
     /// </summary>
     [DataField]
     public SoundSpecifier SoundSwitchDecalMode = new SoundPathSpecifier("/Audio/Machines/quickbeep.ogg", AudioParams.Default.WithVolume(1.5f));
+<<<<<<< HEAD
+=======
+}
+
+/// <summary>
+/// A set of operating modes for decal painting.
+/// </summary>
+[Serializable, NetSerializable]
+public enum DecalPaintMode : byte
+{
+    /// <summary>
+    /// Clicking on the floor does nothing.
+    /// </summary>
+    Off = 0,
+    /// <summary>
+    /// Clicking on the floor adds a decal at the requested spot (or snapped to the grid)
+    /// </summary>
+    Add = 1,
+    /// <summary>
+    /// Clicking on the floor removes all decals at the requested spot (or snapped to the grid)
+    /// </summary>
+    Remove = 2,
+>>>>>>> upstream/master
 }
 
 /// <summary>

@@ -6,6 +6,7 @@
 # GitHub: dustylens
 # Discord: dustylens
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Spirit
+  parent: BaseVessel
+  name: FSB Spirit
+  description: The FSB Spirit is a search and rescue shuttle for experienced Frontier medics.
+  price: 16250
+  category: Small
+  group: Medical
+  shuttlePath: /Maps/_NF/Shuttles/spirit.yml
+  guidebookPage: ShipyardSpirit
+  class:
+  - Medical
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Spirit
+  mapName: 'FSB Spirit'
+  mapPath: /Maps/_NF/Shuttles/spirit.yml
+  minPlayers: 0
+  stations:
+    Spirit:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Spirit {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

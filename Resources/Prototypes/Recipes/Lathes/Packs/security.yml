@@ -14,6 +14,7 @@
 # Practice ammo/mags and practice weapons
 - type: latheRecipePack
   id: SecurityPracticeStatic
+<<<<<<< HEAD
   recipes: [] # Frontier
   # - BoxShotgunPractice # Frontier
   # - MagazineBoxLightRiflePractice # Frontier
@@ -23,6 +24,24 @@
   # - WeaponDisablerPractice # Frontier
   # - WeaponLaserCarbinePractice # Frontier
   # - WeaponFlareGunSecurity # Frontier
+=======
+  # Frontier: empty set
+  recipes: []
+  # - BoxShotgunPractice
+  # - MagazineBoxLightRiflePractice
+  # - MagazineBoxMagnumPractice
+  # - MagazineBoxPistolPractice
+  # - MagazineBoxRiflePractice
+  # - WeaponDisablerPractice
+  # - WeaponLaserCarbinePractice
+  # - MagazineLightRiflePractice
+  # - MagazineRiflePractice
+  # - MagazinePistolPractice
+  # - SpeedLoaderMagnumPractice
+  # - MagazinePistolSubMachineGunPractice
+  # - WeaponFlareGunSecurity
+  # End Frontier
+>>>>>>> upstream/master
 
 # Shared between secfab and emagged autolathe
 - type: latheRecipePack

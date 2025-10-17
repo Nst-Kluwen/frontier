@@ -77,3 +77,13 @@
     blacklist:
     - JobPlantManager
     - JobPlantTechnician
+<<<<<<< HEAD
+=======
+
+- type: loadoutEffectGroup
+  id: NFNotStationRep
+  effects:
+  - !type:RoleBlacklistLoadoutEffect
+    blacklist:
+    - JobStationRepresentative
+>>>>>>> upstream/master

@@ -8,6 +8,7 @@
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
+<<<<<<< HEAD
     minAngle: -0.8
     maxAngle: -4
   - type: Gun
@@ -16,6 +17,16 @@
     maxAngle: 18.5
     angleIncrease: 1
     angleDecay: 5
+=======
+    minAngle: -0.7
+    maxAngle: -3
+  - type: Gun
+    projectileSpeed: 22.5
+    minAngle: 3.1
+    maxAngle: 15.5
+    angleIncrease: 0.7
+    angleDecay: 3.5
+>>>>>>> upstream/master
     fireRate: 6
     selectedMode: FullAuto
     availableModes:
@@ -33,10 +44,17 @@
   abstract: true
   components:
   - type: Gun
+<<<<<<< HEAD
     minAngle: 4.3
     maxAngle: 21.5
     angleIncrease: 1.4
     angleDecay: 4.8
+=======
+    minAngle: 3.6
+    maxAngle: 18
+    angleIncrease: 1
+    angleDecay: 3.4
+>>>>>>> upstream/master
     fireRate: 5.1
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
@@ -47,8 +65,13 @@
   abstract: true
   components:
   - type: Gun
+<<<<<<< HEAD
     angleIncrease: 1.1
     angleDecay: 7.7
+=======
+    angleIncrease: 0.7
+    angleDecay: 5
+>>>>>>> upstream/master
     fireRate: 4.8
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-cybersun-industries
@@ -59,10 +82,17 @@
   abstract: true
   components:
   - type: Gun
+<<<<<<< HEAD
     minAngle: 4.1
     maxAngle: 20.5
     angleIncrease: 1.8
     angleDecay: 6.5
+=======
+    minAngle: 3.4
+    maxAngle: 17
+    angleIncrease: 1.2
+    angleDecay: 4.3
+>>>>>>> upstream/master
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-gorlex-steel-works
 
@@ -72,10 +102,17 @@
   abstract: true
   components:
   - type: Gun
+<<<<<<< HEAD
     minAngle: 4.4
     maxAngle: 22
     angleIncrease: 2.1
     angleDecay: 6.7
+=======
+    minAngle: 3.7
+    maxAngle: 15
+    angleIncrease: 1.4
+    angleDecay: 4.5
+>>>>>>> upstream/master
     fireRate: 4.8
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-frontier-gunsmith-consortium

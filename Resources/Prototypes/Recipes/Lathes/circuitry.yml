@@ -9,6 +9,7 @@
 
 - type: latheRecipe
   abstract: true
+<<<<<<< HEAD
   id: BaseClarkeRecipeCategory
   categories:
   - Clarke
@@ -42,6 +43,11 @@
   id: BaseSmallMechRecipeCategory
   categories:
   - SmallMech
+=======
+  id: BaseMechRecipeCategory
+  categories:
+  - Mech
+>>>>>>> upstream/master
 
 ## Recipes
 
@@ -112,7 +118,11 @@
 
 # Mechs
 - type: latheRecipe
+<<<<<<< HEAD
   parent: [ BaseGoldCircuitboardRecipe, BaseRipleyRecipeCategory ]
+=======
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+>>>>>>> upstream/master
   id: RipleyCentralElectronics
   result: RipleyCentralElectronics
 
@@ -122,7 +132,11 @@
   result: RipleyPeripheralsElectronics
 
 - type: latheRecipe
+<<<<<<< HEAD
   parent: [ BaseBananiumCircuitboardRecipe, BaseHonkerRecipeCategory ]
+=======
+  parent: [ BaseBananiumCircuitboardRecipe, BaseMechRecipeCategory ]
+>>>>>>> upstream/master
   id: HonkerCentralElectronics
   result: HonkerCentralElectronics
 
@@ -137,7 +151,11 @@
   result: HonkerTargetingElectronics
 
 - type: latheRecipe
+<<<<<<< HEAD
   parent: [ BaseGoldCircuitboardRecipe, BaseSmallMechRecipeCategory]
+=======
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory]
+>>>>>>> upstream/master
   id: HamtrCentralElectronics
   result: HamtrCentralElectronics
 

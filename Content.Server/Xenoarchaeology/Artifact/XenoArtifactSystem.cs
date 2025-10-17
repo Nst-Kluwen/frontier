@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 using Content.Server.Cargo.Systems;
+=======
+using Content.Shared.Cargo;
+>>>>>>> upstream/master
 using Content.Shared.Xenoarchaeology.Artifact;
 using Content.Shared.Xenoarchaeology.Artifact.Components;
 

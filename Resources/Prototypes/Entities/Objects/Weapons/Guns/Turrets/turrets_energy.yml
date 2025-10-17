@@ -1,11 +1,17 @@
 - type: entity
   parent: [BaseWeaponEnergyTurret, ConstructibleMachine]
   id: WeaponEnergyTurretStation
+<<<<<<< HEAD
   name: sentry turret
   description: A high-tech autonomous weapons system designed to keep unauthorized personnel out of sensitive areas.
   components:
   
   # Physics
+=======
+  name: security turret
+  description: A high-tech autonomous weapons system designed to keep unauthorized personnel out of sensitive areas.
+  components:
+>>>>>>> upstream/master
   - type: Fixtures
     fixtures:
       body:
@@ -25,8 +31,11 @@
         layer:
           - MachineLayer
         hard: false
+<<<<<<< HEAD
         
   # Sprites and appearance
+=======
+>>>>>>> upstream/master
   - type: Sprite
     sprite: Objects/Weapons/Guns/Turrets/sentry_turret.rsi
     drawdepth: HighFloorObjects
@@ -70,20 +79,28 @@
         enum.WiresVisualLayers.MaintenancePanel:
           True: { visible: false }
           False: { visible: true }
+<<<<<<< HEAD
   
   # HTN
   - type: HTN
     enabled: false
   
   # Faction / control
+=======
+  - type: HTN
+    enabled: false
+>>>>>>> upstream/master
   - type: StationAiWhitelist
   - type: NpcFactionMember
     factions:
     - AllHostile
   - type: AccessReader
     access: [["Security"]]
+<<<<<<< HEAD
     
   # Weapon systems
+=======
+>>>>>>> upstream/master
   - type: ProjectileBatteryAmmoProvider
     # proto: BulletEnergyTurretDisabler # Frontier
     fireCost: 100
@@ -98,8 +115,11 @@
     - Security
     - Borg
     - BasicSilicon
+<<<<<<< HEAD
     
   # Defenses / destruction
+=======
+>>>>>>> upstream/master
   - type: DeployableTurret
     retractedDamageModifierSetId: Metallic
     deployedDamageModifierSetId: FlimsyMetallic
@@ -130,8 +150,11 @@
         node: machineFrame
       - !type:DoActsBehavior
         acts: ["Destruction"]
+<<<<<<< HEAD
       
   # Device network
+=======
+>>>>>>> upstream/master
   - type: DeviceNetwork
     deviceNetId: Wired
     receiveFrequencyId: TurretControl
@@ -141,8 +164,11 @@
     examinableAddress: true
   - type: DeviceNetworkRequiresPower
   - type: WiredNetworkConnection
+<<<<<<< HEAD
   
   # Wires
+=======
+>>>>>>> upstream/master
   - type: UserInterface
     interfaces:
       enum.WiresUiKey.Key:
@@ -156,8 +182,11 @@
     locked: true
     unlockOnClick: false
   - type: LockedWiresPanel
+<<<<<<< HEAD
   
   # General properties  
+=======
+>>>>>>> upstream/master
   - type: Machine
     board: WeaponEnergyTurretStationMachineCircuitboard
   - type: UseDelay
@@ -170,7 +199,11 @@
   description: A high-tech autonomous weapons system under the direct control of a local artifical intelligence.
   components:
   - type: AccessReader
+<<<<<<< HEAD
     access: [["StationAi"]]
+=======
+    access: [["StationAi"], ["ResearchDirector"]]
+>>>>>>> upstream/master
   - type: TurretTargetSettings
     exemptAccessLevels:
     - Borg
@@ -180,3 +213,7 @@
   - type: DeviceNetwork
     receiveFrequencyId: TurretControlAI
     transmitFrequencyId: TurretAI
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master

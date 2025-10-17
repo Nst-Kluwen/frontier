@@ -8,6 +8,7 @@
 
 # Shuttle Notes:
 #
+<<<<<<< HEAD
 # - type: vessel
   # id: Broom
   # name: LVHI Broom
@@ -22,6 +23,23 @@
   # - Civilian
   # engine:
   # - Plasma
+=======
+- type: vessel
+  id: Broom
+  parent: BaseVessel
+  name: LVHI Broom
+  description: A cramped yet reliable shuttle for providing janitorial services.
+  price: 12000 # ~10656 0.05 11188.8
+  category: Micro
+  group: Sr
+  access: Janitor
+  shuttlePath: /Maps/_NF/Shuttles/Sr/broom.yml
+  guidebookPage: Null
+  class:
+  - Civilian
+  engine:
+  - Plasma
+>>>>>>> upstream/master
 
 # - type: gameMap
   # id: Broom

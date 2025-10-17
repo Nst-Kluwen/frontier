@@ -24,6 +24,12 @@
             "name": "crypt_silver"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "greeting_label"
+        },
+        {
+>>>>>>> upstream/master
             "name": "stc_label"
         },
         {

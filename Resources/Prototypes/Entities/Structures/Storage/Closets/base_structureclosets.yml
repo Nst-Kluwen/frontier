@@ -115,6 +115,7 @@
     stateDoorClosed: generic_door
   - type: StaticPrice
     price: 50 # Frontier: 75<50 - TODO: material value rework
+  - type: NFForkLiftable # Frontier
 
 # steel closet base (that can be constructed/deconstructed)
 - type: entity
@@ -126,8 +127,13 @@
     node: done
     containers:
     - entity_storage
+<<<<<<< HEAD
   - type: Paintable # Upstream#37341
     group: Closet # Upstream#37341
+=======
+  - type: Paintable
+    group: Closet
+>>>>>>> upstream/master
 
 #Wall Closet
 - type: entity
@@ -204,8 +210,13 @@
     node: done
     containers:
     - entity_storage
+<<<<<<< HEAD
   - type: Paintable # Upstream#37341
     group: WallCloset # Upstream#37341
+=======
+  - type: Paintable
+    group: WallCloset
+>>>>>>> upstream/master
 
 #Wall locker
 - type: entity
@@ -229,8 +240,13 @@
     - state: welded
       visible: false
       map: ["enum.WeldableLayers.BaseWelded"]
+<<<<<<< HEAD
   # - type: Paintable # Upstream#37341 # Frontier: return when there are more than one locked wall lockers
   #   group: WallLocker # Upstream#37341
+=======
+  # - type: Paintable # Frontier: return when there are more than one locked wall lockers
+  #   group: WallLocker
+>>>>>>> upstream/master
 
 #Base suit storage unit
 #I am terribly sorry for duplicating the closet almost-wholesale, but the game malds at me if I don't so here we are.

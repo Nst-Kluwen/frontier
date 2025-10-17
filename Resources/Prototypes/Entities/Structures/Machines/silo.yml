@@ -22,8 +22,14 @@
     whitelist:
       tags:
       - Sheet
+<<<<<<< HEAD
       - Ingot
       - RawMaterial # Frontier
+=======
+      - RawMaterial
+      - Ingot
+      - Ore # Frontier
+>>>>>>> upstream/master
   - type: ActivatableUI
     key: enum.OreSiloUiKey.Key
   - type: ActivatableUIRequiresPower

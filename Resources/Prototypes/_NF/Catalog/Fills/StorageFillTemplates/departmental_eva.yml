@@ -125,6 +125,7 @@
   - type: StorageFill
     contents:
     - id: ClothingOuterHardsuitVoidParamed
+<<<<<<< HEAD
     - id: JetpackParamedFilled # Forge
     - id: ClothingShoesBootsMag
     - id: DoubleEmergencyTankO2N2EqualFilled
@@ -140,6 +141,23 @@
     - id: JetpackMiniFilled
     - id: ClothingShoesBootsMag
     - id: DoubleEmergencyTankO2N2EqualFilled
+=======
+    - id: JetpackMiniFilled
+    - id: ClothingShoesBootsMag
+    - id: DoubleEmergencyTankO2N2EqualFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitParamedicAlt
+  description: Contains a standard issue paramedic EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingOuterEVASuitParamedic
+    - id: JetpackMiniFilled
+    - id: ClothingShoesBootsMag
+    - id: DoubleEmergencyTankO2N2EqualFilled
+>>>>>>> upstream/master
 
 - type: entity
   abstract: true
@@ -382,6 +400,21 @@
     - id: ClothingShoesBootsMag
     - id: DoubleEmergencyTankO2N2EqualFilled
 
+<<<<<<< HEAD
+=======
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitFsc
+  description: Contains a standard issue Far Star Commerce (FSC) EVA suit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingOuterEVASuitFsc
+    - id: JetpackMiniFilled
+    - id: ClothingShoesBootsMag
+    - id: DoubleEmergencyTankO2N2EqualFilled
+
+>>>>>>> upstream/master
 # Stc
 - type: entity
   abstract: true

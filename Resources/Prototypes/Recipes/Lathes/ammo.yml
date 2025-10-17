@@ -223,6 +223,16 @@
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
+<<<<<<< HEAD
+=======
+  id: MagazinePistolSubMachineGunPractice
+  result: MagazinePistolSubMachineGunPractice
+  materials:
+    Steel: 150
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+>>>>>>> upstream/master
   id: MagazinePistolSubMachineGunUranium
   result: MagazinePistolSubMachineGunUranium
   materials:

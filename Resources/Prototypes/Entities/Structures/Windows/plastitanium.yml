@@ -80,8 +80,13 @@
   # Frontier: colored indestructible windows
   description: Skub knows this window is too hard to destroy.
   components:
+<<<<<<< HEAD
   - type: Sprite 
 #    color: "#cdf3cd" #CorvaxFrontier
+=======
+  - type: Sprite
+    color: "#cdf3cd"
+>>>>>>> upstream/master
   # End Frontier
 
 - type: entity
@@ -181,7 +186,7 @@
   # Frontier: colored indestructible windows
   description: Skub knows this window is too hard to destroy.
   components:
-  - type: Sprite 
+  - type: Sprite
     color: "#cdf3cd"
   # End Frontier
 

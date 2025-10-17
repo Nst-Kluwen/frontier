@@ -6,6 +6,7 @@
 # GitHub: Tych0theSynth
 # Discord: Tych0
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -22,6 +23,25 @@
   # - Detective
   # engine:
   # - Uranium
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Broadhead
+  parent: BaseVessel
+  name: NSF Broadhead
+  description: A medium size detective ship with facilities for autopsies, interrogations and detailed investigations.
+  price: 60000 # 52879 0.05 55522.95
+  category: Medium
+  group: Security
+  access: Detective
+  shuttlePath: /Maps/_NF/Shuttles/Nfsd/broadhead.yml
+  guidebookPage: Null
+  class:
+  - Detective
+  engine:
+  - Uranium
+>>>>>>> upstream/master
 
 # - type: gameMap
   # id: Broadhead

@@ -1,5 +1,9 @@
 # gloves
 - type: entity
+<<<<<<< HEAD
+=======
+  parent: BaseAction
+>>>>>>> upstream/master
   id: ActionToggleKnuckleDustersStun
   name: Toggle stun knuckle dusters
   description: Toggles the duster's built in stun baton.

@@ -21,10 +21,13 @@ public sealed class SlidingSystem : EntitySystem
     {
         base.Initialize();
 
+<<<<<<< HEAD
         _slipperyQuery = GetEntityQuery<SlipperyComponent>();
 
         SubscribeLocalEvent<SlidingComponent, ComponentInit>(OnComponentInit);
         SubscribeLocalEvent<SlidingComponent, ComponentShutdown>(OnComponentShutdown);
+=======
+>>>>>>> upstream/master
         SubscribeLocalEvent<SlidingComponent, StoodEvent>(OnStand);
         SubscribeLocalEvent<SlidingComponent, StartCollideEvent>(OnStartCollide);
         SubscribeLocalEvent<SlidingComponent, EndCollideEvent>(OnEndCollide);
@@ -34,6 +37,7 @@ public sealed class SlidingSystem : EntitySystem
     }
 
     /// <summary>
+<<<<<<< HEAD
     ///     When the component is first added, calculate the friction modifier we need.
     ///     Don't do this more than once to avoid mispredicts.
     /// </summary>
@@ -53,6 +57,8 @@ public sealed class SlidingSystem : EntitySystem
     }
 
     /// <summary>
+=======
+>>>>>>> upstream/master
     ///     Remove the component when the entity stands up again.
     /// </summary>
     private void OnStand(EntityUid uid, SlidingComponent component, ref StoodEvent args)
@@ -65,11 +71,19 @@ public sealed class SlidingSystem : EntitySystem
     /// </summary>
     private void OnStartCollide(Entity<SlidingComponent> entity, ref StartCollideEvent args)
     {
+<<<<<<< HEAD
         if (!_slipperyQuery.TryComp(args.OtherEntity, out var slippery) || !slippery.AffectsSliding)
             return;
 
         CalculateSlidingModifier(entity);
         _speedModifierSystem.RefreshFrictionModifiers(entity);
+=======
+        if (!TryComp<SlipperyComponent>(args.OtherEntity, out var slippery) || !slippery.SlipData.SuperSlippery)
+            return;
+
+        component.CollidingEntities.Add(args.OtherEntity);
+        Dirty(uid, component);
+>>>>>>> upstream/master
     }
 
     /// <summary>
@@ -80,11 +94,16 @@ public sealed class SlidingSystem : EntitySystem
         if (!_slipperyQuery.TryComp(args.OtherEntity, out var slippery) || !slippery.AffectsSliding)
             return;
 
+<<<<<<< HEAD
         if (!CalculateSlidingModifier(entity, args.OtherEntity))
         {
             RemComp<SlidingComponent>(entity);
             return;
         }
+=======
+        if (component.CollidingEntities.Count == 0)
+            RemComp<SlidingComponent>(uid);
+>>>>>>> upstream/master
 
         _speedModifierSystem.RefreshFrictionModifiers(entity);
     }

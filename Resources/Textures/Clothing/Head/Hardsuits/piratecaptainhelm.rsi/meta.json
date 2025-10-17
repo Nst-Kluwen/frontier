@@ -36,10 +36,13 @@
     {
       "name": "equipped-HELMET-unshaded-vox",
       "directions": 4
+<<<<<<< HEAD
     },
     {
         "name": "equipped-HELMET-resomi",
         "directions": 4
+=======
+>>>>>>> upstream/master
     }
   ]
 }

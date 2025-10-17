@@ -12,7 +12,11 @@
   # - NetworkConfigurator # Frontier: downgrade vs. multitool
   - Signaller
   - SprayPainter
+<<<<<<< HEAD
   - SprayPainterAmmo # Upstream#37341
+=======
+  - SprayPainterAmmo
+>>>>>>> upstream/master
   - FlashlightLantern
   # - HandheldGPSBasic # Frontier: little value
   - TRayScanner
@@ -46,6 +50,7 @@
   # - CellRechargerCircuitboard # Frontier: use WeaponCapacitorRecharger* instead
   - WeaponCapacitorRechargerCircuitboard
   - FreezerElectronics
+  - PortableSMESMachineCircuitboard # Frontier
 
 - type: latheRecipePack
   id: EngineeringBoardsStatic

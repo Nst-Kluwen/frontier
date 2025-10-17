@@ -136,6 +136,7 @@ public sealed partial class SpeciesPrototype : IPrototype
     /// </summary>
     [DataField]
     public Color ForcedMarkingColor { get; private set; } = new();
+<<<<<<< HEAD
     // Corvax-Frontier: job restrictions by species
     [DataField("jobWhitelist")]
     public List<string>? JobWhitelist { get; private set; }
@@ -143,6 +144,8 @@ public sealed partial class SpeciesPrototype : IPrototype
     [DataField("jobBlacklist")]
     public List<string>? JobBlacklist { get; private set; }
     // Corvax-Frontier
+=======
+>>>>>>> upstream/master
 }
 
 public enum SpeciesNaming : byte

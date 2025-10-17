@@ -23,6 +23,7 @@ public enum RadarBlipShape
     /// <summary>Hexagon shape.</summary>
     Hexagon,
     /// <summary>Arrow shape.</summary>
+<<<<<<< HEAD
     Arrow,
     /// <summary>Ring shape (custom/Mono).</summary>
     Ring
@@ -30,6 +31,13 @@ public enum RadarBlipShape
 
 /// <summary>
 /// Event sent from the server to the client containing radar blip and hitscan line data.
+=======
+    Arrow
+}
+
+/// <summary>
+/// Event sent from the server to the client containing radar blip data.
+>>>>>>> upstream/master
 /// </summary>
 [Serializable, NetSerializable]
 public sealed class GiveBlipsEvent : EntityEventArgs
@@ -42,6 +50,7 @@ public sealed class GiveBlipsEvent : EntityEventArgs
     public readonly List<(NetEntity? Grid, Vector2 Position, float Scale, Color Color, RadarBlipShape Shape)> Blips;
 
     /// <summary>
+<<<<<<< HEAD
     /// Hitscan lines to display on the radar as (grid entity, start position, end position, thickness, color).
     /// If grid entity is null, positions are in world coordinates.
     /// If grid entity is not null, positions are in grid-local coordinates.
@@ -49,13 +58,18 @@ public sealed class GiveBlipsEvent : EntityEventArgs
     public readonly List<(NetEntity? Grid, Vector2 Start, Vector2 End, float Thickness, Color Color)> HitscanLines;
 
     /// <summary>
+=======
+>>>>>>> upstream/master
     /// Backwards-compatible constructor for legacy blip format.
     /// </summary>
     /// <param name="blips">List of blips as (position, scale, color).</param>
     public GiveBlipsEvent(List<(Vector2, float, Color)> blips)
     {
         Blips = blips.Select(b => ((NetEntity?)null, b.Item1, b.Item2, b.Item3, RadarBlipShape.Circle)).ToList();
+<<<<<<< HEAD
         HitscanLines = new();
+=======
+>>>>>>> upstream/master
     }
 
     /// <summary>
@@ -65,6 +79,7 @@ public sealed class GiveBlipsEvent : EntityEventArgs
     public GiveBlipsEvent(List<(NetEntity? Grid, Vector2 Position, float Scale, Color Color, RadarBlipShape Shape)> blips)
     {
         Blips = blips;
+<<<<<<< HEAD
         HitscanLines = new();
     }
 
@@ -79,6 +94,8 @@ public sealed class GiveBlipsEvent : EntityEventArgs
     {
         Blips = blips;
         HitscanLines = hitscans;
+=======
+>>>>>>> upstream/master
     }
 }
 

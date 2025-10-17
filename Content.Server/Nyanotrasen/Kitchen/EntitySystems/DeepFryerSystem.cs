@@ -55,6 +55,10 @@ using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Content.Shared._NF.Kitchen.Components; // Frontier
 using Content.Server._NF.Kitchen.Components; // Frontier
+<<<<<<< HEAD
+=======
+using Content.Shared.Cargo; // Frontier
+>>>>>>> upstream/master
 using Content.Shared.NameModifier.EntitySystems; // Frontier
 
 namespace Content.Server.Nyanotrasen.Kitchen.EntitySystems;
@@ -112,6 +116,7 @@ public sealed partial class DeepFryerSystem : SharedDeepfryerSystem
         SubscribeLocalEvent<DeepFryerComponent, SolutionChangedEvent>(OnSolutionChange);
         SubscribeLocalEvent<DeepFryerComponent, ContainerRelayMovementEntityEvent>(OnRelayMovement);
         SubscribeLocalEvent<DeepFryerComponent, InteractUsingEvent>(OnInteractUsing);
+        SubscribeLocalEvent<DeepFryerComponent, UpgradeExamineEvent>(OnUpgradeExamine);// Frontier: deep fryier upgrade status popup
 
         SubscribeLocalEvent<DeepFryerComponent, BeforeActivatableUIOpenEvent>(OnBeforeActivatableUIOpen);
         SubscribeLocalEvent<DeepFryerComponent, DeepFryerRemoveItemMessage>(OnRemoveItem);
@@ -505,6 +510,13 @@ public sealed partial class DeepFryerSystem : SharedDeepfryerSystem
         component.StorageMaxEntities = component.BaseStorageMaxEntities +
                                        (int)(component.StoragePerPartRating * (ratingStorage - 1));
     }
+
+    // Frontier: deep fryier upgrade status popup
+    private void OnUpgradeExamine(Entity<DeepFryerComponent> entity, ref UpgradeExamineEvent args)
+    {
+        args.AddNumberUpgrade("deep-fryier-component-upgrade-storage", entity.Comp.StorageMaxEntities - entity.Comp.BaseStorageMaxEntities);
+    }
+    //End Frontier
 
     /// <summary>
     ///     Allow thrown items to land in a basket.

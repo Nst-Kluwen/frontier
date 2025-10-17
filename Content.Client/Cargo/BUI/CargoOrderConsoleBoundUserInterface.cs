@@ -138,6 +138,14 @@ namespace Content.Client.Cargo.BUI
 
             AccountName = cState.Name;
 
+<<<<<<< HEAD
+=======
+            if (_menu == null)
+                return;
+
+            _menu.ProductCatalogue = cState.Products;
+
+>>>>>>> upstream/master
             _menu?.UpdateStation(station);
             Populate(cState.Orders);
         }

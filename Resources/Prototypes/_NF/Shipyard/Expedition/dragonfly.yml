@@ -6,6 +6,7 @@
 # GitHub: crystalHex (https://github.com/crystalHex)
 # Discord: ???
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+# 
+- type: vessel
+  id: Dragonfly
+  parent: BaseVessel
+  name: DYS Dragonfly
+  description: Highly modular salvaging vessel welded together from smaller re-purposed hulls.
+  price: 84000 # 69747 0.2 83696.4
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
+  guidebookPage: Null
+  class:
+  - Expedition
+  engine:
+  - AME
+
+- type: gameMap
+  id: Dragonfly
+  mapName: 'DYS Dragonfly'
+  mapPath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
+  minPlayers: 0
+  stations:
+    Dragonfly:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Dragonfly {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

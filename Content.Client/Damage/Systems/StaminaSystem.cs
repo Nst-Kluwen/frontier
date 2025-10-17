@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Content.Client.Stunnable;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
@@ -124,4 +125,12 @@ public sealed partial class StaminaSystem : SharedStaminaSystem
                 ref entity.Comp1.LastJitter),
             StaminaAnimationKey);
     }
+=======
+﻿using Content.Shared.Damage.Systems;
+
+namespace Content.Client.Damage.Systems;
+
+public sealed partial class StaminaSystem : SharedStaminaSystem
+{
+>>>>>>> upstream/master
 }

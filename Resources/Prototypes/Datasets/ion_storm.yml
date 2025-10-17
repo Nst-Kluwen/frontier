@@ -156,6 +156,7 @@
 - type: dataset
   id: IonStormAllergies
   values:
+<<<<<<< HEAD
   - КИСЛОТУ
   - ВОЗДУХ
   - КРОВЬ
@@ -199,6 +200,50 @@
   - ТИШИНА
   - СМАЗКА
   - ТРАФИК
+=======
+  - ACID
+  - AIR
+  - BLOOD
+  - BOOKS
+  - CARBON DIOXIDE
+  - CLOTHES
+  - CLOWNS
+  - COLD
+  - COTTON
+  - CYBORG CONTACT
+  - DARKNESS
+  - DRINKS
+  - ELECTRICITY
+  - EVERYTHING
+  - FLOORS
+  - FOOD
+  - GLASS
+  - HAPPINESS
+  - HUMANOID CONTACT
+  - HUMOR
+  - LIGHT
+  - MEAT
+  - MEDICINE
+  - METAL
+  - NUTS
+  - OXYGEN
+  - PAIN
+  - PLANTS
+  - PLASMA
+  - ROBOTS
+  - SPACE
+  - SUNLIGHT
+  - WATER
+  # Frontier
+  - CONTRACTS
+  - CORPSES # medical bounties
+  - CREATURES
+  - BLACKLIGHTS
+  - CARPET
+  - SILENCE
+  - GREASE
+  - TRAFFIC
+>>>>>>> upstream/master
   # End Frontier
 
 # Severity is how bad the allergy is.

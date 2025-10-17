@@ -102,6 +102,7 @@
             ]
         },
         {
+<<<<<<< HEAD
             "name": "shipyard_mercenery",
             "directions": 4,
             "delays": [
@@ -164,6 +165,8 @@
             ]
         },
         {
+=======
+>>>>>>> upstream/master
             "name": "gas_sale_point",
             "directions": 4
         },

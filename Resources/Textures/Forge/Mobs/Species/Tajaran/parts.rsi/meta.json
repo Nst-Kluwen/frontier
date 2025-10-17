@@ -1,4 +1,5 @@
 {
+<<<<<<<< HEAD:Resources/Textures/Forge/Mobs/Species/Tajaran/parts.rsi/meta.json
   "version": 1,
   "license": "CC-BY-SA-3.0",
   "copyright": "by Ko4erga (disocrd), 'overlay_husk' https://github.com/ParadiseSS13/Paradise/commit/924e8cc949a40ea64a978656dbbc0b43b4a8f33a",
@@ -19,50 +20,85 @@
         },
         {
             "name": "head_f",
+========
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Adapted by DangerRevolution from tgstation at https://github.com/tgstation/tgstation/commit/e1142f20f5e4661cb6845cfcf2dd69f864d67432",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "equipped-BELT",
             "directions": 4
         },
         {
-            "name": "l_arm",
+            "name": "equipped-SUITSTORAGE-dog",
+>>>>>>>> upstream/master:Resources/Textures/_NF/Objects/Tanks/emergency_double_o2n2equal.rsi/meta.json
             "directions": 4
         },
         {
-            "name": "l_foot",
+            "name": "equipped-SUITSTORAGE-puppy",
             "directions": 4
         },
         {
-            "name": "l_hand",
+            "name": "equipped-SUITSTORAGE-fox",
             "directions": 4
         },
         {
-            "name": "l_leg",
+            "name": "equipped-SUITSTORAGE-cat",
             "directions": 4
         },
         {
+            "name": "equipped-SUITSTORAGE-sloth",
+            "directions": 4
+        },
+        {
+<<<<<<<< HEAD:Resources/Textures/Forge/Mobs/Species/Tajaran/parts.rsi/meta.json
             "name": "overlay_husk",
             "directions": 4
         },
         {
             "name": "r_arm",
+========
+            "name": "equipped-SUITSTORAGE-hamster",
+>>>>>>>> upstream/master:Resources/Textures/_NF/Objects/Tanks/emergency_double_o2n2equal.rsi/meta.json
             "directions": 4
         },
         {
-            "name": "r_foot",
+            "name": "equipped-SUITSTORAGE-kangaroo",
             "directions": 4
         },
         {
-            "name": "r_hand",
+            "name": "equipped-SUITSTORAGE-possum",
             "directions": 4
         },
         {
-            "name": "r_leg",
+            "name": "equipped-SUITSTORAGE-pig",
             "directions": 4
         },
         {
+<<<<<<<< HEAD:Resources/Textures/Forge/Mobs/Species/Tajaran/parts.rsi/meta.json
             "name": "torso_m",
             "directions": 4
         },
         {
             "name": "torso_f",
+========
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "equipped-SUITSTORAGE",
+>>>>>>>> upstream/master:Resources/Textures/_NF/Objects/Tanks/emergency_double_o2n2equal.rsi/meta.json
             "directions": 4
         }
     ]

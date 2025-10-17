@@ -17,6 +17,7 @@
   # engine:
   # - Plasma
 
+<<<<<<< HEAD
 # - type: gameMap
   # id: Canister
   # mapName: 'UAC Canister'
@@ -36,3 +37,24 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+- type: gameMap
+  id: Canister
+  mapName: 'UAC Canister'
+  mapPath: /Maps/_NF/Shuttles/Scrap/canister.yml
+  minPlayers: 0
+  stations:
+    Canister:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Canister {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

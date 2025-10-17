@@ -71,6 +71,10 @@
   id: SpaceLube
   name: reagent-name-space-lube
   desc: reagent-desc-space-lube
+<<<<<<< HEAD
+=======
+  evaporationSpeed: 0.1
+>>>>>>> upstream/master
   slipData:
     requiredSlipSpeed: 1
     superSlippery: true
@@ -82,7 +86,11 @@
   meltingPoint: 18.2
   tileReactions:
   - !type:SpillTileReaction
+<<<<<<< HEAD
   friction: 0.05 # Forge-Change
+=======
+  friction: 0.0
+>>>>>>> upstream/master
 
 - type: reagent
   id: SpaceGlue
@@ -120,6 +128,4 @@
         time: 5
         refresh: false
   footstepSound:
-    collection: FootstepSticky
-    params:
-      volume: 6
+    collection: FootstepSlime

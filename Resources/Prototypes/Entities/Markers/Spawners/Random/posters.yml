@@ -115,8 +115,20 @@
       - NFPosterContrabandFsbCaladrius
       - NFPosterContrabandFsbNightlight
       - NFPosterContrabandFsbRetort
+<<<<<<< HEAD
         # Frontier: Ending
       - PosterContrabandTrueEnemy #CorvaxFrontier
+=======
+      - NFPosterContrabandFscLogo
+      - NFPosterContrabandFscSurveyor
+      - NFPosterContrabandFscCourier
+      - NFPosterContrabandFsbDruid
+      - NFPosterContrabandGas
+      - NFPosterContrabandCloudWatchers
+      - NFPosterContrabandGoblinLeague
+      - NFPosterContrabandEms
+      # End Frontier
+>>>>>>> upstream/master
     chance: 1
 
 - type: entity

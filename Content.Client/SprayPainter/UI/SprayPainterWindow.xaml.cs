@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 // Rewritten in Upstream#37341
 
+=======
+>>>>>>> upstream/master
 using System.Linq;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Decals;
@@ -304,5 +307,8 @@ public sealed partial class SprayPainterWindow : DefaultWindow
 }
 
 public record SpriteListData(string Group, string Style, EntProtoId Prototype, int SelectedIndex) : ListData;
+<<<<<<< HEAD
 
 // End Rewritten in Upstream#37341
+=======
+>>>>>>> upstream/master

@@ -13,8 +13,14 @@ namespace Content.Client.Doors;
 public sealed class TurnstileSystem : SharedTurnstileSystem
 {
     [Dependency] private readonly AnimationPlayerSystem _animationPlayer = default!;
+<<<<<<< HEAD
 
     private static EntProtoId _examineArrow = "TurnstileArrow";
+=======
+    [Dependency] private readonly SpriteSystem _sprite = default!;
+
+    private static readonly EntProtoId ExamineArrow = "TurnstileArrow";
+>>>>>>> upstream/master
 
     private const string AnimationKey = "Turnstile";
 
@@ -33,12 +39,20 @@ public sealed class TurnstileSystem : SharedTurnstileSystem
 
         if (!TryComp<SpriteComponent>(ent, out var sprite))
             return;
+<<<<<<< HEAD
         sprite.LayerSetState(TurnstileVisualLayers.Base, new RSI.StateId(ent.Comp.DefaultState));
+=======
+        _sprite.LayerSetRsiState((ent.Owner, sprite), TurnstileVisualLayers.Base, new RSI.StateId(ent.Comp.DefaultState));
+>>>>>>> upstream/master
     }
 
     private void OnExamined(Entity<TurnstileComponent> ent, ref ExaminedEvent args)
     {
+<<<<<<< HEAD
         Spawn(_examineArrow, new EntityCoordinates(ent, 0, 0));
+=======
+        Spawn(ExamineArrow, new EntityCoordinates(ent, 0, 0));
+>>>>>>> upstream/master
     }
 
     protected override void PlayAnimation(EntityUid uid, string stateId)

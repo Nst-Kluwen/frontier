@@ -58,6 +58,19 @@
     sprite:  /Textures/_NF/Structures/Storage/magnetbox.rsi
     state: rubbishbox
   product: NFMagnetBoxRubbish
+<<<<<<< HEAD
+=======
+  cost: 1000
+  category: cargoproduct-category-name-materials
+  group: market
+
+- type: cargoProduct
+  id: CargoTreasureBox
+  icon:
+    sprite:  /Textures/_NF/Structures/Storage/magnetbox.rsi
+    state: treasurebox-closed
+  product: NFMagnetBoxTreasure
+>>>>>>> upstream/master
   cost: 1000
   category: cargoproduct-category-name-materials
   group: market

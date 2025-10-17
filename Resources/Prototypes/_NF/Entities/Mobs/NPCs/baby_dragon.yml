@@ -65,7 +65,7 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
     baseSprintSpeed: 5
-    weightlessModifier: 1.5
+    baseWeightlessModifier: 1.5
   - type: RandomSprite
     available:
     - enum.DamageStateVisualLayers.Base:
@@ -174,6 +174,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: ActionDragonsBreathBaby
+<<<<<<< HEAD
   name: "[color=orange]Hatchling's Breath[/color]"
   description: Spew out tiny flames at anyone foolish enough to attack you! Adorable.
   components:
@@ -183,7 +184,24 @@
     priority: 2
     checkCanAccess: false
     range: 0
+=======
+  parent: BaseAction
+  name: "[color=orange]Hatchling's Breath[/color]"
+  description: Spew out tiny flames at anyone foolish enough to attack you! Adorable.
+  components:
+  - type: Action
+    icon: { sprite : Objects/Weapons/Guns/Projectiles/magic.rsi, state: fireball }
+    priority: 2
+>>>>>>> upstream/master
     itemIconStyle: BigAction
     useDelay: 120
     sound:
       path: /Audio/Animals/space_dragon_roar.ogg
+<<<<<<< HEAD
+=======
+  - type: TargetAction
+    checkCanAccess: false
+    range: 0
+  - type: WorldTargetAction
+    event: !type:ActionGunShootEvent
+>>>>>>> upstream/master

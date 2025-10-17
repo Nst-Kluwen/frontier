@@ -26,7 +26,18 @@ public sealed partial class SSDIndicatorComponent : Component
     /// </summary>
     [DataField, AutoPausedField, Access(typeof(SSDIndicatorSystem))]
     public TimeSpan FallAsleepTime = TimeSpan.Zero;
+<<<<<<< HEAD
     
+=======
+
+    /// <summary>
+    ///     Required to don't remove forced sleep from other sources
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [AutoNetworkedField]
+    public bool ForcedSleepAdded = false;
+
+>>>>>>> upstream/master
     // Frontier: skip sleeping
     /// <summary>
     ///     Required to don't remove forced sleep from other sources
@@ -35,5 +46,8 @@ public sealed partial class SSDIndicatorComponent : Component
     [AutoNetworkedField]
     public bool PreventSleep = false;
     // End Frontier
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 }

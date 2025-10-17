@@ -13,13 +13,18 @@ public sealed partial class GroupSelector : EntityTableSelector
 
     protected override IEnumerable<EntProtoId> GetSpawnsImplementation(System.Random rand,
         IEntityManager entMan,
-        IPrototypeManager proto)
+        IPrototypeManager proto,
+        EntityTableContext ctx)
     {
         var children = new Dictionary<EntityTableSelector, float>(Children.Count);
         foreach (var child in Children)
         {
             // Don't include invalid groups
+<<<<<<< HEAD
             if (!child.CheckConditions(entMan, proto))
+=======
+            if (!child.CheckConditions(entMan, proto, ctx))
+>>>>>>> upstream/master
                 continue;
 
             children.Add(child, child.Weight);
@@ -27,6 +32,6 @@ public sealed partial class GroupSelector : EntityTableSelector
 
         var pick = SharedRandomExtensions.Pick(children, rand);
 
-        return pick.GetSpawns(rand, entMan, proto);
+        return pick.GetSpawns(rand, entMan, proto, ctx);
     }
 }

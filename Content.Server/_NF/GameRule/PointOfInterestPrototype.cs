@@ -86,7 +86,10 @@ public sealed partial class PointOfInterestPrototype : IPrototype, IInheritingPr
     ///     "MarketStation"
     ///     "Required"
     ///     "Optional"
+<<<<<<< HEAD
     ///     "NewMapsgGrid" - Corvax Frontier
+=======
+>>>>>>> upstream/master
     /// Each POI labeled in the Required group will be spawned in every round.
     /// Apart from that, each of thesehave corresponding CVARS by default, that set an optional # of this group to spawn.
     /// Traditionally, it is 2 cargo depots, 1 trade station, and 8 optional POIs.

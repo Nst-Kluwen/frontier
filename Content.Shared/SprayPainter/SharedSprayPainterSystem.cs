@@ -318,5 +318,8 @@ public abstract class SharedSprayPainterSystem : EntitySystem
 
     #endregion
 }
+<<<<<<< HEAD
 
 // End Rewritten in Upstream#37341
+=======
+>>>>>>> upstream/master

@@ -20,6 +20,13 @@
     - id: NFPosterContrabandFsbRubicon
     - id: NFPosterContrabandFsbNightlight
     - id: NFPosterContrabandFsbRetort
+<<<<<<< HEAD
+=======
+    - id: NFPosterContrabandFscLogo
+    - id: NFPosterContrabandFscSurveyor
+    - id: NFPosterContrabandFscCourier
+    - id: NFPosterContrabandFsbDruid
+>>>>>>> upstream/master
 
 - type: entityTable
   id: TableRandomPosterContrabandMisc

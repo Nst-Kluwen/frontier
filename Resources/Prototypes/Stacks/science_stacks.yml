@@ -5,6 +5,7 @@
   maxCount: 30
 
 - type: stack
+<<<<<<< HEAD
   id: Capacitor
   name: stack-capacitor
   icon: { sprite: /Textures/_NF/Objects/Misc/stock_parts.rsi, state: capacitor } # Frontier: add _NF
@@ -12,13 +13,18 @@
   maxCount: 10
 
 - type: stack
+=======
+>>>>>>> upstream/master
   id: Manipulator
   name: stack-micro-manipulator
   spawn: MicroManipulatorStockPart
   maxCount: 10
+<<<<<<< HEAD
 
 - type: stack
   id: MatterBin
   name: stack-matter-bin
   spawn: MatterBinStockPart
   maxCount: 10
+=======
+>>>>>>> upstream/master

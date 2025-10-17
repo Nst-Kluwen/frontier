@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 // Rewritten in Upstream#37341
 
+=======
+>>>>>>> upstream/master
 using Content.Shared.Decals;
 using Content.Shared.DoAfter;
 using Content.Shared.SprayPainter.Prototypes;
@@ -119,5 +122,8 @@ public partial record struct EntityPaintedEvent(
     EntityUid Tool,
     EntProtoId Prototype,
     ProtoId<PaintableGroupPrototype> Group);
+<<<<<<< HEAD
 
 // End Rewritten in Upstream#37341
+=======
+>>>>>>> upstream/master

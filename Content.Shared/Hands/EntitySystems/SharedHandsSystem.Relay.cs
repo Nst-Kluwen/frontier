@@ -4,6 +4,10 @@ using Content.Shared.Hands.Components;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Projectiles;
 using Content.Shared.Weapons.Ranged.Events;
+<<<<<<< HEAD
+=======
+using Content.Shared.Wieldable;
+>>>>>>> upstream/master
 
 namespace Content.Shared.Hands.EntitySystems;
 
@@ -19,6 +23,11 @@ public abstract partial class SharedHandsSystem
         SubscribeLocalEvent<HandsComponent, ExtinguishEvent>(RefRelayEvent);
         SubscribeLocalEvent<HandsComponent, ProjectileReflectAttemptEvent>(RefRelayEvent);
         SubscribeLocalEvent<HandsComponent, HitScanReflectAttemptEvent>(RefRelayEvent);
+<<<<<<< HEAD
+=======
+        SubscribeLocalEvent<HandsComponent, WieldAttemptEvent>(RefRelayEvent);
+        SubscribeLocalEvent<HandsComponent, UnwieldAttemptEvent>(RefRelayEvent);
+>>>>>>> upstream/master
     }
 
     private void RelayEvent<T>(Entity<HandsComponent> entity, ref T args) where T : EntityEventArgs

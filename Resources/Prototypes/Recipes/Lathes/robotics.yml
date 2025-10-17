@@ -126,6 +126,14 @@
   parent: BaseBorgModuleRecipe
   id: BorgModuleTool
   result: BorgModuleTool
+<<<<<<< HEAD
+=======
+
+- type: latheRecipe
+  parent: BaseBorgModuleRecipe
+  id: BorgModuleCable
+  result: BorgModuleCable
+>>>>>>> upstream/master
 
 - type: latheRecipe
   parent: BaseBorgModuleRecipe

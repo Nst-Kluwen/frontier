@@ -1,10 +1,10 @@
 # Author Info
-# GitHub:
-# Discord: Tjsip
+# GitHub: Mace70903
+# Discord: mace_70903
 
 # Maintainer Info
-# GitHub: ???
-# Discord: ???
+# GitHub: Mace70903
+# Discord: mace_70903
 
 # Notes:
 #
@@ -18,11 +18,15 @@
   gridPath: /Maps/Forge/POI/nfsd.yml #CorvaxFrontier
   addComponents:
   - type: IFF
+<<<<<<< HEAD
     color: "#8e6444"
   - type: ProtectedGrid
     preventEmpEvents: true #CorvaxFrontier
     preventRCDUse: true #CorvaxFrontier
     noGridCollision: true #CorvaxFrontier
+=======
+    color: "#ae7d57"
+>>>>>>> upstream/master
   - type: StationTransit
     routes:
       SpawnPoints: 10
@@ -55,6 +59,7 @@
             Cadet: [ 1, 1 ]
             # Others:
             PublicAffairsLiaison: [ 1, 1 ]
+            Prisoner: [ 0, 0 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity

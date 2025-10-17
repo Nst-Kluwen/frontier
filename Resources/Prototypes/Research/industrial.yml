@@ -214,6 +214,7 @@
   # - PowerCellHyper # Frontier: moved to PowerCellHyperNF
   technologyPrerequisites:
   - AdvancedPowercells
+<<<<<<< HEAD
 
 - type: technology # Forge-Change
   id: AdvancedSalvageEquipment
@@ -228,3 +229,5 @@
   - WeaponMagmitePlasmaCutter
   technologyPrerequisites:
   - SalvageEquipment
+=======
+>>>>>>> upstream/master

@@ -891,7 +891,11 @@ public sealed partial class AdminVerbSystem
                 if (!hadSlipComponent)
                 {
                     slipComponent.SlipData.SuperSlippery = true;
+<<<<<<< HEAD
                     slipComponent.SlipData.StunTime = TimeSpan.FromSeconds(5); // Forge-Change
+=======
+                    slipComponent.SlipData.ParalyzeTime = TimeSpan.FromSeconds(5);
+>>>>>>> upstream/master
                     slipComponent.SlipData.LaunchForwardsMultiplier = 20;
                 }
 
@@ -970,7 +974,11 @@ public sealed partial class AdminVerbSystem
                 if (!hadSlipComponent)
                 {
                     slipComponent.SlipData.SuperSlippery = true;
+<<<<<<< HEAD
                     slipComponent.SlipData.StunTime = TimeSpan.FromSeconds(5); // Forge-Change
+=======
+                    slipComponent.SlipData.ParalyzeTime = TimeSpan.FromSeconds(10);
+>>>>>>> upstream/master
                     slipComponent.SlipData.LaunchForwardsMultiplier = 1;
                 }
 

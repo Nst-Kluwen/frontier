@@ -281,7 +281,11 @@ WallSpawnAsteroidSilverCrab: NFWallSpawnAsteroidSilverCrab
 WallSpawnAsteroidUraniumCrab: NFWallSpawnAsteroidUraniumCrab
 
 # 2025-03-28 Vehicle
+<<<<<<< HEAD
 # SpawnVehicleHoverbikeNF: NFSpawnVehicleHoverbike
+=======
+SpawnVehicleHoverbikeNF: NFSpawnVehicleHoverbike
+>>>>>>> upstream/master
 
 # 2025-04-19 Material Magnet Boxes
 OreBox: NFMagnetBoxOre
@@ -608,3 +612,18 @@ LockerScienceFilled: NFLockerScienceFilled
 PowerCellRechargerFlatpack: WeaponCapacitorRechargerFlatpack
 PowerCellRecharger: WeaponCapacitorRecharger
 CellRechargerCircuitboard: WeaponCapacitorRechargerCircuitboard
+<<<<<<< HEAD
+=======
+
+# 2025-07-15 Upstream hardsuit changes
+SuitStorageWallmountBasic: SuitStorageWallmountEVA
+
+# 2025-10-10 Inflatable structures
+InflatableWall: NFInflatableWall
+InflatableWallStack1: NFInflatableWallStack1
+InflatableWallStack5: NFInflatableWallStack5
+InflatableWallStack: NFInflatableWallStack
+InflatableDoor: NFInflatableDoor
+InflatableDoorStack1: NFInflatableDoorStack1
+InflatableDoorStack: NFInflatableDoorStack
+>>>>>>> upstream/master

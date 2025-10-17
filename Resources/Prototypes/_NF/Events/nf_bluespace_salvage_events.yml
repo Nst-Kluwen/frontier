@@ -5,6 +5,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
+    # TODO: add path to  start warning and end Voiceover
     startRadioAnnouncement: station-event-bluespace-scrap-start-announcement
     startRadioAnnouncementChannel: Engineering
     warningRadioAnnouncement: station-event-bluespace-scrap-warning-announcement
@@ -31,6 +32,7 @@
           preventArtifactTriggers: true
         - type: PreventPilot
         paths:
+<<<<<<< HEAD
         - /Maps/Forge/Shuttles/Scrap/bison.yml
 #        - /Maps/Forge/Shuttles/Scrap/canister.yml # Too small
         - /Maps/Forge/Shuttles/Scrap/disciple.yml
@@ -45,6 +47,21 @@
         - /Maps/Forge/Shuttles/Scrap/scrap-courserx.yml
         - /Maps/Forge/Shuttles/Scrap/scrap-comet.yml
         - /Maps/Forge/Shuttles/Scrap/scrap-sprinter.yml
+=======
+#        - /Maps/_NF/Shuttles/Scrap/canister.yml # Too small
+        - /Maps/_NF/Shuttles/Scrap/disciple.yml
+        - /Maps/_NF/Shuttles/Scrap/nugget.yml
+        - /Maps/_NF/Shuttles/Scrap/orange.yml
+        - /Maps/_NF/Shuttles/Scrap/point.yml
+        - /Maps/_NF/Shuttles/Scrap/tide.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-investigator.yml # Please replace all this maps ones we finish some automated system
+        - /Maps/_NF/Shuttles/Scrap/scrap-hauler.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-crescent.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-barge.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-courserx.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-comet.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-sprinter.yml
+>>>>>>> upstream/master
   - type: ActiveRadio
     channels:
     - Engineering

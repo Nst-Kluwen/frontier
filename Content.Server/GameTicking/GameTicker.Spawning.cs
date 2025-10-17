@@ -27,7 +27,11 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
+<<<<<<< HEAD
 using Content.Server._Forge.Respawn; // Frontier
+=======
+using Content.Server._Corvax.Respawn; // Frontier
+>>>>>>> upstream/master
 using Content.Shared._NF.Roles.Components; // Frontier
 
 namespace Content.Server.GameTicking
@@ -319,7 +323,11 @@ namespace Content.Server.GameTicking
             Dirty(mob, jobComp);
             // End Frontier
 
+<<<<<<< HEAD
             _roles.MindAddJobRole(newMind, silent: silent, jobPrototype:jobId);
+=======
+            _roles.MindAddJobRole(newMind, silent: silent, jobPrototype: jobId);
+>>>>>>> upstream/master
             var jobName = _jobs.MindTryGetJobName(newMind);
             _admin.UpdatePlayerList(player);
 
@@ -348,6 +356,13 @@ namespace Content.Server.GameTicking
                         Loc.GetString("latejoin-arrival-sender"),
                         playDefaultSound: false);
                 }
+
+                // Frontier: send new player message if the player is new.
+                if (jobPrototype.NewPlayerMessage)
+                {
+                    HandleGreetingMessage(player, mob, station);
+                }
+                // End Frontier
             }
 
             // who tf is perma oWo
@@ -524,17 +539,17 @@ namespace Content.Server.GameTicking
                 return spawn;
             }
 
-            if (_mapManager.MapExists(DefaultMap))
+            if (_map.MapExists(DefaultMap))
             {
-                var mapUid = _mapManager.GetMapEntityId(DefaultMap);
+                var mapUid = _map.GetMapOrInvalid(DefaultMap);
                 if (!TerminatingOrDeleted(mapUid))
                     return new EntityCoordinates(mapUid, Vector2.Zero);
             }
 
             // Just pick a point at this point I guess.
-            foreach (var map in _mapManager.GetAllMapIds())
+            foreach (var map in _map.GetAllMapIds())
             {
-                var mapUid = _mapManager.GetMapEntityId(map);
+                var mapUid = _map.GetMapOrInvalid(map);
 
                 if (!metaQuery.TryGetComponent(mapUid, out var meta)
                     || meta.EntityPaused

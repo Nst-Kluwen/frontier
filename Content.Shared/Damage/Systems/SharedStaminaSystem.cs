@@ -20,7 +20,10 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
+<<<<<<< HEAD
 using Robust.Shared.Serialization; // Forge-Change
+=======
+>>>>>>> upstream/master
 using Robust.Shared.Timing;
 
 namespace Content.Shared.Damage.Systems;
@@ -112,6 +115,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
             ExitStamCrit(entity, entity.Comp);
         }
 
+<<<<<<< HEAD
         entity.Comp.StaminaDamage = 0;
         AdjustSlowdown(entity.Owner);
         RemComp<ActiveStaminaComponent>(entity);
@@ -119,6 +123,15 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         Dirty(entity);
     }
     // Forge-Change-End
+=======
+        component.StaminaDamage = 0;
+        AdjustSlowdown(uid);
+        RemComp<ActiveStaminaComponent>(uid);
+        SetStaminaAlert(uid, component);
+        Dirty(uid, component);
+    }
+
+>>>>>>> upstream/master
     private void OnDisarmed(EntityUid uid, StaminaComponent component, ref DisarmedEvent args)
     {
         if (args.Handled)
@@ -287,6 +300,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         }
 
         AdjustSlowdown(uid);
+<<<<<<< HEAD
 
         UpdateStaminaVisuals((uid, component)); // Forge-Change
 
@@ -296,6 +310,17 @@ public abstract partial class SharedStaminaSystem : EntitySystem
             component.AfterCritical = false; // Since the recovery from the crit has been completed, we are no longer 'after crit'
         }
 
+=======
+
+        SetStaminaAlert(uid, component);
+
+        // Checking if the stamina damage has decreased to zero after exiting the stamcrit
+        if (component.AfterCritical && oldDamage > component.StaminaDamage && component.StaminaDamage <= 0f)
+        {
+            component.AfterCritical = false; // Since the recovery from the crit has been completed, we are no longer 'after crit'
+        }
+
+>>>>>>> upstream/master
         if (!component.Critical)
         {
             if (component.StaminaDamage >= component.CritThreshold)
@@ -406,9 +431,15 @@ public abstract partial class SharedStaminaSystem : EntitySystem
 
         component.Critical = false;
         component.AfterCritical = true;  // Set to true to indicate that stamina will be restored after exiting stamcrit
+<<<<<<< HEAD
         component.NextUpdate = Timing.CurTime;  // Forge-Change
 
         UpdateStaminaVisuals((uid, component)); // Forge-Change
+=======
+        component.NextUpdate = _timing.CurTime;
+
+        SetStaminaAlert(uid, component);
+>>>>>>> upstream/master
         Dirty(uid, component);
         _adminLogger.Add(LogType.Stamina, LogImpact.Low, $"{ToPrettyString(uid):user} recovered from stamina crit");
     }
@@ -437,6 +468,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
                 closest = thres.Key;
         }
 
+<<<<<<< HEAD
         StunSystem.UpdateStunModifiers(ent, ent.Comp.StunModifierThresholds[closest]); // Forge-Change
     }
 
@@ -447,4 +479,8 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         public NetEntity Entity = entity;
     }
     // Forge-Change-End
+=======
+        _stunSystem.UpdateStunModifiers(ent, ent.Comp.StunModifierThresholds[closest]);
+    }
+>>>>>>> upstream/master
 }

@@ -54,7 +54,11 @@
     damageOverlay:
       sprite: Forge/Structures/Windows/cracks.rsi # Forge-Change
   - type: StaticPrice
+<<<<<<< HEAD
     price: 65
+=======
+    price: 65 # Frontier: 132<65
+>>>>>>> upstream/master
   - type: Fixtures
     fixtures:
       fix1:
@@ -92,7 +96,13 @@
     damageDivisor: 3
     trackAllDamage: true
     damageOverlay:
+<<<<<<< HEAD
       sprite: Forge/Structures/Windows/cracks_directional.rsi # Forge-Change
+=======
+      sprite: Structures/Windows/cracks_directional.rsi
+  - type: Damageable
+    damageModifierSet: RGlass
+>>>>>>> upstream/master
   - type: RadiationBlocker
     resistance: 2
   - type: Destructible

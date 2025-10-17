@@ -3,9 +3,13 @@ using System.Numerics;
 using Content.Server._Mono.FireControl; //Forge
 using Content.Server._NF.Radar;
 using Content.Server.Cargo.Systems;
+<<<<<<< HEAD
 using Content.Server.Mech.Equipment.Components; // Forge-Change
 using Content.Server.Power.EntitySystems;
+=======
+>>>>>>> upstream/master
 using Content.Server.Weapons.Ranged.Components;
+using Content.Shared.Cargo;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
@@ -37,7 +41,10 @@ namespace Content.Server.Weapons.Ranged.Systems;
 
 public sealed partial class GunSystem : SharedGunSystem
 {
+<<<<<<< HEAD
     [Dependency] private readonly IComponentFactory _factory = default!;
+=======
+>>>>>>> upstream/master
     [Dependency] private readonly DamageExamineSystem _damageExamine = default!;
     [Dependency] private readonly PricingSystem _pricing = default!;
     [Dependency] private readonly SharedColorFlashEffectSystem _color = default!;

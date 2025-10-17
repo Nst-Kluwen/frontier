@@ -248,8 +248,11 @@
     - WeaponCaseLongDrozdExpedition
     - WeaponCaseLongM90Expedition
     - WeaponCaseLongLecterExpedition
+<<<<<<< HEAD
     - WeaponCaseSubMachineGunVector22 #CorvaxFrontier
     - WeaponCaseWeaponSubMachineP90LRK #CorvaxFrontier
+=======
+>>>>>>> upstream/master
     - WeaponCaseShortSvalinnExpedition
     - WeaponCaseLongHristovExpedition
     - WeaponCaseLongMusketExpedition

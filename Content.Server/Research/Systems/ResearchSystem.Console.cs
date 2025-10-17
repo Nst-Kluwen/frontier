@@ -7,8 +7,13 @@ using Content.Shared.Emag.Systems;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
+<<<<<<< HEAD
 using Content.Shared._NF.Research; // NF: R&D Console Rework
 using System.Linq; // R&D Console Rework
+=======
+using Content.Shared._NF.Research; // Frontier
+using System.Linq; // Frontier
+>>>>>>> upstream/master
 
 namespace Content.Server.Research.Systems;
 
@@ -79,7 +84,11 @@ public sealed partial class ResearchSystem
         if (!Resolve(uid, ref component, ref clientComponent, false))
             return;
 
+<<<<<<< HEAD
         // Goobstation: R&D Console Rework Start
+=======
+        // Frontier: R&D Console Rework Start
+>>>>>>> upstream/master
         var allTechs = PrototypeManager.EnumeratePrototypes<TechnologyPrototype>();
         Dictionary<string, ResearchAvailability> techList;
         var points = 0;
@@ -113,7 +122,11 @@ public sealed partial class ResearchSystem
 
         _uiSystem.SetUiState(uid, ResearchConsoleUiKey.Key,
             new ResearchConsoleBoundInterfaceState(points, techList));
+<<<<<<< HEAD
         // Goobstation: R&D Console Rework End
+=======
+        // Frontier: R&D Console Rework End
+>>>>>>> upstream/master
     }
 
     private void OnPointsChanged(EntityUid uid, ResearchConsoleComponent component, ref ResearchServerPointsChangedEvent args)

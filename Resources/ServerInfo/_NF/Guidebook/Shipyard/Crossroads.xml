@@ -5,6 +5,7 @@
   <GuideEntityEmbed Entity="FloraTree" Caption="Nature"/>
   <GuideEntityEmbed Entity="SaxophoneInstrument" Caption="Entertainment"/>
   </Box>
+<<<<<<< HEAD
     [color=#a4885c]Ship Size:[/color] Medium
 
 	[color=#a4885c]Recommended Crew:[/color] 2-4
@@ -87,4 +88,42 @@
   </Box>
   Note: Be sure to take all necessary protective measures when working with radioactive materials: use a radiation suit, engage internals, make sure to enable Geiger's counter, wash your hands after, and keep radiation shutters closed at all times.
 
+=======
+  [color=#a4885c]Ship Size:[/color] Medium
+
+  [color=#a4885c]Recommended Crew:[/color] 2-4
+
+  [color=#a4885c]Power Gen Type:[/color] Uranium
+
+  # Shuttle Brief
+
+  "The PHI Crossroads is a spacious meeting point for anyone looking to relax on the frontier. The Crossroad's many docking points, alongside its spacious, open, and lush interior, make it a helpful central hub for growing communities."
+
+  # Ship Functions
+
+<Box>
+  <GuideEntityEmbed Entity="ButtonFrameCautionSecurity" Caption="Bolt Exterior Airlocks"/>
+  <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Power Down Thrusters"/>
+</Box>
+
+  # Entertainment
+
+  [textlink="Botany" link="Botany"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
+
+  # PREFLIGHT CHECKLIST
+
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
+>>>>>>> upstream/master
 </Document>

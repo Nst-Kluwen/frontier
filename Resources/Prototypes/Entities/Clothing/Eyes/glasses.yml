@@ -283,7 +283,11 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+<<<<<<< HEAD
   - type: BlackAndWhiteOverlay
+=======
+  - type: NoirOverlay
+>>>>>>> upstream/master
   - type: Tag
     tags:
     - HamsterWearable

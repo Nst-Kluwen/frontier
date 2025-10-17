@@ -20,9 +20,12 @@ using Robust.Shared.Physics.Events;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using System.Numerics;
+<<<<<<< HEAD
 using Content.Server.Explosion.Components;
 using Content.Shared.Explosion.Components;
 using Content.Shared.Tiles; //Forge-Change
+=======
+>>>>>>> upstream/master
 
 namespace Content.Server.Shuttles.Systems;
 
@@ -98,6 +101,7 @@ public sealed partial class ShuttleSystem
         )
             return;
 
+<<<<<<< HEAD
         //Forge-Change-Start
         if (TryComp<ProtectedGridComponent>(args.OurEntity, out var ourProt) && ourProt.NoGridCollision ||
             TryComp<ProtectedGridComponent>(args.OtherEntity, out var otherProt) && otherProt.NoGridCollision
@@ -105,6 +109,8 @@ public sealed partial class ShuttleSystem
             return;
         //Forge-Change-End
 
+=======
+>>>>>>> upstream/master
         if (!_gridQuery.TryComp(args.OurEntity, out var ourGrid) ||
             !_gridQuery.TryComp(args.OtherEntity, out var otherGrid)
         )
@@ -117,6 +123,10 @@ public sealed partial class ShuttleSystem
         var ourXform = Transform(args.OurEntity);
         var otherXform = Transform(args.OtherEntity);
         var worldPoints = args.WorldPoints;
+<<<<<<< HEAD
+=======
+        var worldNormal = args.WorldNormal;
+>>>>>>> upstream/master
 
         for (var i = 0; i < worldPoints.Length; i++)
         {
@@ -127,7 +137,18 @@ public sealed partial class ShuttleSystem
 
             var ourVelocity = _physics.GetLinearVelocity(args.OurEntity, ourPoint.Position, ourBody, ourXform);
             var otherVelocity = _physics.GetLinearVelocity(args.OtherEntity, otherPoint.Position, otherBody, otherXform);
+<<<<<<< HEAD
             var jungleDiff = (ourVelocity - otherVelocity).Length();
+=======
+            var topDiff = (ourVelocity - otherVelocity);
+            var jungleDiff = topDiff.Length();
+
+            // Get the velocity in relation to the contact normal
+            // If this still causes issues see https://box2d.org/posts/2020/06/ghost-collisions/
+            // This should only be a potential problem on chunk seams.
+            var dotProduct = MathF.Abs(Vector2.Dot(topDiff.Normalized(), worldNormal.Normalized()));
+            jungleDiff *= dotProduct;
+>>>>>>> upstream/master
 
             // this is cursed but makes it so that collisions of small grid with large grid count the inertia as being approximately the small grid's
             var effectiveInertiaMult = (ourBody.FixturesMass * otherBody.FixturesMass) / (ourBody.FixturesMass + otherBody.FixturesMass);
@@ -220,16 +241,27 @@ public sealed partial class ShuttleSystem
 
         // throw every entity on grid if the impulse is not negligible
         if (deltaV.Length() > _minImpulseVelocity)
+<<<<<<< HEAD
             ThrowEntitiesOnGrid(ent, xform, -deltaV, energy);
+=======
+            ThrowEntitiesOnGrid(ent, xform, -deltaV);
+>>>>>>> upstream/master
     }
 
     /// <summary>
     /// Knocks and throws all unbuckled entities on the specified grid.
     /// </summary>
+<<<<<<< HEAD
     private void ThrowEntitiesOnGrid(EntityUid gridUid, TransformComponent xform, Vector2 direction, float energy)
     {
         var movedByPressureQuery = GetEntityQuery<MovedByPressureComponent>();
         var stunTime = TimeSpan.FromSeconds(Math.Min(10, energy * 0.25f)); //Forge-Change
+=======
+    private void ThrowEntitiesOnGrid(EntityUid gridUid, TransformComponent xform, Vector2 direction)
+    {
+        var movedByPressureQuery = GetEntityQuery<MovedByPressureComponent>();
+        var knockdownTime = TimeSpan.FromSeconds(5);
+>>>>>>> upstream/master
 
         var minsq = _minThrowVelocity * _minThrowVelocity;
         // iterate all entities on the grid
@@ -249,11 +281,17 @@ public sealed partial class ShuttleSystem
             if (movedByPressureQuery.TryComp(uid, out var moved) && !moved.Enabled)
                 continue;
 
+<<<<<<< HEAD
             if (stunTime.TotalSeconds > 1.0f) //Forge-Change
                 _stuns.TryStun(uid, stunTime, true); //Forge-Change
 
             if (direction.LengthSquared() > minsq)
             {
+=======
+            if (direction.LengthSquared() > minsq)
+            {
+                _stuns.TryKnockdown(uid, knockdownTime, true);
+>>>>>>> upstream/master
                 _throwing.TryThrow(uid, direction, physics, Transform(uid), _projQuery, direction.Length(), playSound: false);
             }
             else
@@ -408,6 +446,7 @@ public sealed partial class ShuttleSystem
             // Mark tiles for breaking/effects
             var def = (ContentTileDefinition)_tileDefManager[_mapSystem.GetTileRef(uid, grid, tileData.Tile).Tile.TypeId];
             if (tileData.Energy > def.Mass * _tileBreakEnergyMultiplier)
+<<<<<<< HEAD
             {
                 brokenTiles.Add((tileData.Tile, Tile.Empty));
 
@@ -422,6 +461,10 @@ public sealed partial class ShuttleSystem
                 }
             }
 
+=======
+                brokenTiles.Add((tileData.Tile, Tile.Empty));
+
+>>>>>>> upstream/master
         }
     }
 

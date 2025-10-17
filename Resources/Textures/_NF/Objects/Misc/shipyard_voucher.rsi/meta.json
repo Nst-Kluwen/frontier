@@ -49,6 +49,12 @@
         },
         {
             "name": "vouchervalet"
+<<<<<<< HEAD
+=======
+        },
+        {
+            "name": "voucherstationtrafficcontroller"
+>>>>>>> upstream/master
         }
     ]
 }

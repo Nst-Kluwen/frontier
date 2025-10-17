@@ -52,13 +52,25 @@
       Acidic: [Touch]
 
 - type: entity
+<<<<<<< HEAD
+=======
+  parent: BaseAction
+>>>>>>> upstream/master
   id: ActionArtifactActivate
   name: Activate Artifact
   description: Activate yourself, causing chaos to those near you.
   components:
+<<<<<<< HEAD
   - type: InstantAction
+=======
+  - type: Action
+>>>>>>> upstream/master
     icon:
       sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
       state: ano29
     useDelay: 300
+<<<<<<< HEAD
+=======
+  - type: InstantAction
+>>>>>>> upstream/master
     event: !type:ArtifactSelfActivateEvent

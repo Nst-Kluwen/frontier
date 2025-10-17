@@ -55,4 +55,16 @@
   storage:
     back:
     - Flash
+<<<<<<< HEAD
     - NFMagazinePistol35 # Frontier: MagazinePistol<NFMagazinePistol35
+=======
+    - NFMagazinePistol35 # Frontier: MagazinePistol<NFMagazinePistol35
+
+- type: chameleonOutfit
+  id: HeadOfSecurityChameleonOutfit
+  job: HeadOfSecurity
+  hasMindShield: true
+  equipment:
+    mask: ClothingMaskGasSecurity
+    neck: ClothingNeckCloakHos
+>>>>>>> upstream/master

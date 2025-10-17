@@ -13,10 +13,17 @@
     maxAngle: -0
   - type: Gun
     projectileSpeed: 30
+<<<<<<< HEAD
     minAngle: 2.2
     maxAngle: 11
     angleIncrease: 0.6
     angleDecay: 3
+=======
+    minAngle: 2
+    maxAngle: 10
+    angleIncrease: 0.5
+    angleDecay: 2.5
+>>>>>>> upstream/master
     fireRate: 4
     selectedMode: FullAuto
     availableModes:
@@ -36,8 +43,13 @@
   abstract: true
   components:
   - type: Gun
+<<<<<<< HEAD
     minAngle: 2.5
     maxAngle: 12.5
+=======
+    minAngle: 2.3
+    maxAngle: 11.5
+>>>>>>> upstream/master
     angleIncrease: 0.8
     angleDecay: 2.7
     fireRate: 3.4
@@ -62,8 +74,13 @@
   abstract: true
   components:
   - type: Gun
+<<<<<<< HEAD
     minAngle: 2.6
     maxAngle: 13
+=======
+    minAngle: 2.4
+    maxAngle: 12
+>>>>>>> upstream/master
     angleIncrease: 1.2
     angleDecay: 3.8
     fireRate: 3.2

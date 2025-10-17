@@ -1,25 +1,40 @@
 # Author Info
-# GitHub: ???
+# GitHub: Checkraze (https://github.com/Cheackraze)
 # Discord: ???
 
 # Maintainer Info
-# GitHub: ???
-# Discord: ???
+# GitHub: dustylens (https://github.com/dustylens)
+# Discord: dustylens
 
 # Shuttle Notes:
 
 - type: vessel
   id: Mission
   parent: BaseVessel
+<<<<<<< HEAD:Resources/Prototypes/_Forge/Shipyard/Civilian/mission.yml
   name: NC Мессия
   description: Малогабаритный шаттл-церковь. Рекомендованный состав команды 1-2 человека.
   price: 24000
   category: Small
+=======
+  name: NC Barge
+  description: A medium shipping vessel repurposed in a salvage and material exploitation vessel.
+  price: 54000 # 42889 0.2 51466.8
+  category: Medium
+>>>>>>> upstream/master:Resources/Prototypes/_NF/Shipyard/barge.yml
   group: Shipyard
   shuttlePath: /Maps/Forge/Shuttles/Civilian/mission.yml
   guidebookPage: Null
   class:
+<<<<<<< HEAD:Resources/Prototypes/_Forge/Shipyard/Civilian/mission.yml
   - Civilian
+=======
+  - Cargo
+  - Salvage
+  engine:
+  - Solar
+  - Uranium
+>>>>>>> upstream/master:Resources/Prototypes/_NF/Shipyard/barge.yml
 
 - type: gameMap
   id: Mission
@@ -37,6 +52,6 @@
             prefixCreator: '14'
         - type: StationJobs
           availableJobs:
-            Contractor: [ 0, 0 ]
-            Pilot: [ 0, 0 ]
-            Mercenary: [ 0, 0 ]
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

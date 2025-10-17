@@ -1,7 +1,12 @@
 {
   "version": 1,
+<<<<<<<< HEAD:Resources/Textures/Forge/Clothing/Uniforms/Dresses/witchdress.rsi/meta.json
   "license": "CC-BY-SA-3.0",
   "copyright": "Sprite by Victor_Plumber",
+========
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Made by ra.Y Discord (ray-boop Github)",
+>>>>>>>> upstream/master:Resources/Textures/_NF/Clothing/OuterClothing/Hardsuits/brickwizard.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32

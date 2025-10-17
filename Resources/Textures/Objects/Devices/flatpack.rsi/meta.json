@@ -47,9 +47,12 @@
             "name": "fax-machine"
         },
         {
+<<<<<<< HEAD
             "name": "pirate-gun"
         },
         {
+=======
+>>>>>>> upstream/master
             "name": "hydroponics-tray"
         }
     ]

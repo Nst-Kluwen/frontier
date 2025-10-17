@@ -6,6 +6,7 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Legman
+  parent: BaseVessel
+  name: LVHI Legman
+  description: A small maneuverable shuttle with low operational costs for reporters who want to be first on a scene. Manufactured by Langstad-Voigt Heavy Industries.
+  price: 25500 # 10675 0.05 11208.75 temporarily very expensive until a more robust version can be made, at present it's an obscene cheap shuttle with a broadcaster.
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/legman.yml
+  guidebookPage: ShipyardLegman
+  class:
+  - Civilian
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Legman
+  mapName: 'Legman'
+  mapPath: /Maps/_NF/Shuttles/legman.yml
+  minPlayers: 0
+  stations:
+    Legman:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Legman {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

@@ -16,16 +16,40 @@
 
   [color=#a4885c]Power Gen Type:[/color] Solar/Uranium
 
-  [color=#a4885c]Expeditions:[/color] None
+  # Shuttle Brief
 
-  [color=#a4885c]IFF Console:[/color] None
+  "An endurance cruiser designed for long term salvage and cargo work deployments in deep space."
 
-  "A medium shipping vessel repurposed into a salvage bar."
+  # Ship Functions
+
+<Box>
+  <GuideEntityEmbed Entity="ButtonFrameCautionSecurity" Caption="Bolt Exterior Airlocks"/>
+  <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Power Down Thrusters"/>
+  <GuideEntityEmbed Entity="ButtonFrameGrey" Caption="Toggle Shutters"/>
+  <GuideEntityEmbed Entity="ButtonFrameJanitor" Caption="Toggle Generator Power"/>
+</Box>
+
+  # Cargo
+
+  [textlink="Cargo Hauling" link="CargoHauling"/]
+
+  # Piloting
+
+  [textlink="Piloting" link="Piloting"/]
+
+  [textlink="Sector Topology" link="SectorTopology"/]
+
+  # Hiring crew
+
+  [textlink="Hiring" link="Hiring"/]
+
+  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will.
 
   # PREFLIGHT CHECKLIST
 
-  ## 1. Power supply
+  [textlink="Preflight Checklist" link="PreflightChecklist"/]
 
+<<<<<<< HEAD
   ## 1.1. Battery units
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
@@ -90,4 +114,6 @@
   * - Barge-class cargo ships are equipped with two APC units that can be used to appraise the ship's total power consumption. Unmodified Barge-class ships require 23.7 kW of power to remain operational.
 
   ** - Barge-class cargo ships come equipped with 28 solar panels that can provide up to 25 kW of power under the ideal circumstances: assuming that on average properly maintained solar array will provide one third of maximum output power, recommended target power output for P.A.C.M.A.N. generator unit is 14 kW.
+=======
+>>>>>>> upstream/master
 </Document>

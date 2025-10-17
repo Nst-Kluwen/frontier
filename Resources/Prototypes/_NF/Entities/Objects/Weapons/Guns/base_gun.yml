@@ -76,8 +76,13 @@
     - Back
     - suitStorage
   - type: SpeedModifiedOnWield
+<<<<<<< HEAD
     walkModifier: 0.9
     sprintModifier: 0.9
+=======
+    walkModifier: 0.95
+    sprintModifier: 0.95
+>>>>>>> upstream/master
 
 # Rifles / Shotguns
 - type: entity
@@ -94,8 +99,13 @@
     - Back
     - suitStorage
   - type: SpeedModifiedOnWield
+<<<<<<< HEAD
     walkModifier: 0.8
     sprintModifier: 0.8
+=======
+    walkModifier: 0.9
+    sprintModifier: 0.9
+>>>>>>> upstream/master
 
 # Assault Rifles
 - type: entity
@@ -112,8 +122,13 @@
     - Back
     - suitStorage
   - type: SpeedModifiedOnWield
+<<<<<<< HEAD
     walkModifier: 0.85
     sprintModifier: 0.85
+=======
+    walkModifier: 0.925
+    sprintModifier: 0.925
+>>>>>>> upstream/master
 
 # Launchers
 - type: entity
@@ -130,8 +145,13 @@
     - Back
     - suitStorage
   - type: SpeedModifiedOnWield
+<<<<<<< HEAD
     walkModifier: 0.3
     sprintModifier: 0.3
+=======
+    walkModifier: 0.65
+    sprintModifier: 0.65
+>>>>>>> upstream/master
 
 # Sniper Rifles / LMGs
 - type: entity
@@ -148,8 +168,13 @@
     - Back
     - suitStorage
   - type: SpeedModifiedOnWield
+<<<<<<< HEAD
     walkModifier: 0.3
     sprintModifier: 0.3
+=======
+    walkModifier: 0.65
+    sprintModifier: 0.65
+>>>>>>> upstream/master
 
 #region Crossbows
 - type: entity

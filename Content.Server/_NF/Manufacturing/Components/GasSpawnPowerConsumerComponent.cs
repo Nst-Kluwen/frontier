@@ -49,7 +49,11 @@ public sealed partial class GasSpawnPowerConsumerComponent : Component
     /// The total amount of energy required to spawn one mole of gas.
     ///</summary>
     [DataField]
+<<<<<<< HEAD
     public float EnergyPerMole = 200_000;
+=======
+    public float EnergyPerMole = 100_000;
+>>>>>>> upstream/master
 
     ///<summary>
     /// The total mixture to spawn per unit of energy.
@@ -63,13 +67,21 @@ public sealed partial class GasSpawnPowerConsumerComponent : Component
     /// The number of moles of gas to spawn per joule of power.
     ///</summary>
     [DataField]
+<<<<<<< HEAD
     public float LinearRate = 0.0000005f; // 1 mol/200 kW
+=======
+    public float LinearRate = 0.000001f; // 1 mol/100 kW
+>>>>>>> upstream/master
 
     ///<summary>
     /// The maximum value (inclusive) of the linear mode per deposit, in watts
     ///</summary>
     [DataField]
+<<<<<<< HEAD
     public float LinearMaxValue = 1_000_000; // 1 MW (5 mol/s)
+=======
+    public float LinearMaxValue = 2_000_000; // 1 MW (10 mol/s)
+>>>>>>> upstream/master
     #endregion Linear Rates
 
     // Logarithmic fields: at very high levels of power generation, incremental gains decrease logarithmically to prevent runaway cash generation
@@ -86,7 +98,11 @@ public sealed partial class GasSpawnPowerConsumerComponent : Component
     /// Note: should be set to LinearRate*LinearMaxValue for a continuous function.
     ///</summary>
     [DataField]
+<<<<<<< HEAD
     public float LogarithmCoefficient = 1_000_000f;
+=======
+    public float LogarithmCoefficient = 2000000f;
+>>>>>>> upstream/master
 
     ///<summary>
     /// The exponential subtrahend of the logarithmic mode: R in Tk*a^(log10(x/T)-R)
@@ -100,7 +116,11 @@ public sealed partial class GasSpawnPowerConsumerComponent : Component
     /// The maximum number of moles of gas to spawn, per second.
     ///</summary>
     [DataField]
+<<<<<<< HEAD
     public float MaximumMolesPerSecond = 150.0f; // ~1.859 GW
+=======
+    public float MaximumMolesPerSecond = 150.0f; // ~0.93 GW
+>>>>>>> upstream/master
 
     ///<summary>
     /// The minimum requestable power.

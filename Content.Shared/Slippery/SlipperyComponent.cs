@@ -2,8 +2,11 @@ using Content.Shared.StepTrigger.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
+<<<<<<< HEAD
 
 // Forge-Change full (refactory b.y. wizard)
+=======
+>>>>>>> upstream/master
 
 namespace Content.Shared.Slippery
 {
@@ -24,6 +27,7 @@ namespace Content.Shared.Slippery
         public SoundSpecifier SlipSound = new SoundPathSpecifier("/Audio/Effects/slip.ogg");
 
         /// <summary>
+<<<<<<< HEAD
         /// Should this component's friction factor into sliding friction?
         /// </summary>
         [DataField, AutoNetworkedField]
@@ -46,6 +50,11 @@ namespace Content.Shared.Slippery
         /// Loads the data needed to determine how slippery something is.
         /// </summary>
         [DataField, AutoNetworkedField]
+=======
+        /// Loads the data needed to determine how slippery something is.
+        /// </summary>
+        [DataField, AutoNetworkedField]
+>>>>>>> upstream/master
         public SlipperyEffectEntry SlipData = new();
     }
     /// <summary>
@@ -55,6 +64,7 @@ namespace Content.Shared.Slippery
     public sealed partial class SlipperyEffectEntry
     {
         /// <summary>
+<<<<<<< HEAD
         /// How many seconds the mob will be stunned for.
         /// </summary>
         [DataField]
@@ -71,6 +81,12 @@ namespace Content.Shared.Slippery
         /// </summary>
         [DataField]
         public bool AutoStand = true;
+=======
+        /// How many seconds the mob will be paralyzed for.
+        /// </summary>
+        [DataField]
+        public TimeSpan ParalyzeTime = TimeSpan.FromSeconds(1.5);
+>>>>>>> upstream/master
 
         /// <summary>
         /// The entity's speed will be multiplied by this to slip it forwards.
@@ -96,6 +112,10 @@ namespace Content.Shared.Slippery
         /// This is used to store the friction modifier that is used on a sliding entity.
         /// </summary>
         [DataField]
+<<<<<<< HEAD
         public float SlipFriction = 0.5f;
+=======
+        public float SlipFriction;
+>>>>>>> upstream/master
     }
 }

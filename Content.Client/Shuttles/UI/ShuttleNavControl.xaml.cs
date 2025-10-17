@@ -64,7 +64,11 @@ public sealed partial class ShuttleNavControl : BaseShuttleControl
 
         // Frontier
         _station = EntManager.System<StationSystem>();
+<<<<<<< HEAD
         _blips = EntManager.System<RadarBlipsSystem>();//Mono
+=======
+        _blips = EntManager.System<RadarBlipSystem>();
+>>>>>>> upstream/master
 
         OnMouseEntered += HandleMouseEntered;
         OnMouseExited += HandleMouseExited;

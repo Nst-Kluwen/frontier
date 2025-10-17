@@ -47,6 +47,10 @@
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
+<<<<<<< HEAD
+=======
+  - type: GunRequiresWield
+>>>>>>> upstream/master
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -119,6 +123,7 @@
     animation: WeaponArcThrust
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
+  - type: GunRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
 

@@ -1,7 +1,11 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
     "copyright": "junk-panel-1 taken from tgstation13 from https://github.com/tgstation/tgstation/blob/master/icons/obj/machines/floor.dmi and edited by erhardsteinhauer (github);",
+=======
+    "copyright": "junk-panel-1 taken from tgstation13 from https://github.com/tgstation/tgstation/blob/master/icons/obj/machines/floor.dmi and edited by erhardsteinhauer (github);, plastic- by Flareguy & EmoGarbage404, edited by dustylens (github);",
+>>>>>>> upstream/master
     "size": {
         "x": 32,
         "y": 32
@@ -20,6 +24,18 @@
             "name": "junk-solar-1"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "plastic-1"
+        },
+        {
+            "name": "plastic-2"
+        },
+        {
+            "name": "plastic-3"
+        },
+        {
+>>>>>>> upstream/master
             "name": "panel-inhand-left",
             "directions": 4
         },
@@ -34,6 +50,17 @@
         {
             "name": "solar-inhand-right",
             "directions": 4
+<<<<<<< HEAD
+=======
+        },
+        {
+            "name": "plastic-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "plastic-inhand-right",
+            "directions": 4
+>>>>>>> upstream/master
         }
     ]
 }

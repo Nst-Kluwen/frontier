@@ -389,8 +389,11 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
         // Ensure we actually have the component
         EnsureComp<TileFrictionModifierComponent>(entity);
 
+<<<<<<< HEAD
         EnsureComp<SlipperyComponent>(entity, out var slipComp); // Forge-Change 
 
+=======
+>>>>>>> upstream/master
         // This is the base amount of reagent needed before a puddle can be considered slippery. Is defined based on
         // the sprite threshold for a puddle larger than 5 pixels.
         var smallPuddleThreshold = FixedPoint2.New(entity.Comp.OverflowVolume.Float() * LowThreshold);
@@ -409,14 +412,18 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
         var launchMult = FixedPoint2.Zero;
         // A cumulative weighted amount of stun times from slippery reagents
         var stunTimer = TimeSpan.Zero;
+<<<<<<< HEAD
         // A cumulative weighted amount of knockdown times from slippery reagents
         var knockdownTimer = TimeSpan.Zero; // Forge-Change 
+=======
+>>>>>>> upstream/master
 
         // Check if the puddle is big enough to slip in to avoid doing unnecessary logic
         if (solution.Volume <= smallPuddleThreshold)
         {
             _stepTrigger.SetActive(entity, false, comp);
             _tile.SetModifier(entity, 1f);
+<<<<<<< HEAD
             slipComp.SlipData.SlipFriction = 1f; // Forge-Change 
             slipComp.AffectsSliding = false; // Forge-Change 
             Dirty(entity, slipComp); // Forge-Change 
@@ -424,6 +431,13 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
         }
 
         slipComp.AffectsSliding = true; // Forge-Change 
+=======
+            return;
+        }
+
+        if (!TryComp<SlipperyComponent>(entity, out var slipComp))
+            return;
+>>>>>>> upstream/master
 
         foreach (var (reagent, quantity) in solution.Contents)
         {
@@ -443,8 +457,12 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
             // Aggregate launch speed based on quantity
             launchMult += reagentProto.SlipData.LaunchForwardsMultiplier * quantity;
             // Aggregate stun times based on quantity
+<<<<<<< HEAD
             stunTimer += reagentProto.SlipData.StunTime * (float)quantity; // Forge-Change 
             knockdownTimer += reagentProto.SlipData.KnockdownTime * (float)quantity; // Forge-Change 
+=======
+            stunTimer += reagentProto.SlipData.ParalyzeTime * (float)quantity;
+>>>>>>> upstream/master
 
             if (reagentProto.SlipData.SuperSlippery)
                 superSlipperyUnits += quantity;
@@ -463,8 +481,12 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
         if (slipperyUnits > 0)
         {
             slipComp.SlipData.LaunchForwardsMultiplier = (float)(launchMult/slipperyUnits);
+<<<<<<< HEAD
             slipComp.SlipData.StunTime = (stunTimer/(float)slipperyUnits); // Forge-Change 
             slipComp.SlipData.KnockdownTime = (knockdownTimer/(float)slipperyUnits); // Forge-Change 
+=======
+            slipComp.SlipData.ParalyzeTime = (stunTimer/(float)slipperyUnits);
+>>>>>>> upstream/master
         }
 
         // Only make it super slippery if there is enough super slippery units for its own puddle

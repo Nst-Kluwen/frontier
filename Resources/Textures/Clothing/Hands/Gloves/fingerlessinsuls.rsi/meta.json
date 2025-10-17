@@ -15,10 +15,13 @@
             "directions": 4
         },
         {
+<<<<<<< HEAD
             "name": "equipped-HAND-resomi",
             "directions": 4
         },
         {
+=======
+>>>>>>> upstream/master
             "name": "inhand-left",
             "directions": 4
         },
@@ -28,4 +31,8 @@
         }
     ]
 }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> upstream/master

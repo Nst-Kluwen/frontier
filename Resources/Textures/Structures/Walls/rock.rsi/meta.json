@@ -216,9 +216,12 @@
             "name": "rock_andesite_west"
         },
         {
+<<<<<<< HEAD
             "name": "rock_magmite"
 		},
         {
+=======
+>>>>>>> upstream/master
             "name": "gibtonite_active",
             "delays": [
                 [

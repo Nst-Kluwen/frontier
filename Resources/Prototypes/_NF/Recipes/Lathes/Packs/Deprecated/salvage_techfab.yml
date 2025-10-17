@@ -18,7 +18,11 @@
     - Signaller
     - ClothingMaskWeldingGas
     - SprayPainter
+<<<<<<< HEAD
     - SprayPainterAmmo # Upstream#37341
+=======
+    - SprayPainterAmmo
+>>>>>>> upstream/master
   ## Basic storage
     - ToolboxArtisticNF
     - ToolboxElectricalNF

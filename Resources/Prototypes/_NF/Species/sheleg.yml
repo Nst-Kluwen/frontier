@@ -174,4 +174,8 @@
   id: MobShelegRFoot
   baseSprite:
     sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+<<<<<<< HEAD
     state: r_foot
+=======
+    state: r_foot
+>>>>>>> upstream/master

@@ -9,6 +9,10 @@ public enum DeliveryVisuals : byte
     IsTrash,
     IsBroken,
     IsFragile,
+<<<<<<< HEAD
+=======
+    IsBomb,
+>>>>>>> upstream/master
     PriorityState,
     JobIcon,
 }
@@ -22,6 +26,17 @@ public enum DeliveryPriorityState : byte
 }
 
 [Serializable, NetSerializable]
+<<<<<<< HEAD
+=======
+public enum DeliveryBombState : byte
+{
+    Off,
+    Inactive,
+    Primed,
+}
+
+[Serializable, NetSerializable]
+>>>>>>> upstream/master
 public enum DeliverySpawnerVisuals : byte
 {
     Contents,

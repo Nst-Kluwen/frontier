@@ -14,7 +14,11 @@
     ClothingHandsGlovesColorYellowBudget: 3
     SprayPainter: 3
     SprayPainterAmmo: 5
+<<<<<<< HEAD
    # Some engineer forgot to take the multitool out the youtool when working on it, happens.
+=======
+  # Some engineer forgot to take the multitool out the youtool when working on it, happens.
+>>>>>>> upstream/master
   contrabandInventory:
     Multitool: 1
   emaggedInventory:

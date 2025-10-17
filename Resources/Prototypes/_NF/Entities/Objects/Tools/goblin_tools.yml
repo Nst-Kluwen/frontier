@@ -234,7 +234,11 @@
   - type: RandomSprite
     available:
       - enum.DamageStateVisualLayers.Base:
+<<<<<<< HEAD
           icon-color: Rainbow
+=======
+          icon-color: GlassColors
+>>>>>>> upstream/master
   - type: Item
     sprite: _NF/Objects/Tools/goblin_tools/wirecutters.rsi
     inhandVisuals:
@@ -423,14 +427,23 @@
     - state: welder_flame
       visible: false
       shader: unshaded
+<<<<<<< HEAD
       map: ["enum.ToggleVisuals.Layer"]
+=======
+      map: ["enum.ToggleableVisuals.Layer"]
+>>>>>>> upstream/master
     - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: GenericVisualizer
     visuals:
+<<<<<<< HEAD
       enum.ToggleVisuals.Toggled:
         enum.ToggleVisuals.Layer:
+=======
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
+>>>>>>> upstream/master
           True: { visible: true }
           False: { visible: false }
   - type: Item

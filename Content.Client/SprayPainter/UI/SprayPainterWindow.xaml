@@ -3,5 +3,9 @@
        SetSize="520 700"
        Title="{Loc 'spray-painter-window-title'}">
        <TabContainer Name="Tabs"/>
+<<<<<<< HEAD
 </DefaultWindow>
 <!-- Rewritten in Upstream#37341 -->
+=======
+</DefaultWindow>
+>>>>>>> upstream/master

@@ -103,3 +103,16 @@
   id: silence
   flavorType: Complex
   description: flavor-complex-silence
+<<<<<<< HEAD
+=======
+
+- type: flavor
+  id: creative
+  flavorType: Complex
+  description: flavor-complex-creative
+
+- type: flavor
+  id: texas
+  flavorType: Complex
+  description: flavor-complex-texas
+>>>>>>> upstream/master

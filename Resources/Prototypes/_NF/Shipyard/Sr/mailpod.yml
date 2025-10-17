@@ -6,6 +6,7 @@
 # GitHub: ???
 # Discord: ???
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -22,6 +23,25 @@
   # - Cargo
   # engine:
   # - Plasma
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: MailPod
+  parent: BaseVessel
+  name: NC Mail Pod
+  description: A cramped yet reliable shuttle for delivering packages.
+  price: 12750 # 10826 0.05 11367.3
+  category: Micro
+  group: Sr
+  access: Mail
+  shuttlePath: /Maps/_NF/Shuttles/Sr/mailpod.yml
+  guidebookPage: Null
+  class:
+  - Cargo
+  engine:
+  - Plasma
+>>>>>>> upstream/master
 
 # - type: gameMap
   # id: MailPod

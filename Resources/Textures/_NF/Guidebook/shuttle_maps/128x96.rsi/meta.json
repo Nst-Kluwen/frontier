@@ -8,7 +8,11 @@
         "barge, eagle, hauler, phoenix, placebo, skipper by Mygnol (discord/github)",
         "apothecary, charon, caladrius, druid, pulsar, retort, stasis, surveyor by dustylens (discord/github).",
         "barge, eagle, hauler, phoenix, placebo, skipper, sparrow by Mygnol (discord/github)",
+<<<<<<< HEAD
         "izakaya by AF-Buyrcsp2 (discord/github)",
+=======
+        "izakaya by AmbitiousFailure (discord/github)",
+>>>>>>> upstream/master
         "nook by Chervjakys (discord/github)"
     ],
     "metaAtlas": false,
@@ -122,7 +126,11 @@
         {
             "name": "prospector"
         },
+<<<<<<< HEAD
 		    {
+=======
+        {
+>>>>>>> upstream/master
             "name": "pulsar"
         },
         {

@@ -881,6 +881,19 @@
   parent: NFBaseCoatRecipe
   result: ClothingOuterCoatPirateCaptain
 
+<<<<<<< HEAD
+=======
+- type: latheRecipe
+  id: ClothingOuterCoatVictorian
+  parent: NFBaseCoatRecipe
+  result: ClothingOuterCoatVictorian
+
+- type: latheRecipe
+  id: ClothingOuterCoatVictorianRed
+  parent: NFBaseCoatRecipe
+  result: ClothingOuterCoatVictorianRed
+
+>>>>>>> upstream/master
 # region Cloaks
 
 - type: latheRecipe

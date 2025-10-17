@@ -36,6 +36,20 @@
     back:
     - Flash
     - RubberStampStc
+<<<<<<< HEAD
     - EncryptionKeyStationMaster
     - ShipVoucherFrontierStc
     - BoxFolderStc
+=======
+    - BoxFolderStc
+    - ShipVoucherFrontierStc
+  encryptionKeys:
+  - EncryptionKeyStationMaster
+
+- type: chameleonOutfit
+  id: StationTrafficControllerChameleonOutfit
+  job: StationTrafficController
+  equipment:
+    head: ClothingHeadHatStcCap
+
+>>>>>>> upstream/master

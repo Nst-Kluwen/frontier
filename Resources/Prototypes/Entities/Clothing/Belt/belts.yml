@@ -35,7 +35,11 @@
       # components:
       #   - StationMap
       #   - SprayPainter
+<<<<<<< HEAD
       #   - SprayPainterAmmo # upstream#37341
+=======
+      #   - SprayPainterAmmo
+>>>>>>> upstream/master
       #   - NetworkConfigurator
       #   - RCD
       #   - RCDAmmo
@@ -96,6 +100,7 @@
     #grid: # Frontier
     #- 0,0,9,1 # Frontier
     # TODO: Fill this out more.
+<<<<<<< HEAD
     # whitelist: # Frontier: commented out whitelist
     #   tags:
     #     - Wirecutter
@@ -127,6 +132,38 @@
     #     - Geiger
     #     - TrayScanner
     #     - GasAnalyzer
+=======
+    #whitelist: # Frontier: commented out whitelist
+    #  tags:
+    #    - Wirecutter
+    #    - Crowbar
+    #    - Screwdriver
+    #    - Flashlight
+    #    - Wrench
+    #    - GeigerCounter
+    #    - Flare
+    #    - CableCoil
+    #    - Powerdrill
+    #    - JawsOfLife
+    #    - CigPack
+    #    - Radio
+    #    - HolofanProjector
+    #    - Multitool
+    #    - AppraisalTool
+    #  components:
+    #    - StationMap
+    #    - SprayPainter
+    #    - NetworkConfigurator
+    #    - RCD
+    #    - RCDAmmo
+    #    - Welder
+    #    - Flash
+    #    - Handcuff
+    #    - PowerCell
+    #    - Geiger
+    #    - TrayScanner
+    #    - GasAnalyzer
+>>>>>>> upstream/master
   - type: ItemMapper
     mapLayers:
       drill:

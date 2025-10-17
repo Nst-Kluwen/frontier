@@ -37,9 +37,23 @@
     pocket2: NFMagazineHighCapacityPistol35
   storage:
     back:
-    - EncryptionKeyService
-    - EncryptionKeySecurity
     - Flash
     - NFMagazineHighCapacityPistol35
     - NFMagazineHighCapacityPistol35Rubber
     - ShipVoucherFrontierGuard
+<<<<<<< HEAD
+=======
+  encryptionKeys:
+  - EncryptionKeyService
+  - EncryptionKeySecurity
+
+
+- type: chameleonOutfit
+  id: SecurityGuardChameleonOutfit
+  job: SecurityGuard
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatBeretSecurity
+    mask: ClothingMaskGasSecurity
+    gloves: ClothingHandsGlovesColorBlack
+>>>>>>> upstream/master

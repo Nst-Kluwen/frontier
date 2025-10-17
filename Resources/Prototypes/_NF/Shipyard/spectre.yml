@@ -6,6 +6,7 @@
 # GitHub: ThatOneGoblin25
 # Discord: thedaarkgoblin
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Spectre
+  parent: BaseVessel
+  name: NR Spectre
+  description: A large, attractive but dated vessel with a pure focus on research and development. It is capable of generating anomalies.
+  price: 111000 # 92237 0.2 110684.4
+  category: Large
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/spectre.yml
+  guidebookPage: Null
+  class:
+  - Science
+  engine:
+  - AME
+
+- type: gameMap
+  id: Spectre
+  mapName: 'NR Spectre'
+  mapPath: /Maps/_NF/Shuttles/spectre.yml
+  minPlayers: 0
+  stations:
+    Spectre:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Spectre {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

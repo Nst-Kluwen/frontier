@@ -6,6 +6,7 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,64 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Bug
+  parent: BaseVessel
+<<<<<<<< HEAD:Resources/Prototypes/_Forge/Shipyard/Salvage/bug.yml
+  name: TL Жук
+  description: Одноместный шахтерский шаттл. Является перестроенным истребителем TL.
+  price: 15200
+  category: Small
+  group: Salvage
+  shuttlePath: /Maps/Forge/Shuttles/Salvage/bug.yml
+  guidebookPage: null
+  class:
+  - Salvage
+
+
+
+- type: gameMap
+  id: Bug
+  mapName: 'Жук'
+  mapPath: /Maps/Forge/Shuttles/Salvage/bug.yml
+  minPlayers: 0
+  stations:
+    Bug:
+========
+  name: LVHI Harbormaster
+  description: A small tugboat. Manufactured by Langstad-Voigt Heavy Industries.
+  price: 28000 # 25391 0.05 26660.55
+  category: Small
+  group: Sr
+  access: StationTrafficController
+  shuttlePath: /Maps/_NF/Shuttles/Sr/harbormaster.yml
+  guidebookPage: ShipyardHarbormaster
+  class:
+  - Civilian
+  engine:
+  - Bananium
+
+- type: gameMap
+  id: Harbormaster
+  mapName: 'Harbormaster'
+  mapPath: /Maps/_NF/Shuttles/Sr/harbormaster.yml
+  minPlayers: 0
+  stations:
+    Harbormaster:
+>>>>>>>> upstream/master:Resources/Prototypes/_NF/Shipyard/Sr/harbormaster.yml
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Жук {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

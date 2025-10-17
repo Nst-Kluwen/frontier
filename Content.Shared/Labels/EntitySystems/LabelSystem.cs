@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+using System.Diagnostics.CodeAnalysis;
+>>>>>>> upstream/master
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Examine;
 using Content.Shared.Labels.Components;
@@ -149,4 +153,26 @@ public sealed partial class LabelSystem : EntitySystem
         if (TryComp<PaperLabelTypeComponent>(slot.Item, out var type))
             _appearance.SetData(ent, PaperLabelVisuals.LabelType, type.PaperType, ent.Comp2);
     }
+<<<<<<< HEAD
+=======
+
+    /// <summary>
+    /// Retrieves a label with the specified component from the default label slot.
+    /// </summary>
+    public bool TryGetLabel<T>(Entity<PaperLabelComponent?> ent, [NotNullWhen(true)] out Entity<T>? label) where T : Component
+    {
+        label = null;
+        if (!Resolve(ent, ref ent.Comp, false))
+            return false;
+
+        if (ent.Comp.LabelSlot.Item is not { } labelEnt)
+            return false;
+
+        if (!TryComp<T>(labelEnt, out var labelComp))
+            return false;
+
+        label = (labelEnt, labelComp);
+        return true;
+    }
+>>>>>>> upstream/master
 }

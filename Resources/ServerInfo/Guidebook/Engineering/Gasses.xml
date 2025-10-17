@@ -1,4 +1,4 @@
-﻿<Document>
+<Document>
   # Gasses
   Gasses are a critical part of the station's operation.
   You may know them as the stuff you breathe, but they are also used in many other ways.
@@ -131,4 +131,16 @@
 
   Extremely non-reactive and non-toxic.
 
+<<<<<<< HEAD
+=======
+  <!-- Frontier: helium section -->
+
+  ## Helium
+  <Box>
+    <GuideEntityEmbed Entity="HeliumCanister" Caption=""/>
+  </Box>
+  A gas that can be found in deep space, commonly on rocky asteroids. Helium is non reactive and non-toxic. Used in party balloons and high technology.
+
+
+>>>>>>> upstream/master
 </Document>

@@ -470,6 +470,14 @@ public enum LogType
     /// </summary>
     ArtifactNode = 101,
 
+<<<<<<< HEAD
+=======
+    /// <summary>
+    /// Damaging grid collision has occurred.
+    /// </summary>
+    ShuttleImpact = 102,
+
+>>>>>>> upstream/master
     // Frontier Station Specific
     #region Frontier Values
     ATMUsage = 200,
@@ -500,6 +508,10 @@ public enum LogType
     /// A medical bounty was redeemed.
     /// </summary>
     MedicalBountyRedeemed = 207,
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
     /// <summary>
     /// Shuttle info was changed.
     /// </summary>
@@ -514,9 +526,12 @@ public enum LogType
     /// </summary>
     ObjectiveSummary = 422,
     #endregion DeltaV Values
+<<<<<<< HEAD
     
     /// <summary>
     /// Damaging grid collision has occurred.
     /// </summary>
     ShuttleImpact = 102
+=======
+>>>>>>> upstream/master
 }

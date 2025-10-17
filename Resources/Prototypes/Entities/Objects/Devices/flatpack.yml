@@ -253,6 +253,7 @@
   - type: Flatpack
     entity: ComputerCrewMonitoring
 
+<<<<<<< HEAD
 - type: entity # Forge-Change
   parent: BaseFlatpack
   id: ShuttleGunPirateCannonFlatpack
@@ -265,6 +266,8 @@
   - type: Flatpack
     entity: ShuttleGunPirateCannon
 
+=======
+>>>>>>> upstream/master
 - type: entity
   parent: BaseFlatpack
   id: HydroponicsTrayFlatpack

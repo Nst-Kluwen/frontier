@@ -1,6 +1,10 @@
 - type: vendingMachineInventory
   id: NFSalvageEquipmentInventory
   startingInventory:
+<<<<<<< HEAD
+=======
+    NFWeaponHoloflareGun: 4
+>>>>>>> upstream/master
     NFWeaponPka: 4
     WeaponCrusher: 6
     WeaponCrusherDagger: 8
@@ -15,6 +19,10 @@
 - type: vendingMachineInventory
   id: NFSalvageEquipmentPOIInventory
   startingInventory:
+<<<<<<< HEAD
+=======
+    NFWeaponHoloflareGun: 4294967295 # Infinite
+>>>>>>> upstream/master
     NFWeaponPka: 4294967295 # Infinite
     WeaponCrusher: 4294967295 # Infinite
     WeaponCrusherDagger: 4294967295 # Infinite

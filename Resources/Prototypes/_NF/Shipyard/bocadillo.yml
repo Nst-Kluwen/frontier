@@ -6,6 +6,7 @@
 # GitHub: erhardsteinhauer
 # Discord: erhardsteinhauer
 
+<<<<<<< HEAD
 # # Shuttle Notes:
 # #
 # - type: vessel
@@ -41,3 +42,41 @@
             # Contractor: [ 0, 0 ]
             # Pilot: [ 0, 0 ]
             # Mercenary: [ 0, 0 ]
+=======
+# Shuttle Notes:
+#
+- type: vessel
+  id: Bocadillo
+  parent: BaseVessel
+  name: NC Bocadillo
+  description: A tiny food truck perfect for a solo chef. Better with a friend!
+  price: 25500 # 22709 0.05 23844.45
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/bocadillo.yml
+  guidebookPage: ShipyardBocadillo
+  class:
+  - Kitchen
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Bocadillo
+  mapName: 'Bocadillo'
+  mapPath: /Maps/_NF/Shuttles/bocadillo.yml
+  minPlayers: 0
+  stations:
+    Bocadillo:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Bocadillo {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
+>>>>>>> upstream/master

@@ -530,10 +530,15 @@
 
 - type: entity
   id: ActionTRexRoar
+<<<<<<< HEAD
+=======
+  parent: BaseAction
+>>>>>>> upstream/master
   categories: [ HideSpawnMenu ]
   name: "[color=yellow]Roar[/color]"
   description: "Emits a powerful roar, intimidating and stunning nearby foe. [color=yellow]40 second cooldown.[/color]"
   components:
+<<<<<<< HEAD
   - type: WorldTargetAction
     icon: { sprite: _NF/Effects/sonic_wave.rsi, state: icon }
     iconColor: "#0099FF"
@@ -541,7 +546,21 @@
     priority: 2
     checkCanAccess: false
     range: 0
+=======
+  - type: Action
+    icon: { sprite: _NF/Effects/sonic_wave.rsi, state: icon }
+    iconColor: "#0099FF"
+    priority: 2
+>>>>>>> upstream/master
     itemIconStyle: BigAction
     useDelay: 40
     sound:
       path: /Audio/Animals/space_dragon_roar.ogg
+<<<<<<< HEAD
+=======
+  - type: TargetAction
+    checkCanAccess: false
+    range: 0
+  - type: WorldTargetAction
+    event: !type:ActionGunShootEvent
+>>>>>>> upstream/master

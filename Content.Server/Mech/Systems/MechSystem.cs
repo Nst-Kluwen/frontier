@@ -70,9 +70,12 @@ public sealed partial class MechSystem : SharedMechSystem
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
     [Dependency] private readonly SharedToolSystem _toolSystem = default!;
     [Dependency] private readonly NpcFactionSystem _npcFaction = default!; // Frontier
+<<<<<<< HEAD
     [Dependency] private readonly SharedPointLightSystem _light = default!; // Forge-Change
     [Dependency] private readonly PowerCellSystem _powerCell = default!;
     [Dependency] protected readonly IGameTiming Timing = default!;
+=======
+>>>>>>> upstream/master
 
     /// <inheritdoc/>
     public override void Initialize()

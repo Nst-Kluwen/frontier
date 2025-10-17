@@ -19,8 +19,13 @@ namespace Content.Shared.Movement.Components
         public const float DefaultWeightlessAcceleration = 1f;
 
         // friction
+<<<<<<< HEAD
         public const float DefaultAcceleration = 40f;
         public const float DefaultFriction = 2f;
+=======
+        public const float DefaultAcceleration = 20f;
+        public const float DefaultFriction = 2.5f;
+>>>>>>> upstream/master
         public const float DefaultFrictionNoInput = 2.5f;
         public const float DefaultMinimumFrictionSpeed = 0.005f;
 
